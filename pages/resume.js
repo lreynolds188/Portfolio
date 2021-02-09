@@ -34,7 +34,16 @@ export default function Home() {
           </p>
     
           <h2>Education</h2><hr></hr>
-            
+            <div style="width: 100%;">
+              <div style="float:left; width: 80%">
+                <a href="http://qut.edu.au" target="_blank">Queensland University of Technology | Queensland, AU</a>
+                <p>Bachelor of Computer Science<br/>Gardens Point Campus<br/>2017-2020</p>
+              </div>
+              <div style="float:right;">
+                <a href="http://tafebrisbane.edu.au" target="_blank">Tafe Queensland | Queensland, AU</a>
+                <p>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
+              </div>
+            </div>
                    
           <h2>Experience</h2><hr></hr>
           <a href="https://www.kilcoyglobalfoods.com/" target="_blank">Kilcoy Global Foods | Queensland, AU</a>
