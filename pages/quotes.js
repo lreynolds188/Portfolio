@@ -18,59 +18,59 @@ export default function Home() {
               Socrates (Philosopher, 470 - 399 BC)
             </h3>
             <p>
-              - Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.<br>
-              - An unexamined life is not worth living.<br>
-              - True knowledge exists in knowing that you know nothing.<br>
-              - Beware the barrenness of a busy life.<br>
-              - When the debate is over, slander becomes the tool of the loser.<br>
-              - To find yourself, think for yourself.<br>
-              - I cannot teach anybody anything, I can only make them think.<br>
-              - Education is the kindling of a flame, not the filling of a vessel.<br>
-              - There is only one good, knowledge, and one evil, ignorance.<br>
-              - Death may be the greatest of all human blessings.<br>
-              - Falling is not a failure, failure comes when you stay where you have fallen.<br>
-              - Let him that would move the world first move himself.<br>
-              - Be slow to fall into friendship; but when thou art in, continue firm and constant.<br>
+              - Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.
+              - An unexamined life is not worth living.
+              - True knowledge exists in knowing that you know nothing.
+              - Beware the barrenness of a busy life.
+              - When the debate is over, slander becomes the tool of the loser.
+              - To find yourself, think for yourself.
+              - I cannot teach anybody anything, I can only make them think.
+              - Education is the kindling of a flame, not the filling of a vessel.
+              - There is only one good, knowledge, and one evil, ignorance.
+              - Death may be the greatest of all human blessings.
+              - Falling is not a failure, failure comes when you stay where you have fallen.
+              - Let him that would move the world first move himself.
+              - Be slow to fall into friendship; but when thou art in, continue firm and constant.
             </p>
             <h3>
 Plato (Philosopher, 428 - 348 BC)
   </h3>
   <p>
 	- Only the dead have seen the end of war.<br>
-	- Wise men talk because they have something to say; fools, because they have to say something.<br>
-	- Necessity is the mother of invention.<br>
-	- Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.<br>
-	- Be kind, for everyone you meet is fighting a hard battle.<br>
-	- At the touch of love everyone becomes a poet.<br>
-	- The measure of a man is what he does with power.<br>
-	- Your silence gives consent.<br>
-	- We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.<br>
-	- You can discover more about a person in an hour of play than in a year of conversation.<br>
-	- One of the penalties for refusing to participate in politics is that you end up being governed by your inferiors.<br>
+	- Wise men talk because they have something to say; fools, because they have to say something.
+	- Necessity is the mother of invention.
+	- Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.
+	- Be kind, for everyone you meet is fighting a hard battle.
+	- At the touch of love everyone becomes a poet.
+	- The measure of a man is what he does with power.
+	- Your silence gives consent.
+	- We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.
+	- You can discover more about a person in an hour of play than in a year of conversation.
+	- One of the penalties for refusing to participate in politics is that you end up being governed by your inferiors.
   </p>
 <h3>
 Aristotle (Philosopher, 384 - 322 BC)
   </h3>
   <p>
-	- We are what we repeatedly do. Excellence, then, is not an act, but a habit.<br>
-	- The whole is more than the sum of its parts.<br>
-	- It is the mark of an educated mind to be able to entertain a thought without accepting it.<br>
-	- Educating the mind without educating the heart is no education at all.<br>
-	- Man is by nature a political animal.<br>
-	- Happiness depends upon ourselves.<br>
-	- Pleasure in the job puts perfection in the work.<br>
-	- A friend to all is a friend to none.<br>
-	- The law is reason, free from passion.<br>
-	- Poverty is the parent of revolution and crime.<br>
+	- We are what we repeatedly do. Excellence, then, is not an act, but a habit.
+	- The whole is more than the sum of its parts.
+	- It is the mark of an educated mind to be able to entertain a thought without accepting it.
+	- Educating the mind without educating the heart is no education at all.
+	- Man is by nature a political animal.
+	- Happiness depends upon ourselves.
+	- Pleasure in the job puts perfection in the work.
+	- A friend to all is a friend to none.
+	- The law is reason, free from passion.
+	- Poverty is the parent of revolution and crime.
 </p>
   <h3>
 Julius Caesar (Emperor/General, 100 - 44 BC)
   </h3>
   <p>
-	- It is easier to find men who will volunteer to die, than to find those willing to endure pain with patience.<br>
-	- Men willingly believe what they wish.<br>
-	- I came, I saw, I conquered.<br>
-	- Experience is the teacher of all things.<br>
+	- It is easier to find men who will volunteer to die, than to find those willing to endure pain with patience.
+	- Men willingly believe what they wish.
+	- I came, I saw, I conquered.
+	- Experience is the teacher of all things.
   </p>
   <h3>
 Saint Thomas Aquinas (Philosopher/Priest, 1225 - 1274)
