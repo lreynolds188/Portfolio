@@ -14,8 +14,8 @@ export default function Home() {
         <Image
           src="/profile.jpg"
           alt="Luke Reynolds"
-          width={170}
-          height={170}
+          width={180}
+          height={180}
         />
 
         <h1 className={styles.title}>
@@ -35,12 +35,12 @@ export default function Home() {
 
           <a href="https://github.com/lreynolds188" className={styles.card}>
             <h3>GitHub &rarr;</h3>
-            <p>Discover projects and past experience on GitHub.</p>
+            <p>Discover my past, current, and future projects on GitHub.</p>
           </a>
     
           <a href="/quotes" className={styles.card}>
             <h3>Quotes &rarr;</h3>
-            <p>Some famous quotes I have collected over time.</p>
+            <p>Some famous quotes I've collected over time.</p>
           </a>
         </div>
       </main>
