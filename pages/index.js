@@ -30,7 +30,7 @@ export default function Home() {
 
           <a href="/resume.html" className={styles.card}>
             <h3>Resume &rarr;</h3>
-            <p>See past work and study experience.</p>
+            <p>See past education and work experience.</p>
           </a>
 
           <a href="https://github.com/lreynolds188" className={styles.card}>
