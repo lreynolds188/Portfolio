@@ -147,7 +147,7 @@ Immanuel Kant (Philosopher, 1724 - 1804)
 	- Morality is not properly the doctrine of how we may make ourselves happy, but how we may make ourselves worthy of happiness.
 	- Live your life as though your every act were to become a universal law.
 	- Happiness is not an ideal of reason, but of imagination.
- </p
+ </p>
   <h3>
 Samuel Clemens aka Mark Twain (Writer/Entrepreneur, 1835 - 1910)
   </h3>
