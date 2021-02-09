@@ -18,8 +18,8 @@ export default function Home() {
     
           <h2>Summary</h2><hr></hr>
           <p>
-            I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager
-            working to automate their reactor equipment and increase production efficiency.
+            I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager.
+            I am responsible for maintaining the production environment and designing and implenting an automation system for the main reactor.
           </p>
           <p>
             In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud
@@ -28,8 +28,8 @@ export default function Home() {
             at Tafe Queensland and from 2012 to 2015 was employed as a Computer Technician.
           </p>
           <p>
-            Upon completion of my degree I plan to have a solid background of understanding in a range of development
-            languages and techniques, with a sound knowledge of cyber security and artificial intelligence.
+            Upon completion of my degree I plan to have a solid foundation in a range of differnet development
+            languages and techniques, with a keen interest on cyber security, microsystems, and artificial intelligence.
             My hope is to work advancing the functionality, affordability, and sustainability of futuristic technological applications.
           </p>
     
