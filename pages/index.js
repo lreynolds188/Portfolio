@@ -20,7 +20,7 @@ export default function Home() {
             <p>Find in-depth information about myself and my goals</p>
           </a>
 
-          <a href="/resume" className={styles.card}>
+          <a href="/resume.html" className={styles.card}>
             <h3>Resume &rarr;</h3>
             <p>See past work and study experience.</p>
           </a>
