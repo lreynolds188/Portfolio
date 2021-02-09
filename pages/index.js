@@ -11,13 +11,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image
-          src="/profile.jpg" // Route of the image file
-          classname={styles.borderCircle}
-          height={160} // Desired size with correct aspect ratio
-          width={160} // Desired size with correct aspect ratio
-          alt="Luke Reynolds"
-        />
+        <div className="flex flex-wrap justify-center">
+          <div className="w-6/12 sm:w-4/12 px-4">
+            <img src="/profile.jpg" alt="..." className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+          </div>
+        </div>
+
+
 
         <h1 className={styles.title}>
           Luke Reynolds
