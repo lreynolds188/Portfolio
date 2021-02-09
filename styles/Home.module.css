@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  margin: 100px;
+  margin: 200px;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -49,6 +49,7 @@
 
 .title {
   margin: 0;
+  margin-bottom: 10px;
   line-height: 1.15;
   font-size: 4rem;
 }
