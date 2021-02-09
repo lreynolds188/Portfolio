@@ -8,6 +8,8 @@ export default function Home() {
         <title>Luke Reynolds</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+    
+      <main className={styles.main}>
         <div>
         </div>
       </main>
