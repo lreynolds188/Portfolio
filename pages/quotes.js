@@ -17,21 +17,21 @@ export default function Home() {
             <h3>
               Socrates (Philosopher, 470 - 399 BC)
             </h3>
-            <p>
-              - Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.
-              - An unexamined life is not worth living.
-              - True knowledge exists in knowing that you know nothing.
-              - Beware the barrenness of a busy life.
-              - When the debate is over, slander becomes the tool of the loser.
-              - To find yourself, think for yourself.
-              - I cannot teach anybody anything, I can only make them think.
-              - Education is the kindling of a flame, not the filling of a vessel.
-              - There is only one good, knowledge, and one evil, ignorance.
-              - Death may be the greatest of all human blessings.
-              - Falling is not a failure, failure comes when you stay where you have fallen.
-              - Let him that would move the world first move himself.
-              - Be slow to fall into friendship; but when thou art in, continue firm and constant.
-            </p>
+            <ol>
+              <li> - Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
+              <li> - An unexamined life is not worth living.</li>
+              <li> - True knowledge exists in knowing that you know nothing.</li>
+              <li> - Beware the barrenness of a busy life.</li>
+              <li> - When the debate is over, slander becomes the tool of the loser.</li>
+              <li> - To find yourself, think for yourself.</li>
+              <li> - I cannot teach anybody anything, I can only make them think.</li>
+              <li> - Education is the kindling of a flame, not the filling of a vessel.</li>
+              <li> - There is only one good, knowledge, and one evil, ignorance.</li>
+              <li> - Death may be the greatest of all human blessings.</li>
+              <li> - Falling is not a failure, failure comes when you stay where you have fallen.</li>
+              <li> - Let him that would move the world first move himself.</li>
+              <li> - Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
+            </ol>
             <h3>
 Plato (Philosopher, 428 - 348 BC)
   </h3>
