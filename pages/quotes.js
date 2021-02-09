@@ -287,6 +287,8 @@ Eric Arthur Blair aka George Orwell (Author/Journalist, 1903 - 1950)
 </p>
   <h3>
 Dr Seuss (Author/Cartoonist, 1904 - 1991)
+	</h3>
+	<p>
 	- Don’t cry because it’s over, smile because it happened.
 	- You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.
 	- The more that you read, the more things you will know. The more that you learn, the more places you’ll go.
@@ -299,6 +301,8 @@ Malcolm X (Minister/Activist, 1925 - 1965)
 </p>
   <h3>
 Martin Luther King (Activist/Philosopher, 1929 - 1968)
+	</h3>
+	<p>
 	- Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.
 	- Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.
 	- Nothing in the world is more dangerous than sincere ignorance and conscientious stupidity.
