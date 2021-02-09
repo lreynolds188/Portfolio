@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <img src="/profile.jpg" alt="Luke Reynolds" />
         <h1 className={styles.title}>
           Luke Reynolds
         </h1>
