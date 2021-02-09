@@ -25,10 +25,7 @@ export default function Home() {
             <p>See past work and study experience.</p>
           </a>
 
-          <a
-            href="https://github.com/lreynolds188"
-            className={styles.card}
-          >
+          <a href="https://github.com/lreynolds188" className={styles.card}>
             <h3>GitHub &rarr;</h3>
             <p>Discover projects and past experience on GitHub.</p>
           </a>
@@ -36,8 +33,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
