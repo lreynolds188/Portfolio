@@ -14,8 +14,8 @@ export default function Home() {
         <Image
           src="/profile.jpg" // Route of the image file
           classname={styles.borderCircle}
-          height={144} // Desired size with correct aspect ratio
-          width={144} // Desired size with correct aspect ratio
+          height={160} // Desired size with correct aspect ratio
+          width={160} // Desired size with correct aspect ratio
           alt="Luke Reynolds"
         />
 
