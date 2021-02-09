@@ -27,7 +27,7 @@ export default function Home() {
             Upon completion of my degree I plan to have a solid background of understanding in a range of development
             languages and techniques, with a sound knowledge of cyber security and artificial intelligence.
             My hope is to work advancing the functionality, affordability, and sustainability of futuristic technological applications.
-            
+            </p>
         </div>
       </main>
     </div>
