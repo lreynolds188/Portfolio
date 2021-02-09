@@ -115,7 +115,7 @@
 }
 
 .borderCircle {
-  border-radius: 9999px;
+  border-radius: 50%;
 }
 
 @media (max-width: 600px) {
