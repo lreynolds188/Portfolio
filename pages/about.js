@@ -9,13 +9,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-              About
-        </h1>
-    
+      <main className={styles.main}>  
         <div>
-            <p></p>
+            <h1 className={styles.title}>
+              About
+            </h1>
             <p>
             I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager
             working to automate their reactor equipment and increase production efficiency.
