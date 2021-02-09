@@ -17,7 +17,7 @@ export default function Home() {
             <h3>
               Socrates (Philosopher, 470 - 399 BC)
             </h3>
-            <ol>
+            <ul>
               <li> - Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
               <li> - An unexamined life is not worth living.</li>
               <li> - True knowledge exists in knowing that you know nothing.</li>
@@ -31,7 +31,7 @@ export default function Home() {
               <li> - Falling is not a failure, failure comes when you stay where you have fallen.</li>
               <li> - Let him that would move the world first move himself.</li>
               <li> - Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
-            </ol>
+            </ul>
             <h3>
 Plato (Philosopher, 428 - 348 BC)
   </h3>
