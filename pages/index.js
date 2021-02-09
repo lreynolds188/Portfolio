@@ -15,12 +15,12 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="/pages/about.js" className={styles.card}>
             <h3>About &rarr;</h3>
             <p>Find in-depth information about myself and my goals</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/pages/resume.js" className={styles.card}>
             <h3>Resume &rarr;</h3>
             <p>See past work and study experience.</p>
           </a>
