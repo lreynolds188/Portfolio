@@ -16,7 +16,7 @@ export default function Home() {
     
         <div>
             <p>
-            I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager"\n"
+            I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager
             working to automate their reactor equipment and increase production efficiency.
             
             In 2020, I was the project manager for a university based start-up with the goal of implementing a cloud
