@@ -15,11 +15,24 @@ export default function Home() {
                 Luke Reynolds | 
           </h1><h3>github.com/lreynolds188</h3>
           <p>Brisbane, QLD</p>
+    
           <h2>Summary</h2><hr></hr>
-          <p>I am a Software Developer currently studying the last semester of a Bachelor's in Computer Science, at the Queensland University of Technology.</p>
-          <p>From 2018 to 2019 I was responsible for developing business applications and supporting the production environment of a large food processing plant. I completed a Diploma of Software Development at Tafe Queensland in 2016 and was employed as a Computer Technician from 2012 to 2015.</p>
-          <p>Upon completion of my degree I plan to have a solid background in a range of development languages and techniques.</p>
-          
+          <p>
+            I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager
+            working to automate their reactor equipment and increase production efficiency.
+          </p>
+          <p>
+            In 2020, I was the project manager for a university based start-up with the goal of implementing a cloud
+            based portal for QUT. From 2018 to 2019, I was responsible for developing business applications and supporting
+            the production environment of a large food processing plant. In 2016, I completed a Diploma of Software Development
+            at Tafe Queensland and from 2012 to 2015 was employed as a Computer Technician.
+          </p>
+          <p>
+            Upon completion of my degree I plan to have a solid background of understanding in a range of development
+            languages and techniques, with a sound knowledge of cyber security and artificial intelligence.
+            My hope is to work advancing the functionality, affordability, and sustainability of futuristic technological applications.
+          </p>
+    
           <h2>Education</h2><hr></hr>
             <div style="width: 100%;">
               <div style="float:left; width: 80%">
@@ -31,11 +44,8 @@ export default function Home() {
                 <p>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
               </div>
             </div>
-          
-
-          
+                   
           <h2>Experience</h2><hr></hr>
-    
           <a href="https://www.kilcoyglobalfoods.com/" target="_blank">Kilcoy Global Foods | Queensland, AU</a>
           <p>Developer/Technician, Nov 2018 – May 2019</p>
           <p></p>
@@ -48,6 +58,7 @@ export default function Home() {
           <a href="https://ozecomputers.com.au/#Computer%20Repairs%20Caloundra" target="_blank">OzeComputers | Queensland, AU</a>
           <p> Technician, Aug 2013 – Aug 2014</p>
           <p> During my time at this position I ran a computer store in the center of Caloundra upholding the highest in customer service in delivery of all services. I was responsible for running diagnostics, computer & phone repairs, delivering on-site support, building computer systems, server configuration and support.</p>
+          
           <h2>Skills</h2><hr></hr>
           <p></p>
           <h3>Languages & Technologies</h3>
