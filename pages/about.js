@@ -6,10 +6,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Luke Reynolds</title>
-        <category>About</category>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <div>
+      
+        <main className={styles.main}>
+          <div>
+            <h1 className={styles.title}>
+              About
+            </h1>
             <p>
               I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager working to automate their reactor equipment and increase production efficiency.
 
