@@ -36,7 +36,7 @@ export default function Home() {
 Plato (Philosopher, 428 - 348 BC)
   </h3>
   <p>
-	- Only the dead have seen the end of war.<br>
+	- Only the dead have seen the end of war.
 	- Wise men talk because they have something to say; fools, because they have to say something.
 	- Necessity is the mother of invention.
 	- Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.
