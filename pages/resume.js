@@ -15,7 +15,7 @@ export default function Home() {
           <a href="https://www.github.com/lreynolds188" target="_blank" classname={styles.links}>github.com/lreynolds188</a>
           <p>Brisbane, QLD</p>
     
-          <h2>Summary</h2><hr />
+          <h2>Summary</h2><hr className={styles.hr} />
           <p className={category-description-main}>
             I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager.
             I am responsible for maintaining the production environment and designing and implenting an automation system for the main reactor.
