@@ -25,8 +25,8 @@
   text-transform:uppercase
 }
 
-.contact-information,
-.links-container {
+.contactInformation,
+.linksContainer {
   color:#808284;
   display:inline-block;
   font-size:.8em;
@@ -35,7 +35,7 @@
   text-transform:uppercase
 }
 
-.contact-deets {
+.contactDeets {
   color:#58585b;
   display:inline-block;
   margin-bottom:2%;
@@ -59,7 +59,7 @@
   padding-left:.3em
 }
 
-.primary-titles {
+.primaryTitles {
   color:#006400;
   display:inline-block;
   font-size:.9em;
@@ -79,7 +79,7 @@
   text-transform:uppercase
 }
 
-.category-headers {
+.categoryHeaders {
   color:#006400;
   font-size:.9em;
   letter-spacing:2px;
@@ -88,7 +88,7 @@
   text-transform:uppercase
 }
 
-.category-details {
+.categoryDetails {
   color:#808284;
   font-size:.9em;
   font-style:italic;
@@ -99,7 +99,7 @@
   margin-top:.8em
 }
 
-.category-description-main {
+.categoryDescriptionMain {
   color:#808284;
   font-size:.9em;
   line-height:1.4em;
@@ -109,7 +109,7 @@
   margin-top:1em
 }
 
-.category-description {
+.categoryDescription {
   color:#808284;
   font-size:.9em;
   line-height:1.4em;
@@ -119,7 +119,7 @@
   margin-top:.01em
 }
 
-.category-description-center {
+.categoryDescriptionCenter {
   text-align:center;
   color:#808284;
   font-size:.9em;
