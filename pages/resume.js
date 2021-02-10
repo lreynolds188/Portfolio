@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Resume.module.css'
 
 export default function Home() {
   return (
@@ -11,12 +11,12 @@ export default function Home() {
       
       <main className={styles.main}>
         <div>
-          <h1 className={styles.title}> Luke Reynolds | </h1>
-          <h2 className={styles.description}>github.com/lreynolds188</h2>
+          <h1 className={styles.name}>Luke Reynolds | </h1>
+          <a href="https://www.github.com/lreynolds188" target="_blank" classname={styles.links}>github.com/lreynolds188</a>
           <p>Brisbane, QLD</p>
     
           <h2>Summary</h2><hr />
-          <p>
+          <p className={category-description-main}>
             I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager.
             I am responsible for maintaining the production environment and designing and implenting an automation system for the main reactor.
           </p>
