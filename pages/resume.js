@@ -63,11 +63,11 @@ export default function Home() {
           <p className={styles.categoryDescription}>During my time at this position I ran a computer store in the center of Caloundra upholding the highest in customer service in delivery of all services. I was responsible for running diagnostics, computer & phone repairs, delivering on-site support, building computer systems, server configuration and support.</p>
           
           <h2 className={styles.categoryHeaders}>Skills</h2><hr />
-          <h3 className={styles.primaryTitles}>Languages & Frameworks</h3>
+          <p className={styles.primaryTitles}>Languages & Frameworks</p>
           <p className={styles.categoryDescription}>C | C# | .NET | Python | Java | JavaScript | VisualBasic | ASP | SQL | HTML | CSS | PHP </p>
-          <h3 className={styles.primaryTitles}>Tools & Practices</h3>
+          <p className={styles.primaryTitles}>Tools & Practices</p>
           <p className={styles.categoryDescription}>Windows | Android | Ubuntu | Linux | GitHub | DevOps | Team Management Systems | Project Management Systems | Version Control | Requirements Gathering | Systems Analysis | Software Development | Runtime Debugging | Technical Documentation | Application Testing | Acceptance Testing | Project Deployment | Computational Mathematics | Rudementary Physics</p>
-          <h3 className={styles.primaryTitles}>Technical Knowledge</h3>
+          <p className={styles.primaryTitles}>Technical Knowledge</p>
           <p className={styles.categoryDescription}>Active Directory | Virtualization | Server Administration | Database Management | SSMS | Networking | Remote Access | VNC | Backup Systems | ERP Management Systems | AX Dynamics | Server Management | Security Systems | X-Ray Systems | Service Management Systems | ServiceDesk Plus | VMWare | VirtualBox</p>
         </div>
       </main>
