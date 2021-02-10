@@ -129,16 +129,3 @@
   margin-right:7%;
   margin-top:.01em
 }
-
-.hr {
-  border:1px dotted #a7a9ab;
-  border-style:none none dotted;
-  margin:0 10% 0 0
-}
-
-@media print {
-  .hr {
-    border-style:none none solid;
-    border-width:1px
-  }
-}
