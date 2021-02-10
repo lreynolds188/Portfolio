@@ -15,9 +15,9 @@ export default function Home() {
             <h1 className={styles.name}>Luke Reynolds |&nbsp;</h1>
             <a className={styles.links} href="thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a>
           </div>
-          <p className={styles.contactDeets}>QUEENSLAND, AU | 0420 619 829 |&nbsp;</p>
+          <p className={styles.contactDeets}>QUEENSLAND, AU |&nbsp;</p>
           <p className={styles.contactDeets}></p>
-          <a className={styles.contactDeets} href="mailto: luke@thereynolds.com" target="_blank">LUKE@THEREYNOLDS.COM.AU |</a>
+          <a className={styles.contactDeets} href="mailto: luke@thereynolds.com" target="_blank">LUKE@THEREYNOLDS.COM.AU</a>
           <p className={styles.contactDeets}>&nbsp;|&nbsp;</p>
           <a className={styles.contactDeets} href="https://www.github.com/lreynolds188" target="_blank">GITHUB.COM/LREYNOLDS188</a>
     
