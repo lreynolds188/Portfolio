@@ -15,7 +15,7 @@ export default function Home() {
           <a className={styles.links} href="https://www.github.com/lreynolds188" target="_blank">  GITHUB.COM/LREYNOLDS188</a>
           <br />
           <p className={styles.contactDeets}>Queensland, AU | PH: 0420 619 829 | </p>
-          <a className={styles.contactDeets} href="luke@thereynolds.com.au" target="_blank">Luke@thereynolds.com.au</p>
+          <a className={styles.contactDeets} href="luke@thereynolds.com.au" target="_blank">Luke@thereynolds.com.au</a>
     
           <h2 className={styles.categoryHeaders}>Summary</h2>
           <hr />
