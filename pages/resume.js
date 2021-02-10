@@ -12,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <h1 className={styles.name}>Luke Reynolds | </h1>
-          <a href="https://www.github.com/lreynolds188" target="_blank">github.com/lreynolds188</a>
+          <a className={styles.links} href="https://www.github.com/lreynolds188" target="_blank">github.com/lreynolds188</a>
           <p>Brisbane, QLD</p>
     
           <h2>Summary</h2><hr />
