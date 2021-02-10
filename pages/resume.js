@@ -12,10 +12,13 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <h1 className={styles.name}>Luke Reynolds | </h1>
-          <a className={styles.links} href="https://www.github.com/lreynolds188" target="_blank"> GITHUB.COM/LREYNOLDS188</a>
-          <p className={styles.contactDeets}>Brisbane, QLD</p>
+          <a className={styles.links} href="https://www.github.com/lreynolds188" target="_blank">  GITHUB.COM/LREYNOLDS188</a>
+          <br />
+          <p className={styles.contactDeets}>Queensland, AU | PH: 0420 619 829 | </p>
+          <a className={styles.contactDeets} href="luke@thereynolds.com.au" target="_blank">Luke@thereynolds.com.au</p>
     
-          <h2>Summary</h2><hr />
+          <h2 className={styles.categoryHeaders}>Summary</h2>
+          <hr />
           <p>
             I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager.
             I am responsible for maintaining the production environment and designing and implenting an automation system for the main reactor.
@@ -32,13 +35,13 @@ export default function Home() {
             My hope is to work advancing the functionality, affordability, and sustainability of futuristic technological applications.
           </p>
     
-          <h2>Education</h2><hr />
+          <h2 className={styles.categoryHeaders}>Education</h2><hr />
           <a href="http://qut.edu.au" target="_blank">Queensland University of Technology | Queensland, AU</a>
           <p>Bachelor of Computer Science<br/>Gardens Point Campus<br/>2017-2020</p>
           <a href="http://tafebrisbane.edu.au" target="_blank">Tafe Queensland | Queensland, AU</a>
           <p>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
                              
-          <h2>Experience</h2><hr />
+          <h2 className={styles.categoryHeaders}>Experience</h2><hr />
           <p>Ridgeline Manufacturing | Queensland, AU</p>
           <p>Project/Operations Manager, May 2020 - Present</p>
           <br />
@@ -57,7 +60,7 @@ export default function Home() {
           <p>Technician, Aug 2013 – Aug 2014</p>
           <p>During my time at this position I ran a computer store in the center of Caloundra upholding the highest in customer service in delivery of all services. I was responsible for running diagnostics, computer & phone repairs, delivering on-site support, building computer systems, server configuration and support.</p>
           
-          <h2>Skills</h2><hr />
+          <h2 className={styles.categoryHeaders}>Skills</h2><hr />
           <br />
           <h3>Languages & Frameworks</h3>
           <p>C | C# | .NET | Python | Java | JavaScript | VisualBasic | ASP | SQL | HTML | CSS | PHP </p>
