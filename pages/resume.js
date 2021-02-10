@@ -15,11 +15,10 @@ export default function Home() {
             <h1 className={styles.name}>Luke Reynolds |&nbsp;</h1>
             <a className={styles.links} href="thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a>
           </div>
-          <p className={styles.contactDeets}>QUEENSLAND, AU | M: 0420 619 829</p>
-          <br />
-          <p className={styles.contactDeets}>E:&nbsp;</p>
-          <a className={styles.contactDeets} href="mailto: luke@thereynolds.com" target="_blank">LUKE@THEREYNOLDS.COM.AU</a>
-          <p className={styles.contactDeets}>&nbsp;| W:&nbsp;</p>
+          <p className={styles.contactDeets}>QUEENSLAND, AU | 0420 619 829 |&nbsp;</p>
+          <p className={styles.contactDeets}></p>
+          <a className={styles.contactDeets} href="mailto: luke@thereynolds.com" target="_blank">LUKE@THEREYNOLDS.COM.AU |</a>
+          <p className={styles.contactDeets}>&nbsp;|&nbsp;</p>
           <a className={styles.contactDeets} href="https://www.github.com/lreynolds188" target="_blank">GITHUB.COM/LREYNOLDS188</a>
     
           <h2 className={styles.categoryHeaders}>Summary</h2>
@@ -46,7 +45,7 @@ export default function Home() {
           <p className={styles.categoryDetails}>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
                              
           <h2 className={styles.categoryHeaders}>Experience</h2><hr />
-          <p className={styles.primaryTitles}>Ridgeline Manufacturing | Queensland, AU</p>
+          <a className={styles.primaryTitles} href="http://www.98alive.com/">Ridgeline Manufacturing | Queensland, AU</a>
           <p className={styles.categoryDetails}>Project/Operations Manager, May 2020 - Present</p>
           <p className={styles.categoryDescription}>While in this position I was granted the tools to achieve a task and a large amount of freedom to self manage which allowed to me to excel. I was responsible for seeing that operations run as normal and look to for any opportunities for improvement. In addition to these duties I was also required to design and implement an automation system for one of the companies reactors.</p>
           <br />
