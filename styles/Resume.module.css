@@ -130,14 +130,14 @@
   margin-top:.01em
 }
 
-.styled-rule {
+.hr {
   border:1px dotted #a7a9ab;
   border-style:none none dotted;
   margin:0 10% 0 0
 }
 
 @media print {
-  .styled-rule {
+  .hr {
     border-style:none none solid;
     border-width:1px
   }
