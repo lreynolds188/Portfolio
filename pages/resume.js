@@ -11,9 +11,10 @@ export default function Home() {
       
       <main className={styles.main}>
         <div>
-          <h1 className={styles.title}>
-                Luke Reynolds | 
-          </h1><h3>github.com/lreynolds188</h3>
+          <div>
+            <h1 className={styles.title}> Luke Reynolds | </h1>
+            <h2>github.com/lreynolds188</h2>
+          </div>
           <p>Brisbane, QLD</p>
     
           <h2>Summary</h2><hr></hr>
@@ -34,17 +35,11 @@ export default function Home() {
           </p>
     
           <h2>Education</h2><hr></hr>
-            <div style="width: 100%;">
-              <div style="float:left; width: 80%">
-                <a href="http://qut.edu.au" target="_blank">Queensland University of Technology | Queensland, AU</a>
-                <p>Bachelor of Computer Science<br/>Gardens Point Campus<br/>2017-2020</p>
-              </div>
-              <div style="float:right;">
-                <a href="http://tafebrisbane.edu.au" target="_blank">Tafe Queensland | Queensland, AU</a>
-                <p>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
-              </div>
-            </div>
-                   
+          <a href="http://qut.edu.au" target="_blank">Queensland University of Technology | Queensland, AU</a>
+          <p>Bachelor of Computer Science<br/>Gardens Point Campus<br/>2017-2020</p>
+          <a href="http://tafebrisbane.edu.au" target="_blank">Tafe Queensland | Queensland, AU</a>
+          <p>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
+                             
           <h2>Experience</h2><hr></hr>
           <p>Ridgeline Manufacturing | Queensland, AU</p>
           <p>Project/Operations Manager, May 2020 - Present</p>
