@@ -11,13 +11,11 @@ export default function Home() {
       
       <main className={styles.main}>
         <div>
-          <div>
-            <h1 className={styles.title}> Luke Reynolds | </h1>
-            <h2 className={styles.description}>github.com/lreynolds188</h2>
-          </div>
+          <h1 className={styles.title}> Luke Reynolds | </h1>
+          <h2 className={styles.description}>github.com/lreynolds188</h2>
           <p>Brisbane, QLD</p>
     
-          <h2>Summary</h2><hr></hr>
+          <h2>Summary</h2><hr />
           <p>
             I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager.
             I am responsible for maintaining the production environment and designing and implenting an automation system for the main reactor.
@@ -34,21 +32,21 @@ export default function Home() {
             My hope is to work advancing the functionality, affordability, and sustainability of futuristic technological applications.
           </p>
     
-          <h2>Education</h2><hr></hr>
+          <h2>Education</h2><hr />
           <a href="http://qut.edu.au" target="_blank">Queensland University of Technology | Queensland, AU</a>
           <p>Bachelor of Computer Science<br/>Gardens Point Campus<br/>2017-2020</p>
           <a href="http://tafebrisbane.edu.au" target="_blank">Tafe Queensland | Queensland, AU</a>
           <p>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
                              
-          <h2>Experience</h2><hr></hr>
+          <h2>Experience</h2><hr />
           <p>Ridgeline Manufacturing | Queensland, AU</p>
           <p>Project/Operations Manager, May 2020 - Present</p>
-          <br/>
+          <br />
           <p>While in this position I was granted the tools to achieve a task and a large amount of freedom to self manage which allowed to me to excel. I was responsible for seeing that operations run as normal and look to for any opportunities for improvement. In addition to these duties I was also required to design and implement an automation system for one of the companies reactors.</p>
 
           <a href="https://www.kilcoyglobalfoods.com/" target="_blank">Kilcoy Global Foods | Queensland, AU</a>
           <p>Developer/Technician, Nov 2018 – May 2019</p>
-          <p></p>
+          <br />
           <p>During my time in this position I was responsible for the development of business applications and support of a production environment. Projects were completed in a full stack agile development environment in which version control and project management tools were utilized.</p>
 
           <a href="http://www.actlogistics.com.au/" target="_blank">ACT Logistics / ACT Computers | Queensland, AU</a>
@@ -57,10 +55,10 @@ export default function Home() {
 
           <a href="https://ozecomputers.com.au/#Computer%20Repairs%20Caloundra" target="_blank">OzeComputers | Queensland, AU</a>
           <p>Technician, Aug 2013 – Aug 2014</p>
-          <p> During my time at this position I ran a computer store in the center of Caloundra upholding the highest in customer service in delivery of all services. I was responsible for running diagnostics, computer & phone repairs, delivering on-site support, building computer systems, server configuration and support.</p>
+          <p>During my time at this position I ran a computer store in the center of Caloundra upholding the highest in customer service in delivery of all services. I was responsible for running diagnostics, computer & phone repairs, delivering on-site support, building computer systems, server configuration and support.</p>
           
-          <h2>Skills</h2><hr></hr>
-          <p></p>
+          <h2>Skills</h2><hr />
+          <br />
           <h3>Languages & Frameworks</h3>
           <p>C | C# | .NET | Python | Java | JavaScript | VisualBasic | ASP | SQL | HTML | CSS | PHP </p>
           <h3>Tools & Practices</h3>
