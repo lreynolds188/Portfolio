@@ -10,10 +10,9 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>  
+        <h1 className={styles.title}>About</h1>
+    
         <div>
-            <h1 className={styles.title}>
-              About
-            </h1>
          <p>
             I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager.
             I am responsible for maintaining the production environment and designing and implenting an automation system for the main reactor.
