@@ -38,9 +38,9 @@ export default function Home() {
 			<h3>Nextcloud Server Setup</h3>
 				<p>Then, start up the nextcloud server and select the ubuntu server image when prompted for a startup disk. This will load up the ubuntu live CD and go through the installation steps. The only extra step to do during the installation is to select the nextcloud snap when prompted with commonly installed snaps. After the installation is finished, nextcloud is pretty much done and ready to use on the LAN! To try it out, log in to the machine and find out its ip with ifconfig. Go to that ip in a web browser and you should be greeted with a nextcloud welcome page prompting you to set up an administrator account. You might as well do that while you’re there.</p>
 	  		<h3>Reverse Proxy Server Setup</h3>
-				<p>Next, start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx if necessary (it was already installed on my image). Then, find the ip of this server with ifconfig and take a note of it (I’ll refer to it as nginx-ip, and the ip of the nextcloud server as nextcloud-ip). Then, make a file at /etc/nginx/sites-available/nextcloud.conf and fill it as follows; don’t forget to replace the ’s with their real values!</p>
+				<p>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx if necessary (it was already installed on my image). Then, find the ip of this server with ifconfig and take a note of it (I’ll refer to it as nginx-ip, and the ip of the nextcloud server as nextcloud-ip). Then, make a file at /etc/nginx/sites-available/nextcloud.conf and fill it as follows; don’t forget to replace the ’s with their real values!</p>
 			<h3>Setting Static IP's for the VM's</h3>
-				<p>To set a static IP on each of the virtual machines boot them up and run this command to install net-tools.</p
+				<p>To set a static IP on each of the virtual machines boot them up and run this command to install net-tools.</p>
 				<pre><code>sudo apt install net-tools</code></pre>
 				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>		
 	
@@ -57,7 +57,7 @@ export default function Home() {
 	
 		<br />
 		
-		<h2>Encrypting HTTPS Connection</h2>
+		<h2>Securing the Server</h2>
 			<h3>SSL Encryption</h3>
 				<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
 				<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>. First, port forwarding needs to be set up on port 443 because that&rsquo;s the port used for ssl. This was already done in the port forwarding section above.</p>
@@ -78,6 +78,8 @@ export default function Home() {
 				<p>Adding the line</p>
 				<pre><code>0 0 1 */2 * /usr/bin/certbot -q renew</code></pre>
 				<p>Which will automatically renew the certificates at midnight on the first of every other month.</p>
+			<h3>Enable 2-Factor Authentication</h3>
+				<p>Install FreeOTP+ from <a href="https://f-droid.org/en/packages/org.liberty.android.freeotpplus/">F-Droid</a> or the<a href="https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US">Playstore</a> or your chosen 2FA code generator.</p>
 	
 		<h2>RealVNC Server Setup</h2>
 			<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
@@ -87,20 +89,15 @@ export default function Home() {
 				
 		<h2>Android Connectivity</h2>
 			<h3>Nextcloud App Code</h3>
-				
-			<h3>DAVx⁵ Syncronization Client</h3>
-	
+				<p>Navigate to your Nextcloud portal, go to settings -> personal -> Security. Scroll to the bottom of the page and type the name of the app you would like to grant access to. Click create new app password. Go back to the application you want to connect to your Nextcloud server, type in your username and the 29 character one time app password.</p>
+			<h3>Task, Contact, and Calendar Syncronization Client</h3>
+				<p>Install DAVx⁵ from <a href="https://f-droid.org/en/packages/at.bitfire.davdroid/">F-Droid</a> or the<a href="https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US">Playstore</a>.</p>
 		<br />	
 				
 		<h2>References</h2>
 			<ul>
 				<li><a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html">https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html</a></li>
 				<li><a href="https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/">https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/</a></li>
-				<li><a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></li>
-				<li><a href="https://ubuntu.com/download/server">https://ubuntu.com/download/server</a></li>
-				<li><a href="https://www.noip.com/">https://www.noip.com/</a></li>
-				<li><a href="https://www.realvnc.com/en/">https://www.realvnc.com/en/</a></li>
-				<li><a href="https://www.davx5.com/download">https://www.davx5.com/download</a></li>
 			</ul>
         </div>
       </main>
