@@ -40,7 +40,7 @@ export default function Home() {
 	  		<h3>Reverse Proxy Server Setup</h3>
 				<p>Next, start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx if necessary (it was already installed on my image). Then, find the ip of this server with ifconfig and take a note of it (I’ll refer to it as nginx-ip, and the ip of the nextcloud server as nextcloud-ip). Then, make a file at /etc/nginx/sites-available/nextcloud.conf and fill it as follows; don’t forget to replace the ’s with their real values!</p>
 			<h3>Setting Static IP's for the VM's</h3>
-				<p>
+				
 	
 		<br />
 
