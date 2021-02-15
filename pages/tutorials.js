@@ -18,7 +18,7 @@ export default function Home() {
             <h3>Nextcloud Server Ubuntu 20.04 &rarr;</h3>
             <p>In this tutorial I will explain how to setup a Nextcloud server featuring an NginX reverse proxy, 2-FA, Android connectivity, and VNC for remote maintenance</p>
           </a>
-
+          <br />
           <a href="/moretocome" className={styles.card}>
             <h3>More coming soon! &rarr;</h3>
           </a>
