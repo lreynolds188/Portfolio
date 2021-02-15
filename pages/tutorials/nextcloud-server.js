@@ -73,7 +73,7 @@ export default function Home() {
 				<p>Then, reinstall the proxy config</p>
 				<code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code>
 				<p>and edit it to be like this:</p>
-				<code>server &#123;</code>
+				<p><code>server &#123;</code>
 					<code>listen 80;</code>
 					<code>server_name example.com;</code>
 					<code>return 301 https://$server_name:443$request_uri;</code>
@@ -92,6 +92,7 @@ export default function Home() {
 				<code>add_header X-Content-Type-Options "nosniff" always;</code>
 				<code>add_header X-Permitted-Cross-Domain</code>
 				<br />
+				</p>
 				<p>Finally, restart nginx</p>
 				<pre><code>sudo service nginx restart</code></pre>
 			<br />
