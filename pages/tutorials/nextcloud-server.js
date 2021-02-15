@@ -29,10 +29,7 @@ export default function Home() {
 				
 		<h2>Local Cloud Setup</h2>
 			<h3>Virtual Machines</h3>
-				<p>There will be 2 virtual machines that will be responsible for hosting your server. The first of these machines will store your Nextcloud instance, while the second will store the NginX reverse proxy. I decided to install Ubuntu 20.04 on my host machine but you may use whatever OS you prefer. Once the server has a fresh OS installation, install VirtualBox or your preferred virtualization software and download the latest Ubuntu Server image (.iso). </p>
-				<p>VirtualBox can be downloaded <a href="https://www.virtualbox.org/wiki/Downloads">here</a></p>
-				<p>Ubuntu Server can be downloaded <a href="https://ubuntu.com/download/server">here</a> (Option: 2)</p>
-			<br />
+				<p>There will be 2 virtual machines that will be responsible for hosting your server. The first of these machines will store your Nextcloud instance, while the second will store the NginX reverse proxy. I decided to install Ubuntu 20.04 on my host machine but you may use whatever OS you prefer. Once the server has a fresh OS installation, install <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> or your preferred virtualization software and download the latest image of <a href="https://ubuntu.com/download/server">Ubuntu Server</a> (.iso). </p>
 				<p>Once the virutalization software is installed create 2 new virtual machines. Set both the server hard drives to dynamically allocated, giving the NginX server a max of 8gb and the Nextcloud server whatever remaining space is available preferably leaving around 10gb free for the host OS.</p>
 				<p>After creating the virtual machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.</p>
 			<br />
