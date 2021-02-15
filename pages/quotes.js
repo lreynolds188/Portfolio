@@ -10,10 +10,10 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-        <div>
             <h1 className={styles.title}>
               Quotes
             </h1>
+            <div>
             <h3>
               Socrates (Philosopher, 470 - 399 BC)
             </h3>
