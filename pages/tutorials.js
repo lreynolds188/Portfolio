@@ -20,7 +20,8 @@ export default function Home() {
           </a>
           <br />
           <a href="/tutorials/mailbox-org-domain" className={styles.cardwide}>
-            <h3>Setup your own @domain email address's at mailbox.org</h3>
+            <h3>Mailbox.org Domain Email and Alias</h3>
+            <p>Setup your own @domain email address's at mailbox.org for 1€ a month</p>
           </a>
         </div>
       </main>
