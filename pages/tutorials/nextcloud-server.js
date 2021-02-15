@@ -34,7 +34,7 @@ export default function Home() {
 				<p>VirtualBox can be downloaded <a href="https://www.virtualbox.org/wiki/Downloads">here</a></p>
 				<p>Ubuntu Server can be downloaded <a href="https://ubuntu.com/download/server">here</a> (Option: 2)</p>
 				<p>Once the virutalisation software is installed create 2 new virtual machines. Set both the server HDD's to dynamically allocated, giving the NginX server a max of 8gb and the Nextcloud server whatever remaining space is available.</p>
-				<p>After creating the virutal machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.
+				<p>After creating the virutal machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.</p>
 			<h3>Nextcloud Server Setup</h3>
 				<p>Then, start up the nextcloud server and select the ubuntu server image when prompted for a startup disk. This will load up the ubuntu live CD and go through the installation steps. The only extra step to do during the installation is to select the nextcloud snap when prompted with commonly installed snaps. After the installation is finished, nextcloud is pretty much done and ready to use on the LAN! To try it out, log in to the machine and find out its ip with ifconfig. Go to that ip in a web browser and you should be greeted with a nextcloud welcome page prompting you to set up an administrator account. You might as well do that while you’re there.</p>
 	  		<h3>Reverse Proxy Server Setup</h3>
