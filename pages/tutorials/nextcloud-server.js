@@ -22,7 +22,7 @@ export default function Home() {
 	    	<h>Requirements:</h>
 	  	<ol>
 	 	  <li>A computer to use as a server (I'm using a SurfacePro 3).</li>
-	  	  <li>A static IP and Domain name or DynamicDNS (if static IP is unavailable)
+	  	  <li>A static IP and Domain name or DynamicDNS (if static IP is unavailable)</li>
 	  	  <li>Access to your router's control panel</li>
 		</ol>
 		<br />
