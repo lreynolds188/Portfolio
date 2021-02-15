@@ -114,6 +114,7 @@ export default function Home() {
 		<h2>Remote Maintenance</h2>
 		    	<h3>RealVNC Server Setup</h3>
 				<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
+			<br />
 			<h3>RealVNC Viewer Setup</h3>
 				<p>RealVNC Viewer can be found <a href="https://www.realvnc.com/en/connect/download/viewer/">here</a></p>
 			<br />
@@ -124,13 +125,14 @@ export default function Home() {
 			<br />
 			<h3>Calendar, Contact, and Task Syncronization Client</h3>
 				<p>Install DAVx⁵ from <a href="https://f-droid.org/en/packages/at.bitfire.davdroid/">F-Droid</a> or <a href="https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US">Playstore</a>.</p>
+			<br />
 			<h3>Recommended Applications</h3>
-				<ol>
+				<ul>
 					<li>Nextcloud Syncronization Client available on <a href="https://f-droid.org/en/packages/com.nextcloud.client/">F-Droid</a></li>
 					<li>Nextcloud Notes available on <a href="https://f-droid.org/en/packages/it.niedermann.owncloud.notes/">F-Droid</a></li>
 					<li>Tasks.org available on <a href="https://f-droid.org/en/packages/org.tasks/">F-Droid</a></li>
 					<li>Simple Calendar Pro available on <a href="https://f-droid.org/en/packages/com.simplemobiletools.calendar.pro/">F-Droid</a></li>
-				</ol>
+				</ul>
 			<br />	
 				
 		<h2>References</h2>
