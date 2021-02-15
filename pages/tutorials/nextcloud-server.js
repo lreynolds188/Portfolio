@@ -67,9 +67,9 @@ export default function Home() {
 				<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
 				<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>. First, port forwarding needs to be set up on port 443 because that&rsquo;s the port used for ssl. This was already done in the port forwarding section above.</p>
 				<p>The next step is to obtain ssl certificates, which is also pretty easy. The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let&rsquo;s Encrypt&rsquo;s certbot following <a href="https://certbot.eff.org/lets-encrypt/ubuntuartful-nginx">the installation instructions on the website</a>.</p>
-				<code>sudo rm /etc/nginx/sites-enabled/nextcloud.conf
+				<pre><code>sudo rm /etc/nginx/sites-enabled/nextcloud.conf
 				sudo service nginx restart
-				sudo certbot --nginx</code>
+				sudo certbot --nginx</code></pre>
 				<p>Then, reinstall the proxy config</p>
 				<code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code>
 				<p>and edit it to be like this:</p>
@@ -77,7 +77,7 @@ export default function Home() {
 				server &#123;
 					listen 80;
 					server_name example.com;
-					return 301 https://$server_name:443$request_uri;</code>
+					return 301 https://$server_name:443$request_uri;
 				&#125;
 				server 
 				listen 443 ssl;
