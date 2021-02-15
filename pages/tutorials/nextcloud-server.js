@@ -91,7 +91,7 @@ export default function Home() {
 				add_header X-Frame-Options "SAMEORIGIN" always;
 				add_header X-Content-Type-Options "nosniff" always;
 				add_header X-Permitted-Cross-Domain
-				</pre></code>
+				</code></pre>
 				
 				<p>Finally, restart nginx</p>
 				<pre><code>sudo service nginx restart</code></pre>
