@@ -34,7 +34,7 @@ export default function Home() {
 		
 	  	<h2>Reverse proxy server setup</h2>
 		<p>Next, start up the reverse proxy server and go through the motions of installing ubuntu server, this time <span class="underline">not</span> selecting any snaps when prompted. Once logged in, install <code>nginx</code> if necessary (it was already installed on my image). Then, find the ip of this server with <code>ifconfig</code> and take a note of it (I&rsquo;ll refer to it as <code>nginx-ip</code>, and the ip of the nextcloud server as <code>nextcloud-ip</code>). Then, make a file at <code>/etc/nginx/sites-available/nextcloud.conf</code> and fill it as follows; don&rsquo;t forget to replace the &rsquo;s with their real values!</p>
-		<code>sudo vi /etc/nginx/sites-available/nextcloud.conf</code></pre>
+		<code>sudo vi /etc/nginx/sites-available/nextcloud.conf</code>
 
 		<p>Then symlink that config to <code>/etc/nginx/sites-enabled/</code> and restart nginx:</p>
 		<pre><code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/
@@ -45,12 +45,12 @@ export default function Home() {
 		<h2>RealVNC Server Setup</h2>
 		<p>Lastly, boot up the final remaining VM and install ubuntu in the same way as the last one (the reverse proxy server). Once logged in, just follow the <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04">this long but easy tutorial</a> to set up openvpn. Note that that tutorial assumes you are using bash (which matters when setting up environment variables).</p>
 		<p>The only caveat to note while completing the tutorial is that before doing step 11 you should generate a key for accessing the vpn.</p>
-		<pre><code>cd ~/openvpn-ca
+		<code>cd ~/openvpn-ca
 		source ./vars
 		./build-key linux-client</code></pre>
 		<p>(hit enter through all the prompts, then &lsquo;y&rsquo; to complete).</p>
 		<p>For step 12, just scp the config to your own computer, and then you can connect to the server through the vpn with</p>
-		<pre><code>sudo openvpn --config linux-client.ovpn</code></pre>
+		<code>sudo openvpn --config linux-client.ovpn</code>
 			
 		<h3>Making the vpn accessible from the internet</h3>
 		<p>The vpn is only really useful if it can be reached from the internet, so port forwarding needs to be set up in the router to forward internet traffic to the vpn server. To do this, just configure the router to forward UDP traffic on port 1194 to the openvpn server&rsquo;s ip address. Note that this only really makes sense if the openvpn server has a static ip, as described in the next section. Furthermore, because ISP&rsquo;s regularly change the public IP of normal routers, it probably also makes sense to set up dynamic dns to access the vpn.</p>
