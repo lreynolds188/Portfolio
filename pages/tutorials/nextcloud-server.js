@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
 	  <div>
 	  	<h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
-			<p>15/02/21, Luke Reynolds</p>
+			<p>15/02/21, <a href="https://thereynolds.com.au">Luke Reynolds</a></p>
 			<p>In my desire to regain information privacy from big tech and their incessant tracking I decided to set up a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance.</p>
 			<strong>Requirements:</strong>
 			<ol>
@@ -45,7 +45,7 @@ export default function Home() {
 			<br />
 			<h3>Setting Static IP's for the VM's</h3>
 				<p>To set a static IP on each of the virtual machines boot them up and run this command to install net-tools.</p>
-				<pre><code>sudo apt install net-tools</code></pre>
+				<code>sudo apt install net-tools</code>
 				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>		
 	
 		<br />
@@ -67,9 +67,9 @@ export default function Home() {
 				<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
 				<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>. First, port forwarding needs to be set up on port 443 because that&rsquo;s the port used for ssl. This was already done in the port forwarding section above.</p>
 				<p>The next step is to obtain ssl certificates, which is also pretty easy. The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let&rsquo;s Encrypt&rsquo;s certbot following <a href="https://certbot.eff.org/lets-encrypt/ubuntuartful-nginx">the installation instructions on the website</a>.</p>
-				<pre><code>sudo rm /etc/nginx/sites-enabled/nextcloud.conf
-				sudo service nginx restart
-				sudo certbot --nginx</code></pre>
+				<code>sudo rm /etc/nginx/sites-enabled/nextcloud.conf</code><br />
+				<code>sudo service nginx restart</code><br />
+				<code>sudo certbot --nginx</code><br />
 				<p>Then, reinstall the proxy config</p>
 				<code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code>
 				<p>and edit it to be like this:</p>
@@ -80,7 +80,7 @@ export default function Home() {
 				&emsp;	return 301 https://$server_name:443$request_uri;<br />
 				&#125;<br />
 				<br />
-				server<br /> 
+				server &#123;<br /> 
 				&emsp;	listen 443 ssl;<br />
 				&emsp;	server_name example.com;<br />
 				<br />
@@ -92,18 +92,19 @@ export default function Home() {
 				&emsp;	add_header X-Frame-Options "SAMEORIGIN" always;<br />
 				&emsp;	add_header X-Content-Type-Options "nosniff" always;<br />
 				&emsp;	add_header X-Permitted-Cross-Domain<br />
+				&#125;
 				</code>
-				
+				<br />
 				<p>Finally, restart nginx</p>
-				<pre><code>sudo service nginx restart</code></pre>
+				<code>sudo service nginx restart</code>
 			<br />
 			<h3>Automatic Certificate Renewal</h3>
 				<p>The ssl certificates expire every 90 days, but they can be easily and non-interactively renewed with</p>
-				<pre><code>sudo certbot renew</code></pre>
+				<code>sudo certbot renew</code>
 				<p>So just set up a cron job to do this every other month or so.</p>
-				<pre><code>sudo crontab -e</code></pre>
+				<code>sudo crontab -e</code>
 				<p>Adding the line</p>
-				<pre><code>0 0 1 */2 * /usr/bin/certbot -q renew</code></pre>
+				<code>0 0 1 */2 * /usr/bin/certbot -q renew</code>
 				<p>Which will automatically renew the certificates at midnight on the first of every other month.</p>
 			<br />
 			<h3>Enable 2-Factor Authentication</h3>
