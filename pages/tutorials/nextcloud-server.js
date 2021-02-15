@@ -36,6 +36,7 @@ export default function Home() {
 			<br />
 				<p>Once the virutalization software is installed create 2 new virtual machines. Set both the server hard drives to dynamically allocated, giving the NginX server a max of 8gb and the Nextcloud server whatever remaining space is available preferably leaving around 10gb free for the host OS.</p>
 				<p>After creating the virtual machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.</p>
+			<br />
 			<h3>Nextcloud Server Setup</h3>
 				<p>Then, start up the nextcloud server and select the ubuntu server image when prompted for a startup disk. This will load up the ubuntu live CD and go through the installation steps. The only extra step to do during the installation is to select the nextcloud snap when prompted with commonly installed snaps. After the installation is finished, nextcloud is pretty much done and ready to use on the LAN! To try it out, log in to the machine and find out its ip with ifconfig. Go to that ip in a web browser and you should be greeted with a nextcloud welcome page prompting you to set up an administrator account. You might as well do that while you’re there.</p>
 	  		<br />
@@ -87,7 +88,9 @@ export default function Home() {
 			<br />
 			<h3>Enable 2-Factor Authentication</h3>
 				<p>Install FreeOTP+ from <a href="https://f-droid.org/en/packages/org.liberty.android.freeotpplus/">F-Droid</a> or the <a href="https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US">Playstore</a> or your chosen 2FA code generator.</p>
-	
+		
+		<br />
+					
 		<h2>RealVNC Server Setup</h2>
 			<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
 			<p>RealVNC Viewer can be found <a href="https://www.realvnc.com/en/connect/download/viewer/">here</a></p>
