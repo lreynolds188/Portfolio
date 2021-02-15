@@ -15,12 +15,6 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-	  <pre>
-	  	Does this stupid
-	  	Formatting shit
-	  	Acutally work
-	  	Or am i nuts
-	  </pre>
 	  <div>
 	  	<h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
 			<p>15/02/21, Luke Reynolds</p>
@@ -79,25 +73,26 @@ export default function Home() {
 				<p>Then, reinstall the proxy config</p>
 				<code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code>
 				<p>and edit it to be like this:</p>
-				<pre><code>
-				server &#123;
-					listen 80;
-					server_name example.com;
-					return 301 https://$server_name:443$request_uri;
-				&#125;
-				server 
-				listen 443 ssl;
-				server_name example.com;
-	
-				ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
-				ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.com;
-				
-				add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';
-				add_header X-XSS-Protection "1; mode=block" always;
-				add_header X-Frame-Options "SAMEORIGIN" always;
-				add_header X-Content-Type-Options "nosniff" always;
-				add_header X-Permitted-Cross-Domain
-				</code></pre>
+				<code>
+				server &#123;<br />
+				&emsp;	listen 80;<br />
+				&emsp;	server_name example.com;<br />
+				&emsp;	return 301 https://$server_name:443$request_uri;<br />
+				&#125;<br />
+				<br />
+				server<br /> 
+				&emsp;	listen 443 ssl;<br />
+				&emsp;	server_name example.com;<br />
+				<br />
+				&emsp;	ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;<br />
+				&emsp;	ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.com;<br />
+				<br />
+				&emsp;	add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';<br />
+				&emsp;	add_header X-XSS-Protection "1; mode=block" always;<br />
+				&emsp;	add_header X-Frame-Options "SAMEORIGIN" always;<br />
+				&emsp;	add_header X-Content-Type-Options "nosniff" always;<br />
+				&emsp;	add_header X-Permitted-Cross-Domain<br />
+				</code>
 				
 				<p>Finally, restart nginx</p>
 				<pre><code>sudo service nginx restart</code></pre>
