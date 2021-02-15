@@ -37,13 +37,13 @@ export default function Home() {
 		<pre><code>
 	  	sudo vi /etc/nginx/sites-available/nextcloud.conf
 		
-		server {
+		server 
 			The IP that you forwarded in your router (nginx proxy)
 		  listen &lt;nginx-ip&gt;:80 default_server;
 
 			The internal IP of the VM that hosts your Apache config
 			set $upstream &lt;nginx-ip&gt;;
-		location / {
+		location / 
 			proxy_headers_hash_max_size 512;
 			proxy_headers_hash_bucket_size 64;
 			proxy_set_header Host $host;
@@ -53,8 +53,8 @@ export default function Home() {
 			add_header Front-End-Https on;
 				whatever the IP of your cloud server is
 			proxy_pass http://&lt;nextcloud-ip&gt;;
-			}
-		}</code></pre>
+			
+		</code></pre>
 
 		<p>Then symlink that config to <code>/etc/nginx/sites-enabled/</code> and restart nginx:</p>
 		<pre><code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/
@@ -112,7 +112,7 @@ export default function Home() {
 		<p>Then, reinstall the proxy config</p>
 		<pre><code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code></pre>
 		<p>and edit it to be like this:</p>
-		<pre><code>server {
+		<pre><code>server 
 			The IP that you forwarded in your router (nginx proxy)
 		  listen &lt;nginx-ip&gt;:443 ssl ipv6only=on;
 		  server_name &lt;your-domain.url&gt;;
@@ -124,7 +124,7 @@ export default function Home() {
 
 			The internal IP of the VM that hosts your Apache config
 			set $upstream &lt;nginx-ip&gt;;
-		location / {
+		location / 
 			proxy_headers_hash_max_size 512;
 			proxy_headers_hash_bucket_size 64;
 			proxy_set_header Host $host;
@@ -136,8 +136,8 @@ export default function Home() {
 				Note that it's forwarding traffic to port 80 because the nextcloud server
 				is only set up for http (not ssl)
         		proxy_pass http://&lt;nextcloud-ip&gt;:80;
-        		}
-		}</code></pre>
+        		
+		</code></pre>
 
 		<p>Finally, restart nginx</p>
 		<pre><code>sudo service nginx restart</code></pre>
