@@ -18,7 +18,7 @@ export default function Home() {
 	  <h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
 	  	<div>
 			<p>15/02/21, <a href="https://thereynolds.com.au">Luke Reynolds</a></p>
-			<p>In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance.</p>
+			<p>In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance.</p>
 			<strong>Requirements:</strong>
 			<ol>
 			  <li>A computer to use as a server (I'm using a SurfacePro 3).</li>
@@ -72,13 +72,13 @@ export default function Home() {
 				<strong>Option 1: Static IP & Domain Name</strong>
 				<p>Configure A records in your domain's DNS configuration portal to point at your static IP address. For help finding your public IP address click <a href="https://www.whatismyip.com">here</a>.</p>
 				<strong>Option 2: Dynamic DNS</strong>
-				<p>Free dynamic DNS services available such as <a href="https://www.noip.com/">NoIP</a> can provide a suitable replacement for a domain name and staic IP.</p>
+				<p>Free dynamic DNS services such as <a href="https://www.noip.com/">NoIP</a> are available and can provide a suitable replacement for a domain name and staic IP.</p>
 			<br />
 		
 		<h2>Securing the Server</h2>
 			<h3>Enable Firewall</h3>
 				<p>Enable UFW and allow ports 80 and 443 on the Host, Nextcloud, and NginX server.</p>
-				<code>sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp</code>
+				<code>sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp</code><br />
 			<br />
 			<h3>SSL Encryption</h3>
 				<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
