@@ -6,11 +6,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Luke Reynolds</title>
-	<meta charset="utf-8">
-	<meta name="description" content="In my desire to regain my privacy from big tech and their constant tracking, I have set up a Nextcloud server so that I can finally gain some peace of mind.">
-    	<meta name="author"      content="Luke Reynolds">
-    	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-    	<meta name="keywords"    content="Nextcloud, Ubuntu">
+	<meta charset="utf-8" />
+	<meta name="description" content="In my desire to regain my privacy from big tech and their constant tracking, I have set up a Nextcloud server so that I can finally gain some peace of mind." />
+    	<meta name="author" content="Luke Reynolds" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<meta name="keywords" content="Nextcloud, Ubuntu" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
