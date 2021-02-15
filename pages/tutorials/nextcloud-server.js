@@ -86,7 +86,7 @@ export default function Home() {
 				ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
 				ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.com;
 				
-				add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';</code><br />
+				add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';
 				add_header X-XSS-Protection "1; mode=block" always;
 				add_header X-Frame-Options "SAMEORIGIN" always;
 				add_header X-Content-Type-Options "nosniff" always;
