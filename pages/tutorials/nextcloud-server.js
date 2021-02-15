@@ -38,11 +38,11 @@ export default function Home() {
 	  	sudo vi /etc/nginx/sites-available/nextcloud.conf
 		
 		server {
-		# The IP that you forwarded in your router (nginx proxy)
+			The IP that you forwarded in your router (nginx proxy)
 		  listen &lt;nginx-ip&gt;:80 default_server;
 
-		# The internal IP of the VM that hosts your Apache config
-		# set $upstream &lt;nginx-ip&gt;;
+			The internal IP of the VM that hosts your Apache config
+			set $upstream &lt;nginx-ip&gt;;
 		location / {
 			proxy_headers_hash_max_size 512;
 			proxy_headers_hash_bucket_size 64;
@@ -51,7 +51,7 @@ export default function Home() {
 			proxy_set_header X-Real-IP $remote_addr;
 			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 			add_header Front-End-Https on;
-			# whatever the IP of your cloud server is
+				whatever the IP of your cloud server is
 			proxy_pass http://&lt;nextcloud-ip&gt;;
 			}
 		}</code></pre>
@@ -102,7 +102,7 @@ export default function Home() {
 		<p>Upon reaching the nextcloud server for the first time from its now-configured url, nextcloud complained that the url was not a &ldquo;trusted proxy&rdquo;. I clicked the button provided in the prompt, and just to be safe I also followed <a href="https://docs.nextcloud.com/server/9/admin_manual/configuration_server/reverse_proxy_configuration.html">the docs&rsquo; instructions on adding a reverse proxy configuration</a>, adding a line to <code>/var/snap/nextcloud/&lt;some number here&gt;/nextcloud/config/config.php</code> containing</p>
 		<pre><code>"trusted_proxies"   =&gt; ['&lt;nextcloud-ip&gt;', '&lt;your-domain.url&gt;'],</code></pre>
 		<h2 id="ssl-encryption">SSL encryption</h2>
-		<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server &#8211; though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
+		<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
 		<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>. First, port forwarding needs to be set up on port 443 because that&rsquo;s the port used for ssl. This was already done in the port forwarding section above.</p>
 		<p>The next step is to obtain ssl certificates, which is also pretty easy. The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let&rsquo;s Encrypt&rsquo;s certbot following <a href="https://certbot.eff.org/lets-encrypt/ubuntuartful-nginx">the installation instructions on the website</a>.</p>
 		<p>Before running <code>certbot</code>, however, I needed to disable the reverse proxy traffic forwarding of the nginx server. To do this, just disable the proxy config and restart nginx before running certbot.</p>
@@ -113,17 +113,17 @@ export default function Home() {
 		<pre><code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code></pre>
 		<p>and edit it to be like this:</p>
 		<pre><code>server {
-		# The IP that you forwarded in your router (nginx proxy)
+			The IP that you forwarded in your router (nginx proxy)
 		  listen &lt;nginx-ip&gt;:443 ssl ipv6only=on;
 		  server_name &lt;your-domain.url&gt;;
-		  listen 443 ssl; # managed by Certbot
-		  ssl_certificate /etc/letsencrypt/live/&lt;your-domain.url&gt;/fullchain.pem; # managed by Certbot
-		  ssl_certificate_key /etc/letsencrypt/live/&lt;your-domain.url&gt;/privkey.pem; # managed by Certbot
-		  include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-		  ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+		  listen 443 ssl; 
+		  ssl_certificate /etc/letsencrypt/live/&lt;your-domain.url&gt;/fullchain.pem;
+		  ssl_certificate_key /etc/letsencrypt/live/&lt;your-domain.url&gt;/privkey.pem;
+		  include /etc/letsencrypt/options-ssl-nginx.conf;
+		  ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
-		# The internal IP of the VM that hosts your Apache config
-		# set $upstream &lt;nginx-ip&gt;;
+			The internal IP of the VM that hosts your Apache config
+			set $upstream &lt;nginx-ip&gt;;
 		location / {
 			proxy_headers_hash_max_size 512;
 			proxy_headers_hash_bucket_size 64;
@@ -132,9 +132,9 @@ export default function Home() {
 			proxy_set_header X-Real-IP $remote_addr;
 			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 			add_header Front-End-Https on;
-			# whatever the IP of your cloud server is
-			# Note that it's forwarding traffic to port 80 because the nextcloud server
-			# is only set up for http (not ssl)
+				whatever the IP of your cloud server is
+				Note that it's forwarding traffic to port 80 because the nextcloud server
+				is only set up for http (not ssl)
         		proxy_pass http://&lt;nextcloud-ip&gt;:80;
         		}
 		}</code></pre>
