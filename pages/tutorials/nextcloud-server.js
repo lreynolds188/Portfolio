@@ -45,8 +45,6 @@ export default function Home() {
 		<h2>RealVNC Server Setup</h2>
 		<p>Lastly, boot up the final remaining VM and install ubuntu in the same way as the last one (the reverse proxy server). Once logged in, just follow the <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04">this long but easy tutorial</a> to set up openvpn. Note that that tutorial assumes you are using bash (which matters when setting up environment variables).</p>
 		<p>The only caveat to note while completing the tutorial is that before doing step 11 you should generate a key for accessing the vpn.</p>
-		<code>cd ~/openvpn-ca
-		source ./vars
 		<p>(hit enter through all the prompts, then &lsquo;y&rsquo; to complete).</p>
 		<p>For step 12, just scp the config to your own computer, and then you can connect to the server through the vpn with</p>
 		<code>sudo openvpn --config linux-client.ovpn</code>
