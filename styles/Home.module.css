@@ -89,17 +89,22 @@
 
 .card:hover,
 .card:focus,
-.card:active {
+.card:active,
+.carwide:hover,
+.cardwide:focus,
+.cardwide:active {
   color: #0070f3;
   border-color: #0070f3;
 }
 
-.card h3 {
+.card h3,
+.cardwide h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.card p {
+.card p,
+.cardwide p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
