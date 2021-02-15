@@ -72,7 +72,7 @@ export default function Home() {
 				<p>Then, reinstall the proxy config</p>
 				<code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code>
 				<p>and edit it to be like this:</p>
-				<pre><code>
+				<p><pre><code>
 					server &#123;
 						listen 80;
 						server_name example.com;
@@ -91,7 +91,7 @@ export default function Home() {
 						add_header X-Frame-Options "SAMEORIGIN" always;
 						add_header X-Content-Type-Options "nosniff" always;
 						add_header X-Permitted-Cross-Domain
-					</code></pre>
+					</code></pre></p>
 				<p>Finally, restart nginx</p>
 				<pre><code>sudo service nginx restart</code></pre>
 			<br />
