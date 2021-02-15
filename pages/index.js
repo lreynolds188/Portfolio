@@ -27,15 +27,15 @@ export default function Home() {
             <h3>About &rarr;</h3>
             <p>Find in-depth information about myself and my goals</p>
           </a>
+    
+          <a href="https://github.com/lreynolds188" className={styles.card}>
+            <h3>GitHub &rarr;</h3>
+            <p>Discover my past, current, and future projects on GitHub.</p>
+          </a>
 
           <a href="/resume" className={styles.card}>
             <h3>Resume &rarr;</h3>
             <p>See past education and work experience.</p>
-          </a>
-
-          <a href="https://github.com/lreynolds188" className={styles.card}>
-            <h3>GitHub &rarr;</h3>
-            <p>Discover my past, current, and future projects on GitHub.</p>
           </a>
     
           <a href="/tutorials" className={styles.card}>
