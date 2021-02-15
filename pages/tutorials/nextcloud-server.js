@@ -72,26 +72,7 @@ export default function Home() {
 				<p>Then, reinstall the proxy config</p>
 				<code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code>
 				<p>and edit it to be like this:</p>
-				<p><pre><code>
-					server &#123;
-						listen 80;
-						server_name example.com;
-						return 301 https://$server_name:443$request_uri;
-					&#125;
-					
-					server 
-						listen 443 ssl;
-						server_name example.com;
-	
-						ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
-						ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.com;
-	
-						add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';
-						add_header X-XSS-Protection "1; mode=block" always;
-						add_header X-Frame-Options "SAMEORIGIN" always;
-						add_header X-Content-Type-Options "nosniff" always;
-						add_header X-Permitted-Cross-Domain
-					</code></pre></p>
+				
 				<p>Finally, restart nginx</p>
 				<pre><code>sudo service nginx restart</code></pre>
 			<br />
