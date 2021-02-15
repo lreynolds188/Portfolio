@@ -15,6 +15,12 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
+	  <pre>
+	  	Does this stupid
+	  	Formatting shit
+	  	Acutally work
+	  	Or am i nuts
+	  </pre>
 	  <div>
 	  	<h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
 			<p>15/02/21, Luke Reynolds</p>
