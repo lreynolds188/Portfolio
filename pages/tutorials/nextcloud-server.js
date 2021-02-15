@@ -1,4 +1,4 @@
-import Head from '../next/head'
+import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 
 export default function Home() {
@@ -6,16 +6,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Luke Reynolds</title>
-	<meta charset="utf-8" />
-	<meta name="description" content="In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance." />
-    	<meta name="author" content="Luke Reynolds" />
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    	<meta name="keywords" content="Nextcloud, Ubuntu" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main className={styles.main}>
-	  <h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
+      <main className={styles.main}>  
+        <h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
 	  	<div>
 			<p>15/02/21, <a href="https://thereynolds.com.au">Luke Reynolds</a></p>
 			<p>In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance.</p>
@@ -157,8 +152,8 @@ export default function Home() {
 				<li><a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html">https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html</a></li>
 				<li><a href="https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/">https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/</a></li>
 			</ul>
-     	        </div>
-          </main>
+        </div>
+      </main>
     </div>
   )
 }
