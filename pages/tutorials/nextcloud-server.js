@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-	  
+	  <div>
 	  	<h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
 			<p>15/02/21, Luke Reynolds</p>
 			<p>In my desire to regain information privacy from big tech and their incessant tracking I decided to set up a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance.</p>
@@ -90,7 +90,8 @@ export default function Home() {
 				add_header X-XSS-Protection "1; mode=block" always;
 				add_header X-Frame-Options "SAMEORIGIN" always;
 				add_header X-Content-Type-Options "nosniff" always;
-				add_header X-Permitted-Cross-Domain</code></pre>
+				add_header X-Permitted-Cross-Domain
+				</pre></code>
 				
 				<p>Finally, restart nginx</p>
 				<pre><code>sudo service nginx restart</code></pre>
@@ -128,7 +129,7 @@ export default function Home() {
 				<li><a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html">https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html</a></li>
 				<li><a href="https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/">https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/</a></li>
 			</ul>
-     
+     	</div>
       </main>
     </div>
   )
