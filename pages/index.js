@@ -38,7 +38,7 @@ export default function Home() {
             <p>Discover my past, current, and future projects on GitHub.</p>
           </a>
     
-          <a href="/tutorials.js" className={styles.card}>
+          <a href="/tutorials" className={styles.card}>
             <h3>Tutorials &rarr;</h3>
             <p>Read some tutorials i've developed.</p>
           </a>
