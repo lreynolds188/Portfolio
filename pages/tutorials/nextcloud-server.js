@@ -25,8 +25,7 @@ export default function Home() {
 			  <li>A static IP and domain name or DynamicDNS</li>
 			  <li>Access to your router's control panel</li>
 			</ol>
-
-		<br />
+			<br />
 				
 		<h2>Local Cloud Setup</h2>
 			<h3>Virtual Machines</h3>
@@ -47,8 +46,7 @@ export default function Home() {
 				<p>To set a static IP on each of the virtual machines boot them up and run this command to install net-tools.</p>
 				<code>sudo apt install net-tools</code>
 				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>		
-	
-		<br />
+			<br />
 
 		<h2>Exposing Server to the Internet</h2>
 			<h3>Port Forwarding</h3>
@@ -59,10 +57,12 @@ export default function Home() {
 				<p>Configure A records in your domain's DNS configuration portal to point at your static IP address. For help finding your public IP address click <a href="https://www.whatismyip.com">here</a></p>
 				<strong>Option 2: Dynamic DNS</strong>
 				<p>Free dynamic DNS services available such as <a href="https://www.noip.com/">NoIP</a> can provide a suitable replacement for a domain name and staic IP.</p>
-	
-		<br />
+			<br />
 		
 		<h2>Securing the Server</h2>
+			<h3>Enable Firewall</h3>
+				<p>Enable UFW and allow ports 80 and 443</p>
+			<br />
 			<h3>SSL Encryption</h3>
 				<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
 				<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>. First, port forwarding needs to be set up on port 443 because that&rsquo;s the port used for ssl. This was already done in the port forwarding section above.</p>
@@ -108,24 +108,30 @@ export default function Home() {
 				<p>Which will automatically renew the certificates at midnight on the first of every other month.</p>
 			<br />
 			<h3>Enable 2-Factor Authentication</h3>
-				<p>Install FreeOTP+ from <a href="https://f-droid.org/en/packages/org.liberty.android.freeotpplus/">F-Droid</a> or the <a href="https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US">Playstore</a> or your chosen 2FA code generator.</p>
-		
-		<br />
+				<p>Install FreeOTP+ from <a href="https://f-droid.org/en/packages/org.liberty.android.freeotpplus/">F-Droid</a> or <a href="https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US">Playstore</a> or your chosen 2FA code generator.</p>
+			<br />
 					
 		<h2>Remote Maintenance</h2>
 		    	<h3>RealVNC Server Setup</h3>
 				<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
 			<h3>RealVNC Viewer Setup</h3>
 				<p>RealVNC Viewer can be found <a href="https://www.realvnc.com/en/connect/download/viewer/">here</a></p>
-		<br />
+			<br />
 				
 		<h2>Android Connectivity</h2>
 			<h3>Nextcloud App Code</h3>
 				<p>Navigate to your Nextcloud portal, go to settings -> personal -> Security. Scroll to the bottom of the page and type the name of the app you would like to grant access to. Click create new app password. Go back to the application you want to connect to your Nextcloud server, type in your username and the 29 character one time app password.</p>
 			<br />
 			<h3>Calendar, Contact, and Task Syncronization Client</h3>
-				<p>Install DAVx⁵ from <a href="https://f-droid.org/en/packages/at.bitfire.davdroid/">F-Droid</a> or the <a href="https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US">Playstore</a>.</p>
-		<br />	
+				<p>Install DAVx⁵ from <a href="https://f-droid.org/en/packages/at.bitfire.davdroid/">F-Droid</a> or <a href="https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US">Playstore</a>.</p>
+			<h3>Recommended Applications</h3>
+				<ol>
+					<li>Nextcloud Syncronization Client available on <a href="https://f-droid.org/en/packages/com.nextcloud.client/">F-Droid</a></li>
+					<li>Nextcloud Notes available on <a href="https://f-droid.org/en/packages/it.niedermann.owncloud.notes/">F-Droid</a></li>
+					<li>Tasks.org available on <a href="https://f-droid.org/en/packages/org.tasks/">F-Droid</a></li>
+					<li>Simple Calendar Pro available on <a href="https://f-droid.org/en/packages/com.simplemobiletools.calendar.pro/">F-Droid</a></li>
+				</ol>
+			<br />	
 				
 		<h2>References</h2>
 			<ul>
