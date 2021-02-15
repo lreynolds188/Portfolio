@@ -47,7 +47,6 @@ export default function Home() {
 		<p>The only caveat to note while completing the tutorial is that before doing step 11 you should generate a key for accessing the vpn.</p>
 		<code>cd ~/openvpn-ca
 		source ./vars
-		./build-key linux-client</code></pre>
 		<p>(hit enter through all the prompts, then &lsquo;y&rsquo; to complete).</p>
 		<p>For step 12, just scp the config to your own computer, and then you can connect to the server through the vpn with</p>
 		<code>sudo openvpn --config linux-client.ovpn</code>
@@ -73,19 +72,16 @@ export default function Home() {
 		<p>Restart the router and now navigating to your public ip (find it with <a href="https://www.whatismyip.com/">whatismyip</a>) should take you to the nextcloud.</p>
 		<h2 id="dynamic-dns">Dynamic DNS</h2>
 		<p>Setting up dynamic dns will make the nextcloud accessible from a url instead of a public ip, which ISPs change regularly anyway. If you have a google domain like me, then Google provides a free dynamic dns service along with the domain; that is what I used. Setting it up on Google&rsquo;s end is pretty easy following <a href="https://support.google.com/domains/answer/6147083?hl%3Den">their instructions</a>. There are many dynamic dns services, such as no-ip etc, all of which will have a similar process to what I describe below.</p>
-		<p>To set up the local end that notifies the dns servers of ip changes, log in to the nginx server. Install <code>ddclient</code>, which took me a few extra steps than expected because ubuntu server doesn&rsquo;t have the <a href="https://help.ubuntu.com/community/Repositories/Ubuntu">universe repository</a> enabled by default in ubuntu server 18.04. Fixing that is easy, though. Just edit <code>/etc/apt/sources.list</code> and duplicate the line with <code>deb &lt;url&gt; bionic main</code>, then change the <code>main</code> in the duplicated line to <code>universe</code>. After doing that update and <code>ddclient</code> should be available as normal:</p>
 		<pre><code>sudo apt update &amp;&amp; sudo apt install ddclient</code></pre>
 		<p>With <code>ddclient</code> installed, I set up the config as described in <a href="https://support.google.com/domains/answer/6147083?hl%3Den">Google&rsquo;s instructions</a> using the &ldquo;ddclient without Google Domains support&rdquo; config. One thing to note is that the username and password in the config should be in &lsquo;single quotes&rsquo;. Once that is done, test that the configuration works</p>
 		<pre><code>sudo ddclient -daemon=0 -debug -verbose -noquiet</code></pre>
 		<p>and if all is well you should be able to go to your configured domain to access the nextcloud server!</p>
 		<h3 id="adding-the-nextclouds-external-url-as-a-trusted-proxy">Adding the nextcloud&rsquo;s external url as a trusted proxy</h3>
-		<p>Upon reaching the nextcloud server for the first time from its now-configured url, nextcloud complained that the url was not a &ldquo;trusted proxy&rdquo;. I clicked the button provided in the prompt, and just to be safe I also followed <a href="https://docs.nextcloud.com/server/9/admin_manual/configuration_server/reverse_proxy_configuration.html">the docs&rsquo; instructions on adding a reverse proxy configuration</a>, adding a line to <code>/var/snap/nextcloud/&lt;some number here&gt;/nextcloud/config/config.php</code> containing</p>
 		<pre><code>"trusted_proxies"   =&gt; ['&lt;nextcloud-ip&gt;', '&lt;your-domain.url&gt;'],</code></pre>
 		<h2 id="ssl-encryption">SSL encryption</h2>
 		<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
 		<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>. First, port forwarding needs to be set up on port 443 because that&rsquo;s the port used for ssl. This was already done in the port forwarding section above.</p>
 		<p>The next step is to obtain ssl certificates, which is also pretty easy. The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let&rsquo;s Encrypt&rsquo;s certbot following <a href="https://certbot.eff.org/lets-encrypt/ubuntuartful-nginx">the installation instructions on the website</a>.</p>
-		<p>Before running <code>certbot</code>, however, I needed to disable the reverse proxy traffic forwarding of the nginx server. To do this, just disable the proxy config and restart nginx before running certbot.</p>
 		<code>sudo rm /etc/nginx/sites-enabled/nextcloud.conf
 		sudo service nginx restart
 		sudo certbot --nginx</code>
@@ -96,8 +92,6 @@ export default function Home() {
 
 		<p>Finally, restart nginx</p>
 		<pre><code>sudo service nginx restart</code></pre>
-		<p>In the event that you get some mixed-content warnings from nextcloud, <a href="https://bayton.org/docs/nextcloud/nexcloud-behind-a-proxy-fixing-mixed-content-warnings-with-ssl/">this might be helpful</a>.</p>
-		<p><strong>Resource</strong> The configuration and discussion in <a href="https://www.reddit.com/r/NextCloud/comments/7qsdhj/nextcloud_with_ssl_over_reverse_proxy/">this reddit post</a>, as well as the settings inserted by <code>certbot</code>, guided me toward the above working configuration.</p>
 		<h3 id="setting-up-automatic-certificate-renewal">Setting up automatic certificate renewal</h3>
 		<p>The ssl certificates expire every 90 days, but they can be easily and non-interactively renewed with</p>
 		<pre><code>sudo certbot renew</code></pre>
