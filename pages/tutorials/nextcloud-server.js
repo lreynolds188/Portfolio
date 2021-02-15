@@ -22,8 +22,8 @@ export default function Home() {
 			<strong>Requirements:</strong>
 			<ol>
 			  <li>A computer to use as a server (I'm using a SurfacePro 3).</li>
-			  <li>A static IP and domain name or DynamicDNS</li>
-			  <li>Access to your router's control panel</li>
+			  <li>A static IP and domain name or DynamicDNS.</li>
+			  <li>Access to your router's control panel.</li>
 			</ol>
 			<br />
 				
@@ -38,29 +38,30 @@ export default function Home() {
 	 		<br />
 			<h3>Reverse Proxy Server Setup</h3>
 				<p>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p>
+	  			<code>sudo apt install nginx</code><br />
 			<br />
 			<h3>Setting Static IP's for the VM's</h3>
 				<p>To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools.</p>
 				<code>sudo apt install net-tools</code>
 				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>
-	  			<p>Next we will modify the netplan .yaml file</p>
+	  			<p>Next we will modify the netplan .yaml file.</p>
 	  			<code>sudo nano /etc/netplan/01-netcfg.yaml</code>
 	  			<p>Modify to the file to appear as follows (replacing IP address and Gateway as needed):</p>
 				<code>
-	  				network:
-  				&emsp;	    version: 2
-  				&emsp;	    renderer: networkd
-  				&emsp;	    ethernets:
-    				&emsp;&emsp;	ens3:
-      				&emsp;&emsp;&emsp;  dhcp4: no
-      				&emsp;&emsp;&emsp;  addresses:
-				&emsp;&emsp;&emsp;&emsp;- 192.168.1.101/24
-      				&emsp;&emsp;&emsp;  gateway4: 192.168.1.1
-      				&emsp;&emsp;&emsp;  nameservers:
-          			&emsp;&emsp;&emsp;&emsp;addresses: [8.8.8.8, 1.1.1.1]
+	  				network:<br />
+  				&emsp;	    version: 2<br />
+  				&emsp;	    renderer: network<br />
+  				&emsp;	    ethernets:<br />
+    				&emsp;&emsp;	ens3:<br />
+      				&emsp;&emsp;&emsp;  dhcp4: no<br />
+      				&emsp;&emsp;&emsp;  addresses:<br />
+				&emsp;&emsp;&emsp;&emsp;- 192.168.1.101/24<br />
+      				&emsp;&emsp;&emsp;  gateway4: 192.168.1.1<br />
+      				&emsp;&emsp;&emsp;  nameservers:<br />
+          			&emsp;&emsp;&emsp;&emsp;addresses: [8.8.8.8, 1.1.1.1]<br />
 	  			</code>
 				<p>Ctrl-X, Y, Enter to save and exit. Then run:</p>
-				<code>sudo netplan apply</code>
+				<code>sudo netplan apply</code><br />
 			<br />
 
 		<h2>Exposing Server to the Internet</h2>
@@ -69,14 +70,15 @@ export default function Home() {
 			<br />
 			<h3>Static IP or Dynamic DNS</h3>
 				<strong>Option 1: Static IP & Domain Name</strong>
-				<p>Configure A records in your domain's DNS configuration portal to point at your static IP address. For help finding your public IP address click <a href="https://www.whatismyip.com">here</a></p>
+				<p>Configure A records in your domain's DNS configuration portal to point at your static IP address. For help finding your public IP address click <a href="https://www.whatismyip.com">here</a>.</p>
 				<strong>Option 2: Dynamic DNS</strong>
 				<p>Free dynamic DNS services available such as <a href="https://www.noip.com/">NoIP</a> can provide a suitable replacement for a domain name and staic IP.</p>
 			<br />
 		
 		<h2>Securing the Server</h2>
 			<h3>Enable Firewall</h3>
-				<p>Enable UFW and allow ports 80 and 443</p>
+				<p>Enable UFW and allow ports 80 and 443 on the Host, Nextcloud, and NginX server.</p>
+				<code>sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp</code>
 			<br />
 			<h3>SSL Encryption</h3>
 				<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
