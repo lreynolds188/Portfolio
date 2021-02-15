@@ -73,26 +73,25 @@ export default function Home() {
 				<p>Then, reinstall the proxy config</p>
 				<code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code>
 				<p>and edit it to be like this:</p>
-				<p><code>server &#123;</code>
-					<code>listen 80;</code>
-					<code>server_name example.com;</code>
-					<code>return 301 https://$server_name:443$request_uri;</code>
-				<code>&#125;</code>
-				<br />
-				<code>server </code>
-				<code>listen 443 ssl;</code>
-				<code>server_name example.com;</code>
-				<br />
-				<code>ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;</code>
-				<code>ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.com;</code>
-				<br />
-				<code>add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';</code>
-				<code>add_header X-XSS-Protection "1; mode=block" always;</code>
-				<code>add_header X-Frame-Options "SAMEORIGIN" always;</code>
-				<code>add_header X-Content-Type-Options "nosniff" always;</code>
-				<code>add_header X-Permitted-Cross-Domain</code>
-				<br />
-				</p>
+				<pre><code>
+				server &#123;
+					listen 80;
+					server_name example.com;
+					return 301 https://$server_name:443$request_uri;</code>
+				&#125;
+				server 
+				listen 443 ssl;
+				server_name example.com;
+	
+				ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
+				ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.com;
+				
+				add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';</code><br />
+				add_header X-XSS-Protection "1; mode=block" always;
+				add_header X-Frame-Options "SAMEORIGIN" always;
+				add_header X-Content-Type-Options "nosniff" always;
+				add_header X-Permitted-Cross-Domain</code></pre>
+				
 				<p>Finally, restart nginx</p>
 				<pre><code>sudo service nginx restart</code></pre>
 			<br />
