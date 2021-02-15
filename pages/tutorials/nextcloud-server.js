@@ -34,15 +34,33 @@ export default function Home() {
 				<p>After creating the virtual machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.</p>
 			<br />
 			<h3>Nextcloud Server Setup</h3>
-				<p>Then, start up the nextcloud server and select the ubuntu server image when prompted for a startup disk. This will load up the ubuntu live CD and go through the installation steps. The only extra step to do during the installation is to select the nextcloud snap when prompted with commonly installed snaps. After the installation is finished, nextcloud is pretty much done and ready to use on the LAN! To try it out, log in to the machine and find out its ip with ifconfig. Go to that ip in a web browser and you should be greeted with a nextcloud welcome page prompting you to set up an administrator account. You might as well do that while you’re there.</p>
-	  		<br />
+				<p>Then, start up the nextcloud server and select the ubuntu server image when prompted for a startup disk. This will load up the ubuntu live CD and go through the installation steps. The only extra step to do during the installation is to select the nextcloud snap when prompted with commonly installed snaps.</p>
+	 		<br />
 			<h3>Reverse Proxy Server Setup</h3>
-				<p>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing <code>sudo apt install nginx</code>. Then, find the IP of this server with ifconfig and take a note of it (I’ll refer to it as nginx-ip, and the ip of the nextcloud server as nextcloud-ip). Then, make a file at /etc/nginx/sites-available/nextcloud.conf and fill it as follows; don’t forget to replace the ’s with their real values!</p>
+				<p>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p>
 			<br />
 			<h3>Setting Static IP's for the VM's</h3>
-				<p>To set a static IP on each of the virtual machines boot them up and run this command to install net-tools.</p>
+				<p>To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools.</p>
 				<code>sudo apt install net-tools</code>
-				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>		
+				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>
+	  			<p>Next we will modify the netplan .yaml file</p>
+	  			<code>sudo nano /etc/netplan/01-netcfg.yaml</code>
+	  			<p>Modify to the file to appear as follows (replacing IP address and Gateway as needed):</p>
+				<code>
+	  				network:
+  				&emsp;	    version: 2
+  				&emsp;	    renderer: networkd
+  				&emsp;	    ethernets:
+    				&emsp;&emsp;	ens3:
+      				&emsp;&emsp;&emsp;  dhcp4: no
+      				&emsp;&emsp;&emsp;  addresses:
+				&emsp;&emsp;&emsp;&emsp;- 192.168.1.101/24
+      				&emsp;&emsp;&emsp;  gateway4: 192.168.1.1
+      				&emsp;&emsp;&emsp;  nameservers:
+          			&emsp;&emsp;&emsp;&emsp;addresses: [8.8.8.8, 1.1.1.1]
+	  			</code>
+				<p>Ctrl-X, Y, Enter to save and exit. Then run:</p>
+				<code>sudo netplan apply</code>
 			<br />
 
 		<h2>Exposing Server to the Internet</h2>
