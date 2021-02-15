@@ -80,8 +80,9 @@ export default function Home() {
 		<p>Which will automatically renew the certificates at midnight on the first of every other month.</p>
 									  
 		<h2>References</h2>
-		<a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html" />
-		<p></p>
+		<ul>
+			<li><a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html">https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html</a></li>
+		</ul>
         </div>
       </main>
     </div>
