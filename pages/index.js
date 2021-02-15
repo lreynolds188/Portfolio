@@ -40,7 +40,7 @@ export default function Home() {
     
           <a href="/tutorials" className={styles.card}>
             <h3>Tutorials &rarr;</h3>
-            <p>Read some tutorials i've developed.</p>
+            <p>Read some tutorials i've written.</p>
           </a>
     
           <a href="/quotes" className={styles.card}>
