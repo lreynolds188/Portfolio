@@ -38,9 +38,14 @@ export default function Home() {
             <p>Discover my past, current, and future projects on GitHub.</p>
           </a>
     
+          <a href="/tutorials.js" className={styles.card}>
+            <h3>Quotes &rarr;</h3>
+            <p>Read some tutorials i've developed.</p>
+          </a>
+    
           <a href="/quotes" className={styles.card}>
             <h3>Quotes &rarr;</h3>
-            <p>View some quotes I've collected over the years.</p>
+            <p>View some quotes i've collected over the years.</p>
           </a>
         </div>
       </main>
