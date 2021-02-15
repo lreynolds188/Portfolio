@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
 	  <div>
 	  	<h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
-			<p>15/02/21</p>
+			<p>Luke Reynolds, 15/02/21</p>
 			<p>In my desire to regain information privacy from big tech and their incessant tracking I decided to set up a Nextcloud server so that I may find some peace of mind and help others to find the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance.</p>
 			<strong>Requirements:</strong>
 			<ol>
@@ -42,19 +42,18 @@ export default function Home() {
 			<h3>Setting Static IP's for the VM's</h3>
 				<p>To set a static IP on each of the virtual machines boot them up and run this command to install net-tools.</p
 				<pre><code>sudo apt install net-tools</code></pre>
-				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>
-				<pre><code>sudo apt install net-tools</code></pre>
-				
+				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>		
 	
 		<br />
 
 		<h2>Exposing Server to the Internet</h2>
 			<h3>Port Forwarding</h3>
-				<p></p>
+				<p>In your router’s settings, configure port 80 to forward all traffic to the NginX server and port 443 to forward TCP traffic to the NginX server. For additional help refer to your router's online manual.</p>
 			<h3>Static IP or Dynamic DNS</h3>
-				<strong>Static IP & Domain Name</strong>
-				
-				<strong>Dynamic DNS</strong>
+				<strong>Option 1: Static IP & Domain Name</strong>
+				<p>Configure A records in your domain's DNS configuration portal to point at your static IP address. For help finding your public IP address click <a href="https://www.whatismyip.com">here</a></p>
+				<strong>Option 2: Dynamic DNS</strong>
+				<p>Free dynamic DNS services available such as <a href="https://www.noip.com/">NoIP</a> can provide a suitable replacement for a domain name and staic IP.</p>
 	
 		<br />
 		
@@ -83,14 +82,26 @@ export default function Home() {
 		<h2>RealVNC Server Setup</h2>
 			<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
 			<p>RealVNC Viewer can be found <a href="https://www.realvnc.com/en/connect/download/viewer/">here</a></p>
+				
+		<br />
+				
 		<h2>Android Connectivity</h2>
-			
-									  
+			<h3>Nextcloud App Code</h3>
+				
+			<h3>DAVx⁵ Syncronization Client</h3>
+	
+		<br />	
+				
 		<h2>References</h2>
-		<ul>
-			<li><a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html">https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html</a></li>
-			<li><a href="https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/">https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/</a></li>
-		</ul>
+			<ul>
+				<li><a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html">https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html</a></li>
+				<li><a href="https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/">https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/</a></li>
+				<li><a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></li>
+				<li><a href="https://ubuntu.com/download/server">https://ubuntu.com/download/server</a></li>
+				<li><a href="https://www.noip.com/">https://www.noip.com/</a></li>
+				<li><a href="https://www.realvnc.com/en/">https://www.realvnc.com/en/</a></li>
+				<li><a href="https://www.davx5.com/download">https://www.davx5.com/download</a></li>
+			</ul>
         </div>
       </main>
     </div>
