@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Luke Reynolds</title>
 	<meta charset="utf-8" />
-	<meta name="description" content="In my desire to regain information privacy from big tech and their incessant tracking I have set up a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance." />
+	<meta name="description" content="In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance." />
     	<meta name="author" content="Luke Reynolds" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     	<meta name="keywords" content="Nextcloud, Ubuntu" />
@@ -15,10 +15,10 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-	  <div>
-	  	<h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
+	  <h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
+	  	<div>
 			<p>15/02/21, <a href="https://thereynolds.com.au">Luke Reynolds</a></p>
-			<p>In my desire to regain information privacy from big tech and their incessant tracking I decided to set up a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance.</p>
+			<p>In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, Android connectivity, and VNC for remote maintenance.</p>
 			<strong>Requirements:</strong>
 			<ol>
 			  <li>A computer to use as a server (I'm using a SurfacePro 3).</li>
@@ -96,7 +96,7 @@ export default function Home() {
 				</code>
 				<br />
 				<p>Finally, restart nginx</p>
-				<code>sudo service nginx restart</code>
+				<code>sudo service nginx restart</code><br />
 			<br />
 			<h3>Automatic Certificate Renewal</h3>
 				<p>The ssl certificates expire every 90 days, but they can be easily and non-interactively renewed with</p>
@@ -112,17 +112,18 @@ export default function Home() {
 		
 		<br />
 					
-		<h2>RealVNC Server Setup</h2>
-			<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
-			<p>RealVNC Viewer can be found <a href="https://www.realvnc.com/en/connect/download/viewer/">here</a></p>
-				
+		<h2>Remote Maintenance</h2>
+		    	<h3>RealVNC Server Setup</h3>
+				<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
+			<h3>RealVNC Viewer Setup</h3>
+				<p>RealVNC Viewer can be found <a href="https://www.realvnc.com/en/connect/download/viewer/">here</a></p>
 		<br />
 				
 		<h2>Android Connectivity</h2>
 			<h3>Nextcloud App Code</h3>
 				<p>Navigate to your Nextcloud portal, go to settings -> personal -> Security. Scroll to the bottom of the page and type the name of the app you would like to grant access to. Click create new app password. Go back to the application you want to connect to your Nextcloud server, type in your username and the 29 character one time app password.</p>
 			<br />
-			<h3>Task, Contact, and Calendar Syncronization Client</h3>
+			<h3>Calendar, Contact, and Task Syncronization Client</h3>
 				<p>Install DAVx⁵ from <a href="https://f-droid.org/en/packages/at.bitfire.davdroid/">F-Droid</a> or the <a href="https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US">Playstore</a>.</p>
 		<br />	
 				
@@ -131,8 +132,8 @@ export default function Home() {
 				<li><a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html">https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html</a></li>
 				<li><a href="https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/">https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/</a></li>
 			</ul>
-     	</div>
-      </main>
+     	        </div>
+          </main>
     </div>
   )
 }
