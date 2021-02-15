@@ -39,12 +39,12 @@ export default function Home() {
           </a>
     
           <a href="/tutorials.js" className={styles.card}>
-            <h3>Quotes &rarr;</h3>
+            <h3>Tutorials &rarr;</h3>
             <p>Read some tutorials i've developed.</p>
           </a>
     
           <a href="/quotes" className={styles.card}>
-            <h3>Quotes &rarr;</h3>
+            <h3>Quotes</h3>
             <p>View some quotes i've collected over the years.</p>
           </a>
         </div>
