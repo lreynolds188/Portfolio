@@ -16,12 +16,12 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/tutorials/nextcloud-server" className={styles.cardwide}>
             <h3>Nextcloud Server Ubuntu 20.04 &rarr;</h3>
-            <p>Setup a Nextcloud server featuring an NginX reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance</p>
+            <p>Setup a Nextcloud server featuring NginX reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance</p>
           </a>
           <br />
           <a href="/tutorials/mailbox-org-domain" className={styles.cardwide}>
-            <h3>Mailbox.org Domain Email and Alias'</h3>
-            <p>Setup your own @domain email address's at mailbox.org for 1€ a month</p>
+            <h3>Mailbox.org Domain Email and Alias's &rarr;</h3>
+            <p>Setup your own @domain email address with 3 alias's at mailbox.org for 1€ a month</p>
           </a>
         </div>
       </main>
