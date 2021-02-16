@@ -18,8 +18,6 @@ export default function Home() {
           <a className={styles.links} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a>
           <p className={styles.contactDeets}>&nbsp;|&nbsp;</p>
           <a className={styles.contactDeets} href="mailto: luke@thereynolds.com" target="_blank">LUKE@THEREYNOLDS.COM.AU</a>
-          <p className={styles.contactDeets}>&nbsp;|&nbsp;</p>
-          <a className={styles.contactDeets} href="https://www.github.com/lreynolds188" target="_blank">GITHUB.COM/LREYNOLDS188</a>
     
           <h2 className={styles.categoryHeaders}>Summary</h2>
           <hr />
