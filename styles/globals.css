@@ -33,15 +33,6 @@ hr {
   margin:0 10% 0 0
 }
 
-pre {
-  overflow-x: auto;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
-  word-wrap: break-word;
-}
-
 @media print {
   body {
     margin:5% 5% 5% 5%;
