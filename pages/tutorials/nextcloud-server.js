@@ -34,9 +34,9 @@ export default function Home() {
 			<h3>Reverse Proxy Server Setup</h3>
 				<p>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p>
 	  			<code>sudo apt install nginx</code><br />
-	  			<p>Once NginX is installed create a config file for your domain (replacing <your-domain.url>).
+	  			<p>Once NginX is installed create a config file for your domain (replacing <your-domain.url>).</p>
 	  			<code>sudo nano /etc/nginx/sites-enabled/<your-domain.url></code><br />
-				<p>and edit it to appear as follows (replacing <your-domain.url> and <your-nextcloud-ip>):</p>
+				<p>and edit it to appear as follows (replacing <your-domain.url> and <your-nextcloud-ip> as needed):</p>
 				<code>
 				server &#123;<br />
 				&emsp;	listen 80;<br />
@@ -79,7 +79,7 @@ export default function Home() {
 				&#125;
 				</code>
 				<br />
-				Note: This configuration file is designed for a HTTPS connection and will not function correctly until SSL encryption has been enabled.
+				<p>Note: This configuration file is designed for a HTTPS connection and will not function correctly until SSL encryption has been enabled.</p>
 			<br />
 			<h3>Setting Static IP's for the VM's</h3>
 				<p>To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools.</p>
@@ -115,13 +115,13 @@ export default function Home() {
 					
 		<h2>Exposing Server to the Internet</h2>
 			<h3>Port Forwarding</h3>
-				<p>In your router’s settings, configure port 80 to forward all traffic to the NginX server and port 443 to forward TCP traffic to the NginX server. For additional help refer to your router's online manual.</p>
+				<p>In your router’s settings, configure port 80 to forward all traffic to the NginX server and port 443 to forward TCP traffic to the NginX server. For additional help please refer to your router's online manual.</p>
 			<br />
 			<h3>Static IP or Dynamic DNS</h3>
-				<strong>Option 1: Static IP & Domain Name</strong>
+				<p><strong>Option 1: Static IP & Domain Name</strong></p>
 				<p>Configure A records in your domain's DNS configuration portal to point at your static IP address. For help finding your public IP address click <a href="https://www.whatismyip.com">here</a>.</p>
 				<br />
-				<strong>Option 2: Dynamic DNS</strong>
+				<p><strong>Option 2: Dynamic DNS</strong></p>
 				<p>Free dynamic DNS services such as <a href="https://www.noip.com/">NoIP</a> are available and may provide a suitable replacement for a domain name and staic IP.</p>
 			<br />
 		
@@ -137,7 +137,7 @@ export default function Home() {
 				<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>. Ensure port 443 is forwarding in your router's configuration as that's the port used for ssl.</p>
 				<p>The next step is to obtain ssl certificates, which is also pretty easy. The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let&rsquo;s Encrypt&rsquo;s certbot by typing:</a></p>
 				<code>sudo snap install --classic certbot</code><br />
-				<p>Once certbot is installed, create a config file for NginX.
+				<p>Once certbot is installed, create a config file for NginX.</p>
 				<code>sudo certbot --nginx -d <your-domain.url></code><br />
 				<p>Install the proxy's config file</p>
 				<code>sudo ln -s /etc/nginx/sites-available/<your-domain.url> /etc/nginx/sites-enabled/</code>
