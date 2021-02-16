@@ -25,7 +25,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/about" className={styles.card}>
             <h3>About &rarr;</h3>
-            <p>Find information about myself and my goals</p>
+            <p>Find information about myself and my future aspirations.</p>
           </a>
     
           <a href="/resume" className={styles.card}>
