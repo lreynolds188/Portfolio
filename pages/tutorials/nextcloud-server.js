@@ -12,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>  
         <h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
 	  	<div>
-			<p>15/02/21, <a href="https://thereynolds.com.au">Luke Reynolds</a></p>
+			<p className={styles.description}>15/02/21, <a href="https://thereynolds.com.au">Luke Reynolds</a></p>
 			<p>In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance.</p>
 			<strong>Requirements:</strong>
 			<ol>
@@ -33,11 +33,11 @@ export default function Home() {
 	 		<br />
 			<h3>Reverse Proxy Server Setup</h3>
 				<p>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p>
-	  			<code>sudo apt install nginx</code><br />
+	  			<code className={styles.code}>sudo apt install nginx</code><br />
 	  			<p>Once NginX is installed create a config file for your domain (replacing <your-domain.url>).</p>
-	  			<code>sudo nano /etc/nginx/sites-enabled/<your-domain.url></code><br />
+	  			<code className={styles.code}>sudo nano /etc/nginx/sites-enabled/<your-domain.url></code><br />
 				<p>and edit it to appear as follows (replacing <your-domain.url> and <your-nextcloud-ip> as needed):</p>
-				<code>
+				<code className={styles.code}>
 				server &#123;<br />
 				&emsp;	listen 80;<br />
 				&emsp;	server_name <your-domain.url>;<br />
