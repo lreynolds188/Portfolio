@@ -16,7 +16,7 @@ export default function Home() {
 			<p>In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance.</p>
 			<strong>Requirements:</strong>
 			<ol>
-			  <li>A computer to use as a server (I'm using a SurfacePro 3).</li>
+			  <li>A computer to use as a server (I'm using an old Surface Pro).</li>
 			  <li>A static IP and domain name or DynamicDNS.</li>
 			  <li>Access to your router's control panel.</li>
 			</ol>
@@ -34,67 +34,19 @@ export default function Home() {
 			<h3>Reverse Proxy Server Setup</h3>
 				<p>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p>
 	  			<code>sudo apt install nginx</code><br />
-			<br />
-			<h3>Setting Static IP's for the VM's</h3>
-				<p>To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools.</p>
-				<code>sudo apt install net-tools</code>
-				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>
-	  			<p>Next we will modify the netplan .yaml file.</p>
-	  			<code>sudo nano /etc/netplan/01-netcfg.yaml</code>
-	  			<p>Modify to the file to appear as follows (replacing IP address and Gateway as needed):</p>
-				<code>
-	  				network:<br />
-  				&emsp;	    version: 2<br />
-  				&emsp;	    renderer: network<br />
-  				&emsp;	    ethernets:<br />
-    				&emsp;&emsp;	ens3:<br />
-      				&emsp;&emsp;&emsp;  dhcp4: no<br />
-      				&emsp;&emsp;&emsp;  addresses:<br />
-				&emsp;&emsp;&emsp;&emsp;- 192.168.1.101/24<br />
-      				&emsp;&emsp;&emsp;  gateway4: 192.168.1.1<br />
-      				&emsp;&emsp;&emsp;  nameservers:<br />
-          			&emsp;&emsp;&emsp;&emsp;addresses: [8.8.8.8, 1.1.1.1]<br />
-	  			</code>
-				<p>Ctrl-X, Y, Enter to save and exit. Then run:</p>
-				<code>sudo netplan apply</code><br />
-			<br />
-
-		<h2>Exposing Server to the Internet</h2>
-			<h3>Port Forwarding</h3>
-				<p>In your router’s settings, configure port 80 to forward all traffic to the NginX server and port 443 to forward TCP traffic to the NginX server. For additional help refer to your router's online manual.</p>
-			<br />
-			<h3>Static IP or Dynamic DNS</h3>
-				<strong>Option 1: Static IP & Domain Name</strong>
-				<p>Configure A records in your domain's DNS configuration portal to point at your static IP address. For help finding your public IP address click <a href="https://www.whatismyip.com">here</a>.</p>
-				<strong>Option 2: Dynamic DNS</strong>
-				<p>Free dynamic DNS services such as <a href="https://www.noip.com/">NoIP</a> are available and can provide a suitable replacement for a domain name and staic IP.</p>
-			<br />
-		
-		<h2>Securing the Server</h2>
-			<h3>Enable Firewall</h3>
-				<p>Enable UFW and allow ports 80 and 443 on the Host, Nextcloud, and NginX server.</p>
-				<code>sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp</code><br />
-			<br />
-			<h3>SSL Encryption</h3>
-				<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
-				<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>. First, port forwarding needs to be set up on port 443 because that&rsquo;s the port used for ssl. This was already done in the port forwarding section above.</p>
-				<p>The next step is to obtain ssl certificates, which is also pretty easy. The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let&rsquo;s Encrypt&rsquo;s certbot following <a href="https://certbot.eff.org/lets-encrypt/ubuntuartful-nginx">the installation instructions on the website</a>.</p>
-				<code>sudo rm /etc/nginx/sites-enabled/nextcloud.conf</code><br />
-				<code>sudo service nginx restart</code><br />
-				<code>sudo certbot --nginx</code><br />
-				<p>Then, reinstall the proxy config</p>
-				<code>sudo ln -s /etc/nginx/sites-available/nextcloud.conf /etc/nginx/sites-enabled/</code>
-				<p>and edit it to be like this:</p>
+	  			<p>Once NginX is installed create a config file for your domain (replacing <your-domain.url>).
+	  			<code>sudo nano /etc/nginx/sites-enabled/<your-domain.url></code><br />
+				<p>and edit it to appear as follows (replacing <your-domain.url> and <your-nextcloud-ip>):</p>
 				<code>
 				server &#123;<br />
 				&emsp;	listen 80;<br />
-				&emsp;	server_name example.com;<br />
+				&emsp;	server_name <your-domain.url>;<br />
 				&emsp;	return 301 https://$server_name:443$request_uri;<br />
 				&#125;<br />
 				<br />
 				server &#123;<br /> 
 				&emsp;	listen 443 ssl;<br />
-				&emsp;	server_name example.com;<br />
+				&emsp;	server_name <your-domain.url>;<br />
 				<br />
 				&emsp;	ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;<br />
 				&emsp;	ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.com;<br />
@@ -103,10 +55,92 @@ export default function Home() {
 				&emsp;	add_header X-XSS-Protection "1; mode=block" always;<br />
 				&emsp;	add_header X-Frame-Options "SAMEORIGIN" always;<br />
 				&emsp;	add_header X-Content-Type-Options "nosniff" always;<br />
-				&emsp;	add_header X-Permitted-Cross-Domain<br />
+				&emsp;	add_header X-Permitted-Cross-Domain<br /><br />
+				&emsp;  add_header X-Robots-Tag "none" always;<br />
+				&emsp;  add_header Referrer-Policy "no-referrer" always;<br />
+				<br />
+				&emsp;  location = /.well-known/carddav &#123;<br />
+				&emsp;&emsp;  return 301 $scheme://$host/remote.php/dav;<br />
+				&emsp;  &#125;<br />
+				<br />
+				&emsp;  location = /.well-known/caldav &#123;<br />
+				&emsp;&emsp;  return 301 $scheme://$host/remote.php/dav;<br />
+				&emsp;  &#125;<br />
+				<br />
+				&emsp;  location = / &#123;<br />
+				&emsp;&emsp;	proxy_headers_hash_max_size 512;<br />
+				&emsp;&emsp;	proxy_headers_hash_bucket_size 64;<br />
+				&emsp;&emsp;	proxy_set_header Host $host;<br />
+				&emsp;&emsp;	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;<br />
+				<br />
+				&emsp;&emsp;	add_header Front-End-Https on;<br />
+				&emsp;&emsp;	proxy_pass http://<your-nextcloud-ip>;<br />
+				&emsp;  &#125;				
 				&#125;
 				</code>
 				<br />
+				Note: This configuration file is designed for a HTTPS connection and will not function correctly until SSL encryption has been enabled.
+			<br />
+			<h3>Setting Static IP's for the VM's</h3>
+				<p>To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools.</p>
+				<code>sudo apt install net-tools</code>
+				<p>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p>
+	  			<p>Next we will modify the netplan .yaml file.</p>
+	  			<code>sudo nano /etc/netplan/00-installer-config.yaml</code>
+	  			<p>Modify the file to appear as follows (replacing <ip-address> and <gateway>):</p>
+				<code>
+	  			network:<br />
+  				&emsp;version: 2<br />
+  				&emsp;renderer: network<br />
+  				&emsp;ethernets:<br />
+    				&emsp;&emsp;ens3:<br />
+      				&emsp;&emsp;&emsp;dhcp4: no<br />
+      				&emsp;&emsp;&emsp;addresses:<br />
+				&emsp;&emsp;&emsp;&emsp;- <ip-address>/24<br />
+      				&emsp;&emsp;&emsp;gateway4: <gateway><br />
+      				&emsp;&emsp;&emsp;nameservers:<br />
+          			&emsp;&emsp;&emsp;&emsp;addresses: [8.8.8.8, 1.1.1.1]<br />
+	  			</code>
+				<p>Ctrl-X, Y, Enter to save and exit. Then run:</p>
+				<code>sudo netplan apply</code><br />
+			<br />
+		
+		<h2>Remote Maintenance</h2>
+		    	<h3>RealVNC Server Setup</h3>
+				<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
+			<br />
+			<h3>RealVNC Viewer Setup</h3>
+				<p>RealVNC Viewer can be found <a href="https://www.realvnc.com/en/connect/download/viewer/">here</a></p>
+			<br />
+					
+		<h2>Exposing Server to the Internet</h2>
+			<h3>Port Forwarding</h3>
+				<p>In your router’s settings, configure port 80 to forward all traffic to the NginX server and port 443 to forward TCP traffic to the NginX server. For additional help refer to your router's online manual.</p>
+			<br />
+			<h3>Static IP or Dynamic DNS</h3>
+				<strong>Option 1: Static IP & Domain Name</strong>
+				<p>Configure A records in your domain's DNS configuration portal to point at your static IP address. For help finding your public IP address click <a href="https://www.whatismyip.com">here</a>.</p>
+				<br />
+				<strong>Option 2: Dynamic DNS</strong>
+				<p>Free dynamic DNS services such as <a href="https://www.noip.com/">NoIP</a> are available and may provide a suitable replacement for a domain name and staic IP.</p>
+			<br />
+		
+		<h2>Securing the Server</h2>
+			<h3>Enable Firewall</h3>
+				<p>Enable UFW on the Host, Nextcloud, and NginX server and forward all traffic on port 80 and all TCP traffic on 443.</p>
+				<code>sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp</code><br />
+				<p>Allow realVNC traffic on the Host machine.</p>
+				<code>sudo ufw allow realvnc-vnc-server</code><br />
+			<br />
+			<h3>SSL Encryption</h3>
+				<p>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p>
+				<p>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>. Ensure port 443 is forwarding in your router's configuration as that's the port used for ssl.</p>
+				<p>The next step is to obtain ssl certificates, which is also pretty easy. The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let&rsquo;s Encrypt&rsquo;s certbot by typing:</a></p>
+				<code>sudo snap install --classic certbot</code><br />
+				<p>Once certbot is installed, create a config file for NginX.
+				<code>sudo certbot --nginx -d <your-domain.url></code><br />
+				<p>Install the proxy's config file</p>
+				<code>sudo ln -s /etc/nginx/sites-available/<your-domain.url> /etc/nginx/sites-enabled/</code>
 				<p>Finally, restart nginx</p>
 				<code>sudo service nginx restart</code><br />
 			<br />
@@ -121,14 +155,6 @@ export default function Home() {
 			<br />
 			<h3>Enable 2-Factor Authentication</h3>
 				<p>Install FreeOTP+ from <a href="https://f-droid.org/en/packages/org.liberty.android.freeotpplus/">F-Droid</a> or <a href="https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US">Playstore</a> or your chosen 2FA code generator.</p>
-			<br />
-					
-		<h2>Remote Maintenance</h2>
-		    	<h3>RealVNC Server Setup</h3>
-				<p>RealVNC Server can be found <a href="https://www.realvnc.com/en/connect/download/vnc/">here</a></p>
-			<br />
-			<h3>RealVNC Viewer Setup</h3>
-				<p>RealVNC Viewer can be found <a href="https://www.realvnc.com/en/connect/download/viewer/">here</a></p>
 			<br />
 				
 		<h2>Android Connectivity</h2>
@@ -151,6 +177,7 @@ export default function Home() {
 			<ul>
 				<li><a href="https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html">https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html</a></li>
 				<li><a href="https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/">https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/</a></li>
+				<li><a href="https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx">https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx</a></li>
 			</ul>
         </div>
       </main>
