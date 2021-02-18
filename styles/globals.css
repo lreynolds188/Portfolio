@@ -13,6 +13,7 @@ code,
 pre {
   background: #f3f4f6;
   overflow-x: scroll;
+  overflow-y: hidden;
   border-radius: 5px;
 }
 
@@ -77,6 +78,7 @@ img {
   pre {
     background: #f3f4f6;
     overflow-x: scroll;
+    overflow-y: hidden;
     border-radius: 5px;
   }
 
