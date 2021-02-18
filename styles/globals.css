@@ -10,7 +10,7 @@ body {
 }
 
 code {
-  overflow-x: scroll;
+  overflow-x: auto;
   background: #f3f4f6;
   border-radius: 5px;
   padding: 0.75rem;
@@ -20,7 +20,7 @@ code {
 }
 
 pre {
-  overflow-x: auto;
+  overflow-x: scroll;
   overflow-y: hidden;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
