@@ -120,7 +120,7 @@
 
 @media (max-width: 600px) {
   .grid,
-  .panel {
+  .container {
     width: 100%;
     flex-direction: column;
   }
