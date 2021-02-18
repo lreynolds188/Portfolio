@@ -42,11 +42,11 @@ h3 {
 }
 
 pre {
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space: pre-wrap;
-	white-space: -moz-pre-wrap;
-	word-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  word-wrap: nowrap;
 }
 
 ol,
@@ -68,7 +68,7 @@ ul {
   
   pre {
     max-width: 600px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
