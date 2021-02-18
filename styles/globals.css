@@ -10,7 +10,6 @@ body {
 }
 
 code {
-  overflow-x: auto;
   background: #f3f4f6;
   border-radius: 5px;
   padding: 0.75rem;
@@ -22,8 +21,6 @@ code {
 pre {
   overflow-x: scroll;
   overflow-y: hidden;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
   word-wrap: nowrap;
 }
 
@@ -80,8 +77,6 @@ img {
     max-width: 540px;
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
     word-wrap: nowrap;
   }
 }
