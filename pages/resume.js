@@ -13,10 +13,10 @@ export default function Home() {
         <div>
           <div>
             <h1 className={styles.name}>Luke Reynolds |&nbsp;</h1>
-            <a className={styles.contactDeets} href="https://goo.gl/maps/uz7s2XdAUTmpstBA8" target="_blank">QUEENSLAND, AU</a>
+            <a className={styles.contactDeets} href="https://goo.gl/maps/uz7s2XdAUTmpstBA8" target="_blank">QUEENSLAND, AU</a><br />
+            <p callName={styles.contactDeets}<a callName={styles.links} href="mailto:luke@thereynolds.com.au>LUKE<\a> [AT] <a className={styles.links} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a>
           </div>
-          <a callName={styles.links} href="mailto:luke@thereynolds.com.au>LUKE<\a> [AT] <a className={styles.links} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a>
-  
+
           <h2 className={styles.categoryHeaders}>Summary</h2>
           <hr />
           <p className={styles.categoryDescriptionMain}>
