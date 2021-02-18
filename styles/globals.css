@@ -77,7 +77,7 @@ img {
   }
   
   pre {
-    max-width: 600px;
+    max-width: 540px;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: pre-wrap;
