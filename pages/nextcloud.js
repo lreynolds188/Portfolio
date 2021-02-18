@@ -37,48 +37,6 @@ export default function Home() {
 	  			<p className={styles.description}>Once NginX is installed create a config file for your domain (replacing &lt;your-domain.url&gt;).</p>
 	  			<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo nano /etc/nginx/sites-enabled/&lt;your-domain.url&gt;</code></pre><br />
 				<p className={styles.description}>and edit it to appear as follows (replacing &lt;your-domain.url&gt; and &lt;your-nextcloud-ip&gt; as needed):</p>
-				<pre className={styles.code}>
-				<code className={styles.code}>
-				server &#123;<br />
-				&emsp;	   listen 80;<br />
-				&emsp;	   server_name &lt;your-domain.url&gt;;<br />
-				&emsp;	   return 301 https://$server_name:443$request_uri;<br />
-				&emsp;&#125;<br />
-				<br />
-				&emsp;server &#123;<br /> 
-				&emsp;    listen 443 ssl;<br />
-				&emsp;    server_name &lt;your-domain.url&gt;;<br />
-				<br />
-				&emsp;    ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;<br />
-				&emsp;    ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.com;<br />
-				<br />
-				&emsp;    add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';<br />
-				&emsp;    add_header X-XSS-Protection "1; mode=block" always;<br />
-				&emsp;    add_header X-Frame-Options "SAMEORIGIN" always;<br />
-				&emsp;    add_header X-Content-Type-Options "nosniff" always;<br />
-				&emsp;    add_header X-Permitted-Cross-Domain<br /><br />
-				&emsp;    add_header X-Robots-Tag "none" always;<br />
-				&emsp;    add_header Referrer-Policy "no-referrer" always;<br />
-				<br />
-				&emsp;    location = /.well-known/carddav &#123;<br />
-				&emsp;&emsp;      return 301 $scheme://$host/remote.php/dav;<br />
-				&emsp;    &#125;<br />
-				<br />
-				&emsp;    location = /.well-known/caldav &#123;<br />
-				&emsp;&emsp;      return 301 $scheme://$host/remote.php/dav;<br />
-				&emsp;    &#125;<br />
-				<br />
-				&emsp;    location = / &#123;<br />
-				&emsp;&emsp;        proxy_headers_hash_max_size 512;<br />
-				&emsp;&emsp;        proxy_headers_hash_bucket_size 64;<br />
-				&emsp;&emsp;        proxy_set_header Host $host;<br />
-				&emsp;&emsp;        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;<br />
-				<br />
-				&emsp;&emsp;        add_header Front-End-Https on;<br />
-				&emsp;&emsp;        proxy_pass http://&lt;your-nextcloud-ip&gt;;<br />
-				&emsp;    &#125;<br />			
-				&emsp;&#125;
-				</code></pre>
 				<p className={styles.description}><i>NOTE: This configuration file is designed for a HTTPS connection and will not function correctly until SSL encryption has been configured.</i></p>
 			<br /><br /><br />
 			<h3>Setting Static IP's for the VM's</h3>
@@ -88,21 +46,6 @@ export default function Home() {
 	  			<p className={styles.description}>Next we will modify the netplan .yaml file.</p>
 	  			<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo nano /etc/netplan/00-installer-config.yaml</code></pre><br/>
 	  			<p className={styles.description}>Modifying the file to appear as follows (replacing &lt;ip-address&gt; and &lt;gateway&gt;):</p>
-				<pre className={styles.code}><code className={styles.code}>
-					network:<br />
-					&emsp;    version: 2<br />
-					&emsp;    renderer: network<br />
-					&emsp;    ethernets:<br />
-					&emsp;        ens3:<br />
-					&emsp;            dhcp4: no<br />
-					&emsp;            addresses:<br />
-					&emsp;                - &lt;ip-address&gt;/24<br />
-					&emsp;            gateway4: &lt;gateway&gt;<br />
-					&emsp;            nameservers:<br />
-					&emsp;                addresses: [8.8.8.8, 1.1.1.1]
-					</code></pre><br/>
-				<p className={styles.description}>Ctrl-X, Y, Enter to save and exit. Then type:</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo netplan apply</code><br /></pre>
 			<br /><br />
 		
 		<h2>Remote Maintenance</h2>
