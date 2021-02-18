@@ -51,11 +51,7 @@ export default function Home() {
           <a className={styles.primaryTitles} href="http://www.actlogistics.com.au/" target="_blank">ACT Logistics / ACT Computers | Queensland, AU</a>
           <p className={styles.categoryDetails}>Technician, Aug 2014 – Apr 2015</p>
           <p className={styles.categoryDescription}>In this position I worked in a computer store and distribution warehouse managing the redistribution of ex-government hardware. My position included such jobs as system reloads, stripping hardware, technical support, computer & phone repairs, and on-site support.</p>
-          <br />
-          <a className={styles.primaryTitles} href="https://ozecomputers.com.au/#Computer%20Repairs%20Caloundra" target="_blank">OzeComputers | Queensland, AU</a>
-          <p className={styles.categoryDetails}>Technician, Aug 2013 – Aug 2014</p>
-          <p className={styles.categoryDescription}>During my time at this position I ran a computer store in the center of Caloundra upholding the highest in customer service in delivery of all services. I was responsible for running diagnostics, computer & phone repairs, delivering on-site support, building computer systems, server configuration and support.</p>
-          
+        
           <h2 className={styles.categoryHeaders}>Skills</h2><hr />
           <p className={styles.primaryTitles}>Languages & Frameworks</p>
           <p className={styles.categoryDescription}>C | C# | .NET | Python | Java | JavaScript | VisualBasic | ASP | SQL | HTML | CSS | PHP </p>
