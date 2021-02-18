@@ -41,10 +41,18 @@ h3 {
   font-size: 1.5rem;
 }
 
+pre {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
 ol,
 ul {
   margin-top: 0;
 }
+
+
 
 @media print {
   body {
