@@ -67,10 +67,8 @@ export default function Home() {
 		<h2>Securing the Server</h2>
 			<h3>Enable Firewall</h3>
 				<p className={styles.description}>Enable UFW on the Host, Nextcloud, and NginX server and forward all traffic on port 80 and all TCP traffic on 443.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp</code></pre><br/>
 				<p className={styles.description}>Allow realVNC traffic on the Host machine.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo ufw allow realvnc-vnc-server</code></pre>
-			<br /><br />
+				<br /><br />
 			<h3>SSL Encryption</h3>
 				<p className={styles.description}>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p><br /><br />
 				<p className={styles.description}>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>. Ensure port 443 is forwarding in your router's configuration as that's the port used for ssl.</p><br /><br />
