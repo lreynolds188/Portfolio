@@ -11,7 +11,7 @@ body {
 
 code {
   background: #f3f4f6;
-  overflow-x: auto;
+  overflow-x: scroll;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -21,7 +21,7 @@ code {
 
 pre {
   background: #f3f4f6;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
@@ -77,22 +77,23 @@ img {
     border-width:1px
   }
   
-  code {
-  overflow-x: auto;
+    code {
   background: #f3f4f6;
+  overflow-x: scroll;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
-}
+  }
 
-pre {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  word-wrap: nowrap;
-}
+  pre {
+    background: #f3f4f6;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    word-wrap: nowrap;
+  }
 }
 
