@@ -15,10 +15,8 @@ export default function Home() {
             <h1 className={styles.name}>Luke Reynolds |&nbsp;</h1>
             <a className={styles.contactDeets} href="https://goo.gl/maps/uz7s2XdAUTmpstBA8" target="_blank">QUEENSLAND, AU</a>
           </div>
-          <a className={styles.links} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a>
-          <p className={styles.contactDeets}>&nbsp;|&nbsp;</p>
-          <a className={styles.contactDeets} href="mailto: luke@thereynolds.com" target="_blank">LUKE@THEREYNOLDS.COM.AU</a>
-    
+          <a callName={styles.links} href="mailto:luke@thereynolds.com.au>LUKE<\a> [AT] <a className={styles.links} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a>
+  
           <h2 className={styles.categoryHeaders}>Summary</h2>
           <hr />
           <p className={styles.categoryDescriptionMain}>
