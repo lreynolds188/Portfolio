@@ -33,18 +33,14 @@ export default function Home() {
 	 		<br /><br /><br />
 			<h3>Reverse Proxy Server Setup</h3>
 				<p className={styles.description}>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo apt install nginx</code></pre><br />
-	  			<p className={styles.description}>Once NginX is installed create a config file for your domain (replacing &lt;your-domain.url&gt;).</p>
-	  			<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo nano /etc/nginx/sites-enabled/&lt;your-domain.url&gt;</code></pre><br />
-				<p className={styles.description}>and edit it to appear as follows (replacing &lt;your-domain.url&gt; and &lt;your-nextcloud-ip&gt; as needed):</p>
+				<p className={styles.description}>Once NginX is installed create a config file for your domain (replacing &lt;your-domain.url&gt;).</p>
+	  			<p className={styles.description}>and edit it to appear as follows (replacing &lt;your-domain.url&gt; and &lt;your-nextcloud-ip&gt; as needed):</p>
 				<p className={styles.description}><i>NOTE: This configuration file is designed for a HTTPS connection and will not function correctly until SSL encryption has been configured.</i></p>
 			<br /><br /><br />
 			<h3>Setting Static IP's for the VM's</h3>
 				<p className={styles.description}>To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo apt install net-tools</code></pre><br/>
 				<p className={styles.description}>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p><br/><br/>
 	  			<p className={styles.description}>Next we will modify the netplan .yaml file.</p>
-	  			<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo nano /etc/netplan/00-installer-config.yaml</code></pre><br/>
 	  			<p className={styles.description}>Modifying the file to appear as follows (replacing &lt;ip-address&gt; and &lt;gateway&gt;):</p>
 			<br /><br />
 		
@@ -79,21 +75,14 @@ export default function Home() {
 				<p className={styles.description}>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p><br /><br />
 				<p className={styles.description}>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>. Ensure port 443 is forwarding in your router's configuration as that's the port used for ssl.</p><br /><br />
 				<p className={styles.description}>The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let's Encrypt's certbot by typing:</p><br />
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo snap install --classic certbot</code></pre><br/>
 				<p className={styles.description}>Once certbot is installed, create a config file for NginX.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo certbot --nginx -d &lt;your-domain.url&gt;</code></pre><br/>
 				<p className={styles.description}>Install the proxy's config file</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo ln -s /etc/nginx/sites-available/&lt;your-domain.url&gt; /etc/nginx/sites-enabled/</code></pre><br/>
 				<p className={styles.description}>Finally, restart nginx</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo service nginx restart</code></pre>
-			<br /><br />
+				<br /><br />
 			<h3>Automatic Certificate Renewal</h3>
 				<p className={styles.description}>The ssl certificates expire every 90 days, but they can be easily and non-interactively renewed with</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo certbot renew</code></pre><br/>
 				<p className={styles.description}>So just set up a cron job to do this every other month or so.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo crontab -e</code></pre><br/>
 				<p className={styles.description}>Adding the line</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>0 0 1 */2 * /usr/bin/certbot -q renew</code></pre><br/>
 				<p className={styles.description}>Which will automatically renew the certificates at midnight on the first of every other month.</p>
 			<br /><br /><br />
 			<h3>Enable 2-Factor Authentication</h3>
