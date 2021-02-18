@@ -42,17 +42,9 @@ h3 {
 }
 
 pre {
-	box-sizing: border-box;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	overflow: auto;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	font-size: 12px;
-	line-height: 20px;
-	border: 1px solid #777;
-	padding: 10px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	word-wrap: nowrap;
 }
 
 ol,
@@ -76,7 +68,6 @@ ul {
 	overflow-x: scroll;
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	background: #fff;
   }
 }
 
