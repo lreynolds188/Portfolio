@@ -42,10 +42,8 @@ h3 {
 }
 
 pre {
-  max-width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
+  overflow-x: auto;
+  white-space: pre-wrap;
 }
 
 ol,
@@ -65,10 +63,8 @@ ul {
   }
   
   pre {
-    max-width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+    overflow-x: auto;
+    white-space: pre-wrap;
   }
 }
 
