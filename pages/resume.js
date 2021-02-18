@@ -57,10 +57,10 @@ export default function Home() {
           <p className={styles.categoryDescription}>C | C# | .NET | Python | Java | JavaScript | VisualBasic | ASP | SQL | HTML | CSS | PHP </p>
           <br />
           <p className={styles.primaryTitles}>Tools & Practices</p>
-          <p className={styles.categoryDescription}>Windows | Android | Ubuntu | Linux | GitHub | DevOps | Team Management Systems | Project Management Systems | Version Control | Requirements Gathering | Systems Analysis | Software Development | Runtime Debugging | Technical Documentation | Application Testing | Acceptance Testing | Project Deployment | Computational Mathematics | Rudementary Physics</p>
+          <p className={styles.categoryDescription}>Windows | Android | Ubuntu | Git | DevOps | Version Control | Requirements Gathering | Systems Analysis | Software Development | Runtime Debugging | Technical Documentation | Application Testing | Acceptance Testing | Project Deployment | Computational Mathematics</p>
           <br />
           <p className={styles.primaryTitles}>Technical Knowledge</p>
-          <p className={styles.categoryDescription}>Active Directory | Virtualization | Server Administration | Database Management | SSMS | Networking | Remote Access | VNC | Backup Systems | ERP Management Systems | AX Dynamics | Server Management | Security Systems | X-Ray Systems | Service Management Systems | ServiceDesk Plus | VMWare | VirtualBox</p>
+          <p className={styles.categoryDescription}>Active Directory | Virtualization | Server Administration | Database Management | Networking | Remote Access | Backup Systems | Security Systems | Service Management Systems</p>
         </div>
       </main>
     </div>
