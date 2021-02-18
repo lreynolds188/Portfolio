@@ -12,24 +12,18 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <div>
-            <h1 className={styles.name}>Luke Reynolds |&nbsp;</h1><a className={styles.contactDeets} href="https://goo.gl/maps/uz7s2XdAUTmpstBA8" target="_blank">QUEENSLAND, AU</a><br />
+            <h1 className={styles.name}>Luke Reynolds |&nbsp;</h1><a className={styles.contactDeets} href="https://goo.gl/maps/uz7s2XdAUTmpstBA8" target="_blank">QUEENSLAND, AU</a>
             <p className={styles.contactDeets}>LUKE [AT] <a className={styles.links} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a></p>
           </div>
 
           <h2 className={styles.categoryHeaders}>Summary</h2>
           <hr />
           <p className={styles.categoryDescriptionMain}>
-            I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager.
-            I am responsible for maintaining the production environment and designing and implenting an automation system for the main reactor.
+            I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager. I am responsible for maintaining the production environment and designing and implenting an automation system for the company's main reactor.
             <br /><br />
-            In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud
-            based portal for QUT. In 2018 and 2019 I was responsible for developing business applications and supporting
-            the production environment of a large food processing plant. In 2016 I completed a Diploma of Software Development
-            at Tafe Queensland and from 2012 to 2015 was employed as a Computer Technician.
+            In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud based portal for QUT. In 2018 and 2019 I was responsible for developing business applications and supporting the production environment of a large food processing plant. In 2016 I completed a Diploma of Software Development at Tafe Queensland and from 2012 to 2015 was employed as a Computer Technician.
             <br /><br />
-            Upon completion of my degree I plan to have a solid foundation in a range of differnet development
-            languages and techniques, with a keen interest on cyber security, microsystems, and artificial intelligence.
-            My hope is to work advancing the functionality, affordability, and sustainability of futuristic technological applications.
+            Upon completion of my degree I plan to have a solid foundation in a range of differnet development languages and techniques, with a keen interest on cyber security, microsystems, and artificial intelligence. My hope is to work advancing the functionality, affordability, and sustainability of futuristic technological applications.
           </p>
     
           <h2 className={styles.categoryHeaders}>Education</h2><hr />
@@ -54,10 +48,10 @@ export default function Home() {
         
           <h2 className={styles.categoryHeaders}>Skills</h2><hr />
           <p className={styles.primaryTitles}>Languages & Frameworks</p>
-          <p className={styles.categoryDescription}>C | C# | .NET | Python | Java | JavaScript | VisualBasic | ASP | SQL | HTML | CSS | PHP </p>
+          <p className={styles.categoryDescription}>C | C++ | C# | Python | Java | JavaScript | NodeJS | VisualBasic | ASP | .NET | SQL | HTML | CSS | PHP </p>
           <br />
           <p className={styles.primaryTitles}>Tools & Practices</p>
-          <p className={styles.categoryDescription}>Windows | Android | Ubuntu | GitHub | DevOps | Requirements Gathering | Systems Analysis | Development | Debugging | Documentation | Testing | Deployment</p>
+          <p className={styles.categoryDescription}>Ubuntu | Windows | Android | GitHub | DevOps | Requirements Gathering | Systems Analysis | Development | Debugging | Documentation | Testing | Deployment</p>
           <br />
           <p className={styles.primaryTitles}>Technical Knowledge</p>
           <p className={styles.categoryDescription}>Active Directory | Virtualization | Server Administration | Database Management | Networking | Remote Access | Backup Systems | Security Systems | Service Management Systems | Computational Mathematics</p>
