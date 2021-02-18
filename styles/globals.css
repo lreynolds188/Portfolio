@@ -10,18 +10,12 @@ body {
 }
 
 pre, code {
- padding:30px;
  box-sizing:border-box;
  -moz-box-sizing:border-box;
  webkit-box-sizing:border-box;
- display:block; 
- white-space: pre-wrap;  
- white-space: -moz-pre-wrap; 
- white-space: -pre-wrap; 
- white-space: -o-pre-wrap; 
- word-wrap: break-word; 
- width:100%; 
- overflow-x:auto;
+ word-wrap: nowrap; 
+ width:80%; 
+ overflow-x:scroll;
 }
 
 hr {
@@ -74,17 +68,12 @@ img {
   }
   
   pre, code {
-   padding:30px;
-   box-sizing:border-box;
-   -moz-box-sizing:border-box;
-   webkit-box-sizing:border-box;
-   display:block; 
-   white-space: pre-wrap;  
-   white-space: -moz-pre-wrap; 
-   white-space: -pre-wrap; 
-   white-space: -o-pre-wrap; 
-   word-wrap: break-word; 
-   width:100%; overflow-x:auto;
+     box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     webkit-box-sizing:border-box;
+     word-wrap: nowrap; 
+     width:80%; 
+     overflow-x:scroll;
   }
 }
 
