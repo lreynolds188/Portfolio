@@ -68,8 +68,8 @@ ul {
   pre {
 	overflow-x: scroll;
 	white-space: pre-wrap;
-	word-wrap: break-word;
 	white-space: -moz-pre-wrap;
+	word-wrap: break-word;
   }
 }
 
