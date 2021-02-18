@@ -33,7 +33,7 @@ export default function Home() {
 	 		<br /><br /><br />
 			<h3>Reverse Proxy Server Setup</h3>
 				<p className={styles.description}>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo apt install nginx</code></pre><br />
+				<code className={styles.code}><code className={styles.unselectable}>$ </code>sudo apt install nginx</code><br />
 	  			<p className={styles.description}>Once NginX is installed create a config file for your domain (replacing &lt;your-domain.url&gt;).</p>
 	  			<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo nano /etc/nginx/sites-enabled/&lt;your-domain.url&gt;</code></pre><br />
 				<p className={styles.description}>and edit it to appear as follows (replacing &lt;your-domain.url&gt; and &lt;your-nextcloud-ip&gt; as needed):</p>
