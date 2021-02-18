@@ -62,5 +62,11 @@ ul {
     border-style:none none solid;
     border-width:1px
   }
+  
+  pre {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  }
 }
 
