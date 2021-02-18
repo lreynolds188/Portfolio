@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className={styles.title}>Tutorials</h1>
 
         <div className={styles.grid}>
-          <a href="/tutorials/nextcloud-server" className={styles.cardwide}>
+          <a href="/nextcloud" className={styles.cardwide}>
             <h3>Nextcloud Server Ubuntu 20.04 &rarr;</h3>
             <p>Setup a Nextcloud server featuring NginX reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance</p>
           </a>
