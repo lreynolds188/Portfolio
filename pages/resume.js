@@ -14,7 +14,7 @@ export default function Home() {
           <div>
             <h1 className={styles.name}>Luke Reynolds |&nbsp;</h1>
             <a className={styles.contactDeets} href="https://goo.gl/maps/uz7s2XdAUTmpstBA8" target="_blank">QUEENSLAND, AU</a><br />
-            <p className={styles.contactDeets}<a callName={styles.links} href="mailto:luke@thereynolds.com.au>LUKE<\a> [AT] <a className={styles.links} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a></p>
+            <p className={styles.contactDeets}><a callName={styles.links} href="mailto:luke@thereynolds.com.au target="_blank">LUKE<\a> [AT] <a className={styles.links} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a></p>
           </div>
 
           <h2 className={styles.categoryHeaders}>Summary</h2>
