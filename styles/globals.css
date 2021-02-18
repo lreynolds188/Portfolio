@@ -44,6 +44,7 @@ h3 {
 pre {
 	overflow-x: auto;
 	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
 	word-wrap: nowrap;
 }
 
@@ -68,6 +69,7 @@ ul {
 	overflow-x: scroll;
 	white-space: pre-wrap;
 	word-wrap: break-word;
+	white-space: -moz-pre-wrap;
   }
 }
 
