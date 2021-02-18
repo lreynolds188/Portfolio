@@ -9,13 +9,22 @@ body {
   margin:5% 5% 5% 5%
 }
 
-pre, code {
- box-sizing:border-box;
- -moz-box-sizing:border-box;
- webkit-box-sizing:border-box;
- word-wrap: nowrap; 
- width:80%; 
- overflow-x:scroll;
+code {
+  overflow-x: auto;
+  background: #f3f4f6;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+pre {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  word-wrap: nowrap;
 }
 
 hr {
@@ -67,13 +76,22 @@ img {
     border-width:1px
   }
   
-  pre, code {
-     box-sizing:border-box;
-     -moz-box-sizing:border-box;
-     webkit-box-sizing:border-box;
-     word-wrap: nowrap; 
-     max-width:500px; 
-     overflow-x:scroll;
-  }
+  code {
+  overflow-x: auto;
+  background: #f3f4f6;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+pre {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  word-wrap: nowrap;
+}
 }
 
