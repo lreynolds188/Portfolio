@@ -32,7 +32,7 @@ export default function Home() {
 				<p className={styles.description}>Start up the nextcloud server and select the ubuntu server image when prompted for a startup disk. This will load up the ubuntu server iso and begin the installation process. The only extra step to do during the installation is to select the Nextcloud snap when prompted with commonly installed snaps.</p>
 	 		<br /><br /><br />
 			<h3>Reverse Proxy Server Setup</h3>
-				<p className={styles.description}>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p>
+				<p className={styles.description}>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p><br/>
 				<code className={styles.code}><code className={styles.unselectable}>$ </code>sudo apt install nginx</code><br />
 	  			<p className={styles.description}>Once NginX is installed create a config file for your domain (replacing &lt;your-domain.url&gt;).</p>
 	  			<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo nano /etc/nginx/sites-enabled/&lt;your-domain.url&gt;</code></pre><br />
