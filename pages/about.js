@@ -17,7 +17,6 @@ export default function Home() {
             I am a Computer Scientist currently employed at Ridgeline Manufacturing as a Project and Operations Manager.
             I am responsible for maintaining the production environment and designing and implenting an automation system for the main reactor.
           </p><br/>
-          <pre><code>Are you going to fuck my screen up or not</code></pre>
           <br /><br />
           <p className={styles.description}>
             In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud
