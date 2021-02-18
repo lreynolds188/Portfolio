@@ -41,7 +41,7 @@ h3 {
   font-size: 1.5rem;
 }
 
-code {
+pre {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -63,7 +63,7 @@ ul {
     border-width:1px
   }
   
-  code {
+  pre {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
