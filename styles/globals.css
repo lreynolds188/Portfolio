@@ -42,8 +42,8 @@ h3 {
 }
 
 pre {
-  overflow-x: auto;
-  white-space: pre-wrap;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
 ol,
@@ -63,8 +63,8 @@ ul {
   }
   
   pre {
-    overflow-x: auto;
-    white-space: pre-wrap;
+    overflow-x: scroll;
+    white-space: nowrap;
   }
 }
 
