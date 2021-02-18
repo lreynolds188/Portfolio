@@ -11,7 +11,7 @@ export default function Home() {
       
       <main className={styles.main}>  
         <h1 className={styles.title}>Nextcloud Server - Ubuntu 20.04</h1>
-	  	<div className={styles.grid}>
+	  	<div>
 		  	<br />
 			<p>15/02/21, <a href="https://thereynolds.com.au">Luke Reynolds</a></p>
 			<p className={styles.description}>In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance.</p><br /><br />
