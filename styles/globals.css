@@ -72,7 +72,7 @@ img {
      -moz-box-sizing:border-box;
      webkit-box-sizing:border-box;
      word-wrap: nowrap; 
-     width:80%; 
+     max-width:500px; 
      overflow-x:scroll;
   }
 }
