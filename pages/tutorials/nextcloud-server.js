@@ -35,11 +35,9 @@ export default function Home() {
 				<p className={styles.description}>Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install nginx by typing:</p><br/>
 				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo apt install nginx</code></pre><br />
 	  			<p className={styles.description}>Once NginX is installed create a config file for your domain (replacing &lt;your-domain.url&gt;).</p>
-	  			<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo nano /etc/nginx/sites-enabled/&lt;your-domain.url&gt;</code></pre><br />
+	  			<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo nano /etc/nginx/sites-enabled/&lt;your-domain.url&gt;</code></pre><br />
 				<p className={styles.description}>and edit it to appear as follows (replacing &lt;your-domain.url&gt; and &lt;your-nextcloud-ip&gt; as needed):</p>
-				<pre className={styles.code}>
-				<code className={styles.code}>
-				server &#123;<br />
+				<pre className={styles.code}><code>server &#123;<br />
 				&emsp;	   listen 80;<br />
 				&emsp;	   server_name &lt;your-domain.url&gt;;<br />
 				&emsp;	   return 301 https://$server_name:443$request_uri;<br />
@@ -83,26 +81,24 @@ export default function Home() {
 			<br /><br /><br />
 			<h3>Setting Static IP's for the VM's</h3>
 				<p className={styles.description}>To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo apt install net-tools</code></pre><br/>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo apt install net-tools</code></pre><br/>
 				<p className={styles.description}>Once net-tools is installed run <code>ifconfig</code> and note down the current IP address of the virtual machine.</p><br/><br/>
 	  			<p className={styles.description}>Next we will modify the netplan .yaml file.</p>
-	  			<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo nano /etc/netplan/00-installer-config.yaml</code></pre><br/>
+	  			<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo nano /etc/netplan/00-installer-config.yaml</code></pre><br/>
 	  			<p className={styles.description}>Modifying the file to appear as follows (replacing &lt;ip-address&gt; and &lt;gateway&gt;):</p>
-				<pre className={styles.code}><code className={styles.code}>
-					network:<br />
-					&emsp;    version: 2<br />
-					&emsp;    renderer: network<br />
-					&emsp;    ethernets:<br />
-					&emsp;        ens3:<br />
-					&emsp;            dhcp4: no<br />
-					&emsp;            addresses:<br />
-					&emsp;                - &lt;ip-address&gt;/24<br />
-					&emsp;            gateway4: &lt;gateway&gt;<br />
-					&emsp;            nameservers:<br />
-					&emsp;                addresses: [8.8.8.8, 1.1.1.1]
-					</code></pre><br/>
+				<pre className={styles.code}><code>network:<br />
+				version: 2<br />
+				    renderer: network<br />
+				&emsp;    ethernets:<br />
+				&emsp;        ens3:<br />
+				&emsp;            dhcp4: no<br />
+				&emsp;            addresses:<br />
+				&emsp;                - &lt;ip-address&gt;/24<br />
+				&emsp;            gateway4: &lt;gateway&gt;<br />
+				&emsp;            nameservers:<br />
+				&emsp;                addresses: [8.8.8.8, 1.1.1.1]</code></pre><br/>
 				<p className={styles.description}>Ctrl-X, Y, Enter to save and exit. Then type:</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo netplan apply</code><br /></pre>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo netplan apply</code><br /></pre>
 			<br /><br />
 		
 		<h2>Remote Maintenance</h2>
@@ -128,29 +124,29 @@ export default function Home() {
 		<h2>Securing the Server</h2>
 			<h3>Enable Firewall</h3>
 				<p className={styles.description}>Enable UFW on the Host, Nextcloud, and NginX server and forward all traffic on port 80 and all TCP traffic on 443.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp</code></pre><br/>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp</code></pre><br/>
 				<p className={styles.description}>Allow realVNC traffic on the Host machine.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo ufw allow realvnc-vnc-server</code></pre>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo ufw allow realvnc-vnc-server</code></pre>
 			<br /><br />
 			<h3>SSL Encryption</h3>
 				<p className={styles.description}>The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not <em>on</em> the server, which is fine since an account with a password is required to access it.</p><br /><br />
 				<p className={styles.description}>This is actually pretty easy to do thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a>. Ensure port 443 is forwarding in your router's configuration as that's the port used for ssl.</p><br /><br />
 				<p className={styles.description}>The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the nginx server and install Let's Encrypt's certbot by typing:</p><br />
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo snap install --classic certbot</code></pre><br/>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo snap install --classic certbot</code></pre><br/>
 				<p className={styles.description}>Once certbot is installed, create a config file for NginX.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo certbot --nginx -d &lt;your-domain.url&gt;</code></pre><br/>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo certbot --nginx -d &lt;your-domain.url&gt;</code></pre><br/>
 				<p className={styles.description}>Install the proxy's config file</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo ln -s /etc/nginx/sites-available/&lt;your-domain.url&gt; /etc/nginx/sites-enabled/</code></pre><br/>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo ln -s /etc/nginx/sites-available/&lt;your-domain.url&gt; /etc/nginx/sites-enabled/</code></pre><br/>
 				<p className={styles.description}>Finally, restart nginx</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo service nginx restart</code></pre>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo service nginx restart</code></pre>
 			<br /><br />
 			<h3>Automatic Certificate Renewal</h3>
 				<p className={styles.description}>The ssl certificates expire every 90 days, but they can be easily and non-interactively renewed with</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo certbot renew</code></pre><br/>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo certbot renew</code></pre><br/>
 				<p className={styles.description}>So just set up a cron job to do this every other month or so.</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>sudo crontab -e</code></pre><br/>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>sudo crontab -e</code></pre><br/>
 				<p className={styles.description}>Adding the line</p>
-				<pre className={styles.code}><code className={styles.code}><code className={styles.unselectable}>$ </code>0 0 1 */2 * /usr/bin/certbot -q renew</code></pre><br/>
+				<pre className={styles.code}><code><code className={styles.unselectable}>$ </code>0 0 1 */2 * /usr/bin/certbot -q renew</code></pre><br/>
 				<p className={styles.description}>Which will automatically renew the certificates at midnight on the first of every other month.</p>
 			<br /><br /><br />
 			<h3>Enable 2-Factor Authentication</h3>
