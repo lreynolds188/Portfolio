@@ -47,6 +47,7 @@ pre {
 	padding: 0;
 	margin: 0;
 	overflow: auto;
+	overflow-x: scroll;
 	overflow-y: hidden;
 	font-size: 12px;
 	line-height: 20px;
@@ -74,10 +75,10 @@ ul {
   }
   
   pre {
-		overflow-x: auto;
-		white-space: pre-wrap;
-		word-wrap: break-word;
-		background: #fff;
-	}
+	overflow-x: scroll;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	background: #fff;
+  }
 }
 
