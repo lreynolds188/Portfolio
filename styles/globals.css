@@ -9,23 +9,16 @@ body {
   margin:5% 5% 5% 5%
 }
 
-code {
+code,
+pre {
   background: #f3f4f6;
   overflow-x: scroll;
   border-radius: 5px;
   padding: 0.75rem;
+  word-wrap: nowrap;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-pre {
-  background: #f3f4f6;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  word-wrap: nowrap;
 }
 
 hr {
@@ -77,23 +70,16 @@ img {
     border-width:1px
   }
   
-    code {
+  code,
+  pre {
   background: #f3f4f6;
   overflow-x: scroll;
   border-radius: 5px;
   padding: 0.75rem;
+  word-wrap: nowrap;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
-  }
-
-  pre {
-    background: #f3f4f6;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    word-wrap: nowrap;
-  }
+}
 }
 
