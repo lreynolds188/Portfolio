@@ -60,7 +60,7 @@ export default function Home() {
 				<br />
 				&emsp;    client_max_body_size 10G;<br />
 				&emsp;    client_body_buffer_size 400M;
-				<br />
+				<br /><br/>
 				&emsp;    location = /.well-known/carddav &#123;<br />
 				&emsp;&emsp;      return 301 $scheme://$host/remote.php/dav;<br />
 				&emsp;    &#125;<br />
