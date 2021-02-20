@@ -22,6 +22,7 @@ export default function Home() {
 			  <li>A USB-C to USB cable</li>
 			</ol>
 			<br/>
+	  	<h2>Coming Soon...</h2><br/>
 		<h2>References</h2>
 			<ul className={styles.descriptionLeft}>
 				<li><a href="https://grapheneos.org/">https://grapheneos.org/</a></li>
