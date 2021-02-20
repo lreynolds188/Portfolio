@@ -25,7 +25,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/about" className={styles.card}>
             <h3>About &rarr;</h3>
-            <p>Find information about myself and my future aspirations.</p>
+            <p>Find out about myself and my future aspirations.</p>
           </a>
     
           <a href="/resume" className={styles.card}>
@@ -38,14 +38,14 @@ export default function Home() {
             <p>Read some tutorials i've written.</p>
           </a>
     
+          <a href="https://github.com/lreynolds188" className={styles.card}>
+            <h3>GitHub &rarr;</h3>
+            <p>Discover past, present, and future projects on GitHub.</p>
+          </a>
+    
           <a href="/quotes" className={styles.card}>
             <h3>Quotes &rarr;</h3>
             <p>View some quotes i've collected over the years.</p>
-          </a>
-
-          <a href="https://github.com/lreynolds188" className={styles.card}>
-            <h3>GitHub &rarr;</h3>
-            <p>Discover my past, present, and future projects on GitHub.</p>
           </a>
         </div>
       </main>
