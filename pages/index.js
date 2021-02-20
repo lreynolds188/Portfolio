@@ -33,7 +33,7 @@ export default function Home() {
             <p>See past education and work experience.</p>
           </a>
     
-          <a href="/tutorials" className={styles.card}>
+          <a href="https://docs.thereynolds.com.au" className={styles.card}>
             <h3>Tutorials &rarr;</h3>
             <p>Read some tutorials i've written.</p>
           </a>
