@@ -14,7 +14,7 @@ export default function Home() {
 	  	<div>
 		  	<br/>
 			<p>??/??/????, <a href="https://thereynolds.com.au">Luke Reynolds</a></p>
-			<p className={styles.description}>In my desire to regain information privacy from big tech and their incessant tracking i've decided to setup a Nextcloud server so that I may find some peace of mind and help others to do the same. The server features a domain name, Nginx reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance.</p><br /><br />
+			<p className={styles.description}>In my search to remove Google from my phone I stumbled upon GrapheneOS which is the stock Android Operating System with all of the Google components removed. Recommended by Edward Snowden for its build in hardened security.</p><br /><br />
 			<p className={styles.description}><strong>Requirements:</strong></p>
 			<ol className={styles.descriptionLeft}>
 			  <li>A pixel phone</li>
