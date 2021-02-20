@@ -20,7 +20,7 @@ export default function Home() {
 			  <li>A domain name</li>
 			</ol>
 			<br/>
-	  	<h2>Coming Soon...</h2>
+	  	<h2>Coming Soon...</h2><br/>
 		<h2>References</h2>
 			<ul className={styles.descriptionLeft}>
 				<li><a href="https://mailbox.org/en/">https://mailbox.org/en/</a></li>
