@@ -58,6 +58,9 @@ export default function Home() {
 				&emsp;    add_header X-Robots-Tag "none" always;<br />
 				&emsp;    add_header Referrer-Policy "no-referrer" always;<br />
 				<br />
+				&emsp;    client_max_body_size 10G;
+				&emsp;    client_body_buffer_size 400M;
+				<br />
 				&emsp;    location = /.well-known/carddav &#123;<br />
 				&emsp;&emsp;      return 301 $scheme://$host/remote.php/dav;<br />
 				&emsp;    &#125;<br />
