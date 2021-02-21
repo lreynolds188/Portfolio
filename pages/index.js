@@ -33,14 +33,14 @@ export default function Home() {
             <p>See past education and work experience.</p>
           </a>
     
-          <a href="https://docs.thereynolds.com.au" className={styles.card}>
-            <h3>Tutorials &rarr;</h3>
-            <p>Read some tutorials i've written.</p>
-          </a>
-    
           <a href="https://github.com/lreynolds188" className={styles.card}>
             <h3>GitHub &rarr;</h3>
             <p>Discover past, present, and future projects on GitHub.</p>
+          </a>
+    
+          <a href="https://docs.thereynolds.com.au" className={styles.card}>
+            <h3>Tutorials &rarr;</h3>
+            <p>Read some tutorials i've written.</p>
           </a>
     
           <a href="/quotes" className={styles.card}>
