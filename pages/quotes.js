@@ -233,7 +233,7 @@ export default function Home() {
               <li>Our greatest weakness lies in giving up. The most certain way to succeed is to always try just one more time.</li>
             </ul>
             <br />
-          </div><br/>
+          </div><br/><br/>
           <div className={styles.picture}>
             <Image src="/bell.jpg" alt="Bell" width={180} height={180} />
           </div>
