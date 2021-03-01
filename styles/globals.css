@@ -9,22 +9,6 @@ body {
   margin:5% 5% 5% 5%
 }
 
-code,
-pre {
-  background: #f3f4f6;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  border-radius: 5px;
-}
-
-code {
-  padding: 0.75rem;
-  word-wrap: nowrap;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
 hr {
   border:1px dotted #a7a9ab;
   border-style:none none dotted;
@@ -72,23 +56,6 @@ img {
   hr {
     border-style:none none solid;
     border-width:1px
-  }
-  
-  code,
-  pre {
-    width: 500px;
-    background: #f3f4f6;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    border-radius: 5px;
-  }
-
-  code {
-    padding: 0.75rem;
-    word-wrap: nowrap;
-    font-size: 1.1rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-      Bitstream Vera Sans Mono, Courier New, monospace;
   }
 }
 
