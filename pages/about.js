@@ -28,9 +28,6 @@ export default function Home() {
             languages and techniques, with a keen interest on cyber security, microsystems, and artificial intelligence.
             My hope is to work advancing the functionality, affordability, and sustainability of futuristic technological applications.
           </p>
-          <ul>
-            <li>testing the functionality of these shitty list item boxes</li>
-          </ul>
         </div>
       </main>
     </div>
