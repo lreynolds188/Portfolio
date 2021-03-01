@@ -57,14 +57,14 @@
 .picture {
   display:inline-block;
   vertical-align:top;
+  width:20%;
 }
 
 .content {
   display: inline-block; 
   padding-left: 25px;
-  max-width:80%;
+  width:80%;
 }
-
 
 .unselectable {
   user-select: none;
@@ -134,7 +134,7 @@
   height: 1em;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
