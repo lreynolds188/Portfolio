@@ -71,6 +71,12 @@
   -ms-user-select: none;
 }
 
+.information {
+  color:#58585b;
+  display:inline-block;
+  text-decoration:none
+}
+
 .grid {
   display: flex;
   align-items: center;
