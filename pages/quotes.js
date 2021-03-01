@@ -507,7 +507,7 @@ export default function Home() {
               <li>If you have been brutally broken but still have the courage to be gentle to other living beings, then you're a badass with the heart of an angel.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/musk.jpg" alt="Musk" width={180} height={180} />
           </div>
@@ -518,7 +518,7 @@ export default function Home() {
               <li>I'd rather be optimistic and wrong than pessimistic and right</li>
             </ul>
             <br />
-          </div><br/>
+          </div><br/><br/>
           <div className={styles.picture}>
             <Image src="/assorted.jpg" alt="Assorted" width={180} height={180} />
           </div>
