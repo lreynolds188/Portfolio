@@ -138,7 +138,7 @@
   }
   
   .content {
-    display: inline-block;
+    width: 100%;
   }
   
   .picture {
@@ -149,8 +149,6 @@
   }
   
   .noTopMargin {
-    margin-top: 0px; 
-    display: inline;
     text-align: center;
   }
 }
