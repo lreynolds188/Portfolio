@@ -36,7 +36,7 @@ export default function Home() {
           <h2 className={styles.categoryHeaders}>Experience</h2><hr />
           <a className={styles.primaryTitles} href="http://www.98alive.com/">Ridgeline Manufacturing | Queensland, AU</a>
           <p className={styles.categoryDetails}>Project/Operations Manager, May 2020 - Present</p>
-          <p className={styles.categoryDescription}>While in this position I was granted the tools to achieve a task and a large amount of freedom to self manage which allowed to me to excel. I was responsible for seeing that operations run as normal and look to for any opportunities for improvement. In addition to these duties I was also required to design and implement an automation system for one of the companies reactors.</p>
+          <p className={styles.categoryDescription}>While in this position I was granted the required tools to achieve a task with a large amount of freedom to self manage which allowed to me to excel. I was responsible for seeing that operations run as normal and to seek out any opportunities for improvement. In addition to these duties I was also required to design and implement an automation system for one of the company's chemical reactors.</p>
           <br />
           <a className={styles.primaryTitles} href="https://www.kilcoyglobalfoods.com/" target="_blank">Kilcoy Global Foods | Queensland, AU</a>
           <p className={styles.categoryDetails}>Developer/Technician, Nov 2018 – May 2019</p>
