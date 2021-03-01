@@ -99,7 +99,8 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  transition: color 0.15s ease;
+  border-color 0.15s ease;
 }
 
 .cardwide {
@@ -139,7 +140,8 @@
     flex-direction: column;
   }
   
-  .content {
+  .content,
+  .noTopMargin {
     width: 100%;
   }
   
@@ -148,13 +150,5 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
-  
-  .noTopMargin {
-    width: 100%;
-  }
-  
-  .info {
-    width: 100%;
   }
 }
