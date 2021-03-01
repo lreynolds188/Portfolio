@@ -37,7 +37,7 @@ export default function Home() {
 						<li>Let him that would move the world first move himself.</li>
 						<li>Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
 					</ul><br/>
-				</div>
+				</div><br/>
 				<div className={styles.picture}>
 	  			<Image
 				  src="/plato.jpg"
