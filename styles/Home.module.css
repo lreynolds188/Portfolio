@@ -150,5 +150,6 @@
   
   .noTopMargin {
     text-align: center;
+    word-wrap: break;
   }
 }
