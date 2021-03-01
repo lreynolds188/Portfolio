@@ -80,7 +80,6 @@ export default function Home() {
           <div className={styles.picture}>
             <Image src="/caesar.jpg" alt="Caesar" width={180} height={180} />
           </div>
-          <br />
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Julius Caesar (Emperor/General, 100 - 44 BC)</h3>
             <ul className={styles.descriptionLeft}>
@@ -403,7 +402,7 @@ export default function Home() {
               <li>If you're not careful the papers will have you hating the people who are getting oppressed and loving the people who are doing the oppressing.</li>
             </ul>
             <br />
-          </div><br/>
+          </div><br/><br/>
           <div className={styles.picture}>
             <Image src="/mlk.jpg" alt="MLK" width={180} height={180} />
           </div>
@@ -507,7 +506,7 @@ export default function Home() {
               <li>If you have been brutally broken but still have the courage to be gentle to other living beings, then you're a badass with the heart of an angel.</li>
             </ul>
             <br />
-          </div><br/>
+          </div><br/><br/>
           <div className={styles.picture}>
             <Image src="/musk.jpg" alt="Musk" width={180} height={180} />
           </div>
@@ -525,7 +524,6 @@ export default function Home() {
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Assorted</h3>
             <ul>
-              <li>Better to have loved and lost, than never to have loved at all. - AlfredTennyson</li>
               <li>It is always darkest just before the dawn. - Thomas Fuller</li>
               <li>I feel stupid, and contagious. - Kurt Cobain</li>
               <li>Patience is a virtue. - Piers Plowman</li>
