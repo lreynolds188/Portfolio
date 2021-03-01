@@ -41,6 +41,8 @@ h3 {
 
 ol,
 ul {
+  float: left;
+  display: inline;
   margin-top: 0;
 }
 
