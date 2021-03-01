@@ -92,7 +92,7 @@ export default function Home() {
 				  width={180}
 				  height={180}
 				/>
-	  			</div>	
+	  			</div><br/>
 				<div className={styles.content}>
 				<h3 className={styles.noTopMargin}>Julius Caesar (Emperor/General, 100 - 44 BC)</h3>
 					<ul className={styles.descriptionLeft}>
