@@ -12,14 +12,14 @@ export default function Home() {
       
       <main className={styles.main}>
             <h1 className={styles.title}>Quotes</h1><div>
-		<Image
-		  src="/socrates.jpg"
-		  alt="Socrates"
-		  width={180}
-		  height={180}
-		/>
+				<Image
+				  src="/socrates.jpg"
+				  alt="Socrates"
+				  width={180}
+				  height={180}
+				/>
 				<h3>Socrates (Philosopher, 470 - 399 BC)</h3>
-            		<ul className={styles.descriptionLeft}>
+            				<ul className={styles.descriptionLeft}>
 						<li>Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
 						<li>An unexamined life is not worth living.</li>
 						<li>True knowledge exists in knowing that you know nothing.</li>
@@ -34,7 +34,13 @@ export default function Home() {
 						<li>Let him that would move the world first move himself.</li>
 						<li>Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
 					</ul><br/>
-            	<h3>Plato (Philosopher, 428 - 348 BC)</h3>
+				<Image
+				  src="/plato.jpg"
+				  alt="Plato"
+				  width={180}
+				  height={180}
+				/>
+				<h3>Plato (Philosopher, 428 - 348 BC)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Only the dead have seen the end of war.</li>
 						<li>Wise men talk because they have something to say; fools, because they have to say something.</li>
