@@ -57,12 +57,13 @@
 .content {
   display: inline-block; 
   padding-left: 25px;
-  max-width:85%;
+  max-width:80%;
 }
 
 .picture {
   display:inline-block;
   vertical-align:top;
+  max-width: 20%;
 }
 
 .unselectable {
