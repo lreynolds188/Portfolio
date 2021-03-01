@@ -57,5 +57,12 @@ img {
     border-style:none none solid;
     border-width:1px
   }
+  
+  ol,
+  ul {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
