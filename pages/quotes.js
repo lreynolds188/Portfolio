@@ -403,7 +403,7 @@ export default function Home() {
               <li>If you're not careful the papers will have you hating the people who are getting oppressed and loving the people who are doing the oppressing.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/mlk.jpg" alt="MLK" width={180} height={180} />
           </div>
