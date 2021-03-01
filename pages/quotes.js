@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-            <h1 className={styles.title}>Quotes</h1><div>
+            <h1 className={styles.title}>Quotes</h1><div><br/><br/>
 				<div className={styles.picture}>
 	  			<Image
 				  src="/socrates.jpg"
