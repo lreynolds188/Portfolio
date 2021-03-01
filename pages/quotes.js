@@ -36,12 +36,6 @@ export default function Home() {
 						<li>Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
 					</ul><br/>
 				</div>
-				<Image
-				  src="/plato.jpg"
-				  alt="Plato"
-				  width={180}
-				  height={180}
-				/>
 				<h3>Plato (Philosopher, 428 - 348 BC)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Only the dead have seen the end of war.</li>
