@@ -12,8 +12,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Quotes</h1>
-        <br /><br />
         <div>
+        <br /><br />
           <div className={styles.picture}>
             <Image src="/socrates.jpg" alt="Socrates" width={180} height={180} />
           </div>
@@ -208,7 +208,7 @@ export default function Home() {
               <li>That which does not kill us makes us stronger.</li>
               <li>In individuals, insanity is rare; but in groups, parties, nations, and epochs it is the rule</li>
             </ul>
-          </div><br /><br />
+          </div><br/><br/>
           <div className={styles.picture}>
             <Image src="/edison.jpg" alt="Edison" width={180} height={180} />
           </div>
@@ -218,7 +218,7 @@ export default function Home() {
               <li>I have not failed. I've just found 10,000 ways that won't work.</li>
               <li>Our greatest weakness lies in giving up. The most certain way to succeed is to always try just one more time.</li>
             </ul>
-          </div><br /><br />
+          </div><br/><br/><br/>
           <div className={styles.picture}>
             <Image src="/bell.jpg" alt="Bell" width={180} height={180} />
           </div>
@@ -281,7 +281,7 @@ export default function Home() {
               <li>If you're going to tell people the truth, make them laugh, otherwise they'll kill you.</li>
               <li>There are no secrets except the secrets that keep themselves.</li>
             </ul>
-          </div><br/><br />
+          </div><br/><br /><br/>
           <div className={styles.picture}>
             <Image src="/gandhi.jpg" alt="Gandhi" width={180} height={180} />
           </div>
@@ -367,7 +367,7 @@ export default function Home() {
               <li>You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.</li>
               <li>The more that you read, the more things you will know. The more that you learn, the more places you’ll go.</li>
             </ul>
-          </div><br/><br />
+          </div><br/><br /><br/>
           <div className={styles.picture}>
             <Image src="/malcolm.jpg" alt="Malcom" width={180} height={180} />
           </div>
@@ -376,7 +376,7 @@ export default function Home() {
             <ul className={styles.descriptionLeft}>
               <li>If you're not careful the papers will have you hating the people who are getting oppressed and loving the people who are doing the oppressing.</li>
             </ul>
-          </div><br /><br />
+          </div><br /><br /><br/>
           <div className={styles.picture}>
             <Image src="/mlk.jpg" alt="MLK" width={180} height={180} />
           </div>
@@ -401,7 +401,7 @@ export default function Home() {
               <li>The line must be drawn here, this far, no farther.</li>
               <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life.</li>
             </ul>
-          </div><br/><br />
+          </div><br/><br /><br/>
           <div className={styles.picture}>
             <Image src="/hawking.jpg" alt="Hawking" width={180} height={180} />
           </div>
@@ -463,7 +463,7 @@ export default function Home() {
               <li>Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.</li>
               <li>Stay hungry, stay foolish.</li>
             </ul>
-          </div><br /><br />
+          </div><br /><br /><br/>
           <div className={styles.picture}>
             <Image src="/reeves.jpg" alt="Reeves" width={180} height={180} />
           </div>
@@ -472,7 +472,7 @@ export default function Home() {
             <ul className={styles.descriptionLeft}>
               <li>If you have been brutally broken but still have the courage to be gentle to other living beings, then you're a badass with the heart of an angel.</li>
             </ul>
-          </div><br /><br />
+          </div><br /><br /><br/>
           <div className={styles.picture}>
             <Image src="/musk.jpg" alt="Musk" width={180} height={180} />
           </div>
@@ -482,7 +482,7 @@ export default function Home() {
               <li>Enjoy the journey</li>
               <li>I'd rather be optimistic and wrong than pessimistic and right</li>
             </ul>
-          </div><br /><br />
+          </div><br /><br /><br/>
           <div className={styles.picture}>
             <Image src="/assorted.jpg" alt="Assorted" width={180} height={180} />
           </div>
