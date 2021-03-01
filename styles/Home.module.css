@@ -147,4 +147,10 @@
     margin-right: auto;
     width: 50%;
   }
+  
+  .noTopMargin {
+    margin-top: 0px; 
+    display: inline;
+    text-align: center;
+  }
 }
