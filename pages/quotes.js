@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Socrates&nbsp;</h3><p className={styles.info}>(Philosopher, 470 - 399 BC)</p>
-            <ul className={styles.descriptionLeft}>
+            <ul>
               <li>Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
               <li>An unexamined life is not worth living.</li>
               <li>True knowledge exists in knowing that you know nothing.</li>
