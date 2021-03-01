@@ -56,6 +56,7 @@
 .content {
   display: inline-block; 
   padding-left: 25px;
+  max-width:80%;
 }
 
 .picture {
