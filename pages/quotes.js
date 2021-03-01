@@ -21,7 +21,7 @@ export default function Home() {
 				/>
 	  			</div>
 	 			<div className={styles.content}>
-				<h3 className={style.noTopMargin}>Socrates (Philosopher, 470 - 399 BC)</h3>
+				<h3 className={styles.noTopMargin}>Socrates (Philosopher, 470 - 399 BC)</h3>
             				<ul className={styles.descriptionLeft}>
 						<li>Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
 						<li>An unexamined life is not worth living.</li>
