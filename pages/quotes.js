@@ -38,7 +38,16 @@ export default function Home() {
 						<li>Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
 					</ul><br/>
 				</div>
-				<h3>Plato (Philosopher, 428 - 348 BC)</h3>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/plato.jpg"
+				  alt="Plato"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Plato (Philosopher, 428 - 348 BC)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Only the dead have seen the end of war.</li>
 						<li>Wise men talk because they have something to say; fools, because they have to say something.</li>
@@ -52,7 +61,17 @@ export default function Home() {
 						<li>You can discover more about a person in an hour of play than in a year of conversation.</li>
 						<li>One of the penalties for refusing to participate in politics is that you end up being governed by your inferiors.</li>
 					</ul><br/>
-				<h3>Aristotle (Philosopher, 384 - 322 BC)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/aristotle.jpg"
+				  alt="Aristotle"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Aristotle (Philosopher, 384 - 322 BC)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>We are what we repeatedly do. Excellence, then, is not an act, but a habit.</li>
 						<li>The whole is more than the sum of its parts.</li>
@@ -65,14 +84,34 @@ export default function Home() {
 						<li>The law is reason, free from passion.</li>
 						<li>Poverty is the parent of revolution and crime.</li>
 					</ul><br/>
-				<h3>Julius Caesar (Emperor/General, 100 - 44 BC)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/caesar.jpg"
+				  alt="Caesar"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>	
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Julius Caesar (Emperor/General, 100 - 44 BC)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>It is easier to find men who will volunteer to die, than to find those willing to endure pain with patience.</li>
 						<li>Men willingly believe what they wish.</li>
 						<li>I came, I saw, I conquered.</li>
 						<li>Experience is the teacher of all things.</li>
 					</ul><br/>
-				<h3>Saint Thomas Aquinas (Philosopher/Priest, 1225 - 1274)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/aquinas.jpg"
+				  alt="Aquinas"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Saint Thomas Aquinas (Philosopher/Priest, 1225 - 1274)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>To one who has faith, no explanation is necessary. To one without faith, no explanation is possible.</li>
 						<li>The things that we love tell us what we are.</li>
@@ -84,7 +123,17 @@ export default function Home() {
 						<li>Better to illuminate than merely to shine, to deliver to others contemplated truths than merely to contemplate.</li>
 						<li>Friendship is the source of the greatest pleasures, and without friends even the most agreeable pursuits become tedious.</li>
 					</ul><br/>
-				<h3>William Shakespeare (Playwright/Actor, 1564 - 1616)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/shakespeare.jpg"
+				  alt="Shakespeare"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>William Shakespeare (Playwright/Actor, 1564 - 1616)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>To thine own self, be true</li>
 						<li>Love all, trust few, do wrong to none.</li>
@@ -95,7 +144,17 @@ export default function Home() {
 						<li>Tis better to have loved and lost, than never to have loved at all.</li>
 						<li>All that glitters is not gold.</li>
 					</ul><br/>
-				<h3>John Locke (Philosopher/Physician, 1632 - 1704)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/locke.jpg"
+				  alt="Locke"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>John Locke (Philosopher/Physician, 1632 - 1704)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Mankind, being all equal and independent, no one ought to harm another in his life, health, liberty or possessions.</li>
 						<li>We are like chameleons, we take our hue and the color of our moral character, from those who are around us.</li>
@@ -103,7 +162,17 @@ export default function Home() {
 						<li>Reading furnishes the mind only with materials of knowledge; it is thinking that makes what we read ours.</li>
 						<li>The actions of people are the best way to interprete their thoughts.</li>
 					</ul><br/>
-				<h3>Sir Isaac Newton (Physicist/Mathematician, 1642 - 1727)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/newton.jpg"
+				  alt="Newton"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Sir Isaac Newton (Physicist/Mathematician, 1642 - 1727)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>If I have seen further than others, it is by standing upon the shoulders of giants.</li>
 						<li>To each action there is an equal and opposite reaction. </li>
@@ -111,7 +180,17 @@ export default function Home() {
 						<li>A man may imagine things that are false, but he can only understand things that are true, for if the things are false, the apprehension of them is not understanding.</li>
 						<li>If I am anything, which I highly doubt, I have made myself so by hard work.</li>
 					</ul><br/>
-				<h3>David Hume (Philosopher, 1711 - 1776)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/hume.jpg"
+				  alt="Hume"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>David Hume (Philosopher, 1711 - 1776)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Beauty in things exists in the mind which contemplates them.</li>
 						<li>A wise man proportions his belief to the evidence.</li>
@@ -123,7 +202,17 @@ export default function Home() {
 						<li>He is happy whom circumstances suit his temper; but he is more excellent who suits his temper to any circumstance.</li>
 						<li>Heaven and hell suppose two distinct species of men, the good and the bad. But the greatest part of mankind float betwixt vice and virtue.</li>
 					</ul><br/>
-				<h3>Immanuel Kant (Philosopher, 1724 - 1804)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/kant.jpg"
+				  alt="Kant"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Immanuel Kant (Philosopher, 1724 - 1804)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>He who is cruel to animals becomes hard also in his dealings with men. We can judge the heart of a man by his treatment of animals.</li>
 						<li>Science is organized knowledge. Wisdom is organized life.</li>
@@ -136,13 +225,33 @@ export default function Home() {
 						<li>Live your life as though your every act were to become a universal law.</li>
 						<li>Happiness is not an ideal of reason, but of imagination.</li>
 					</ul><br/>
-				<h3>Samuel Clemens aka Mark Twain (Writer/Entrepreneur, 1835 - 1910)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/twain.jpg"
+				  alt="Twain"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Samuel Clemens aka Mark Twain (Writer/Entrepreneur, 1835 - 1910)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Whenever you find yourself on the side of the majority, it is time to pause and reflect.</li>
 						<li>Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.</li>
 						<li>If you don't read the newspaper, you're uninformed. If you read the newspaper, you're mis-informed.</li>
 					</ul><br/>
-				<h3>Friedrich Nietzsche (Philosopher, 1844 - 1900)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/nietzsche.jpg"
+				  alt="Nietzsche"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Friedrich Nietzsche (Philosopher, 1844 - 1900)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>I undertook something that not everyone may undertake: I descended into the depths, I bored into the foundations.</li>
 						<li>Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.</li>
@@ -156,18 +265,48 @@ export default function Home() {
 						<li>That which does not kill us makes us stronger.</li>
 						<li>In individuals, insanity is rare; but in groups, parties, nations, and epochs it is the rule</li>
 					</ul><br/>
-				<h3>Thomas Edison (Inventor, 1847 - 1931)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/edison.jpg"
+				  alt="Edison"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Thomas Edison (Inventor, 1847 - 1931)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>I have not failed. I've just found 10,000 ways that won't work.</li>
 						<li>Our greatest weakness lies in giving up. The most certain way to succeed is to always try just one more time.</li>
 					</ul><br/>
-				<h3>Alexander Graham Bell (Inventor/Scientist, 1847 - 1922)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/bell.jpg"
+				  alt="Bell"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Alexander Graham Bell (Inventor/Scientist, 1847 - 1922)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>When one door closes, another one opens. However we often look so long and so regretfully on the closed door, that we do not see the ones which open for us.</li>
 						<li>The only difference between success and failure is the ability to take action.</li>
 						<li>Night is a more quiet time to work. It aids thought.</li>
 					</ul><br/>
-				<h3>Oscar Wilde (Poet/Playwright, 1854 - 1900)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/wilde.jpg"
+				  alt="Wilde"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Oscar Wilde (Poet/Playwright, 1854 - 1900)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Imitation is the sincerest form of flattery that mediocrity can pay to greatness.</li>
 						<li>Sarcasm is the lowest form of wit, but the highest form of intelligence.</li>
@@ -176,7 +315,17 @@ export default function Home() {
 						<li>Patriotism is the virtue of the vicious.</li>
 						<li>A good friend will always stab you in the front.</li>
 					</ul><br/>
-				<h3>Sigmund Freud (Neurologist/Psychoanalyst, 1856 - 1939)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/freud.jpg"
+				  alt="Freud"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Sigmund Freud (Neurologist/Psychoanalyst, 1856 - 1939)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>One day, in retrospect, the years of struggle will strike you as the most beautiful.</li>
 						<li>Being entirely honest with oneself is a good exercise.</li>
@@ -186,20 +335,50 @@ export default function Home() {
 						<li>From error to error one discovers the entire truth.</li>
 						<li>We are never so defenceless against suffering as when we love.</li>
 					</ul><br/>
-				<h3>Nicola Tesla (Physicist/Electrical Engineer, 1856 - 1943)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/tesla.jpg"
+				  alt="Tesla"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Nicola Tesla (Physicist/Electrical Engineer, 1856 - 1943)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>The scientists of today think deeply instead of clearly. One must be sane to think clearly, but one can think deeply and be quite insane.</li>
 						<li>Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.</li>
 						<li>Today's scientists have substituted mathematics for experiments, and they wander off through equation after equation, and eventually build a structure which has no relation to reality.</li>
 						<li>The spread of civilisation may be likened to a fire; first, a feeble spark, next a flickering flame, then a mighty blaze, ever increasing in speed and power.</li>
 					</ul><br/>
-				<h3>Bernard Shaw (Playwright/Activist, 1856 - 1850)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/shaw.jpg"
+				  alt="Shaw"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Bernard Shaw (Playwright/Activist, 1856 - 1850)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>If you can't get rid of the skeleton in your closet, you'd best teach it to dance.</li>
 						<li>If you're going to tell people the truth, make them laugh, otherwise they'll kill you.</li>
 						<li>There are no secrets except the secrets that keep themselves.</li>
 					</ul><br/>
-				<h3>Mahatma Gandhi (Activist/Lawyer, 1869 - 1948)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/gandhi.jpg"
+				  alt="Gandhi"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Mahatma Gandhi (Activist/Lawyer, 1869 - 1948)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>An eye for an eye leaves the whole world blind.</li>
 						<li>You must not lose faith in humanity. Humanity is an ocean; if a few drops of the ocean are dirty, the ocean does not become dirty.</li>
@@ -207,14 +386,34 @@ export default function Home() {
 						<li>Strength does not come from physical capacity. It comes from an indomitable will.</li>
 						<li>Happiness is when what you think, what you say, and what you do are in harmony.</li>
 					</ul><br/>
-				<h3>Sir Winston Churchill (Prime Minister/Politician, 1874 - 1965)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/churchill.jpg"
+				  alt="Churchill"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Sir Winston Churchill (Prime Minister/Politician, 1874 - 1965)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>If you are going through hell, keep going.</li>
 						<li>A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty.</li>
 						<li>The best argument against democracy is a 5 minute conversation with the average voter.</li>
 						<li>The truth is incontrovertible. Panic may resent it, ignorance may deride it, malice may distort it, but there it is.</li>
 					</ul><br/>
-				<h3>Albert Einstein (Physicist/Philosopher, 1879 - 1955)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/einstein.jpg"
+				  alt="Einstein"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Albert Einstein (Physicist/Philosopher, 1879 - 1955)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Imagination is more important than knowledge.</li>
 						<li>Reality is merely an illusion, albeit a very persistent one.</li>
@@ -230,7 +429,17 @@ export default function Home() {
 						<li>If the facts don't fit the theory, change the facts.</li>
 						<li>The prestige of government has undoubtedly been lowered considerably by the prohibition law. For nothing is more destructive of respect for the government and the law of the land than passing laws which cannot be enforced. It is an open secret that the dangerous increase of crime in this country is closely connected with this.</li>
 					</ul><br/>
-				<h3>Franklin D. Roosevelt (President/Politician, 1882 - 1945)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/roosevelt.jpg"
+				  alt="Roosevelt"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Franklin D. Roosevelt (President/Politician, 1882 - 1945)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>The only thing we have to fear is fear itself.</li>
 						<li>Calm seas never made a good sailor.</li>
@@ -240,7 +449,17 @@ export default function Home() {
 						<li>Remember, remember always, that all of us, and you and I especially, are descended from immigrants and revolutionists.</li>
 						<li>We are a nation of many nationalities, many races, many religions-bound together by a single unity, the unity of freedom and equality. Whoever seeks to set one nationality against another, seeks to degrade all nationalities.</li>
 					</ul><br/>
-				<h3>Eric Arthur Blair aka George Orwell (Author/Journalist, 1903 - 1950)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/orwell.jpg"
+				  alt="Orwell"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Eric Arthur Blair aka George Orwell (Author/Journalist, 1903 - 1950)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>The further a society drifts from the truth the more it will hate those who speak it.</li>
 						<li>In a time of universal deceit telling the truth is a revolutionary act.</li>
@@ -249,17 +468,47 @@ export default function Home() {
 						<li>Until they become conscious they will never rebel, and until after they have rebelled they cannot become conscious.</li>
 						<li>I have seen British imperialism at work in Burma, and I have seen something of the effects of poverty and unemployment in Britian... One has got to be actively a socialist, not merely sympathetic to socialism, or one plays into the hands of our always active enemies.</li>
 					</ul><br/>
-				<h3>Dr Seuss (Author/Cartoonist, 1904 - 1991)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/seuss.jpg"
+				  alt="Seuss"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Dr Seuss (Author/Cartoonist, 1904 - 1991)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Don’t cry because it’s over, smile because it happened.</li>
 						<li>You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.</li>
 						<li>The more that you read, the more things you will know. The more that you learn, the more places you’ll go.</li>
 					</ul><br/>
-				<h3>Malcolm X (Minister/Activist, 1925 - 1965)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/malcolm.jpg"
+				  alt="Malcom"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Malcolm X (Minister/Activist, 1925 - 1965)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>If you're not careful the papers will have you hating the people who are getting oppressed and loving the people who are doing the oppressing.</li>
 					</ul><br/>
-				<h3>Martin Luther King (Activist/Philosopher, 1929 - 1968)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/mlk.jpg"
+				  alt="MLK"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Martin Luther King (Activist/Philosopher, 1929 - 1968)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.</li>
 						<li>Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.</li>
@@ -268,19 +517,49 @@ export default function Home() {
 						<li>Our lives begin to end the day we become silent about things that matter.</li>
 						<li>In the end, we will remember not the words of our enemies, but the silence of our friends.</li>
 					</ul><br/>
-				<h3>Patrick Stewart (Actor, 1940 - Present)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/stewart.jpg"
+				  alt="Stewart"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Patrick Stewart (Actor, 1940 - Present)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>If you pull at the loose threads of your self, you will unwind the tapestry of your life.</li>
 						<li>The line must be drawn here, this far, no farther.</li>
 						<li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life.</li>
 					</ul><br/>
-				<h3>Stephen Hawking (Physicist, 1942 - 2018)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/hawking.jpg"
+				  alt="Hawking"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Stephen Hawking (Physicist, 1942 - 2018)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>I have noticed that even those who assert that everything is predestined and that we can change nothing about it still look both ways before they cross the street.</li>
 						<li>Quiet people have the loudest minds.</li>
 						<li>The thing about smart people is that they seem like crazy people to dumb people.</li>
 					</ul><br/>
-				<h3>Bob Marley (Singer/Songwriter, 1945 - 1981)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/marley.jpg"
+				  alt="Marley"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Bob Marley (Singer/Songwriter, 1945 - 1981)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>If she's amazing, she won't be easy. If she's easy, she won't be amazing. If she's worth it, you wont give up. If you give up, you're not worthy.</li>
 						<li>Love the life you live. live the life you love.</li>
@@ -289,13 +568,33 @@ export default function Home() {
 						<li>The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively.</li>
 						<li>Don't worry about a thing, 'cause every little thing's gonna be all right.</li>
 					</ul><br/>
-				<h3>Robin Williams (Comedian/Actor, 1951 - 2014)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/williams.jpg"
+				  alt="Williams"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Robin Williams (Comedian/Actor, 1951 - 2014)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>I used to think the worst thing in life was ending up alone. It's not. The worst thing in life is ending up with people that make you feel alone.</li>
 						<li>No matter what anybody tells you, words and ideas can change the world.</li>
 						<li>You're only given one spark of madness, you mustn't lose it.</li>
 					</ul><br/>
-				<h3>Bill Gates (Entrepreneur/Software Developer, 1955 - Present) </h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/gates.jpg"
+				  alt="Gates"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Bill Gates (Entrepreneur/Software Developer, 1955 - Present) </h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Success is a lousy teacher. It seduces smart people into thinking they can't lose.</li>
 						<li>Your most unhappy customers are your greatest source of learning.</li>
@@ -306,21 +605,61 @@ export default function Home() {
 						<li>I believe that if you show people the problems and you show them the solutions they will be moved to act.</li>
 						<li>I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.</li>
 					</ul><br/>
-				<h3>Steve Jobs (Entrepreneur, 1955 - 2011)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/jobs.jpg"
+				  alt="Jobs"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Steve Jobs (Entrepreneur, 1955 - 2011)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.</li>
 						<li>Stay hungry, stay foolish.</li>
 					</ul><br/>
-				<h3>Keanu Reeves (Actor, 1964 - Present)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/reeves.jpg"
+				  alt="Reeves"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Keanu Reeves (Actor, 1964 - Present)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>If you have been brutally broken but still have the courage to be gentle to other living beings, then you're a badass with the heart of an angel.</li>
 					</ul><br/>
-				<h3>Elon Musk (Entrepreneur, 1971 - Present)</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/musk.jpg"
+				  alt="Musk"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Elon Musk (Entrepreneur, 1971 - Present)</h3>
 					<ul className={styles.descriptionLeft}>
 						<li>Enjoy the journey</li>
 						<li>I'd rather be optimistic and wrong than pessimistic and right</li>
 					</ul><br/>
-				<h3>Proverbs</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/proverbs.jpg"
+				  alt="Proverbs"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Proverbs</h3>
 					<ul>
 						<li>Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.</li>
 						<li>The pen is mightier than the sword.</li>
@@ -330,7 +669,17 @@ export default function Home() {
 						<li>Don't bite the hand that feeds you.</li>
 						<li>The child who is not embraced by the village will burn it down to feel its warmth</li>
 					</ul><br/>
-				<h3>Assorted</h3>
+				</div>
+				<div className={styles.picture}>
+	  			<Image
+				  src="/assorted.jpg"
+				  alt="Assorted"
+				  width={180}
+				  height={180}
+				/>
+	  			</div>
+				<div className={styles.content}>
+				<h3 className={styles.noTopMargin}>Assorted</h3>
 					<ul>
 						<li>Better to have loved and lost, than never to have loved at all. - AlfredTennyson</li>
 						<li>It is always darkest just before the dawn. - Thomas Fuller</li>
@@ -369,6 +718,7 @@ export default function Home() {
 						<li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
 						<li>Truth is like poetry. And most people hate poetry.</li>
 					</ul>
+				</div>
                 </div>
             </main>
         </div>
