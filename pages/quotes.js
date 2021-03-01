@@ -11,6 +11,12 @@ export default function Home() {
       
       <main className={styles.main}>
             <h1 className={styles.title}>Quotes</h1><div>
+		  <Image
+		  src="/socrates.jpg"
+		  alt="Socrates"
+		  width={180}
+		  height={180}
+		/>
 				<h3>Socrates (Philosopher, 470 - 399 BC)</h3>
             		<ul className={styles.descriptionLeft}>
 						<li>Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
