@@ -147,7 +147,7 @@ export default function Home() {
 				</div>
 				<div className={styles.picture}>
 	  			<Image
-				  href="https://en.wikipedia.org/wiki/John_Locke#/media/File:John_Locke.jpg"
+				  src="/locke.jpg"
 				  alt="Locke"
 				  width={180}
 				  height={180}
