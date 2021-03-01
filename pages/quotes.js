@@ -18,7 +18,7 @@ export default function Home() {
             <Image src="/socrates.jpg" alt="Socrates" width={180} height={180} />
           </div>
           <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Socrates</h3><p className={styles.info}>(Philosopher, 470 - 399 BC)</p>
+            <h3 className={styles.noTopMargin}>Socrates</h3><p className={styles.info}> (Philosopher, 470 - 399 BC)</p>
             <ul className={styles.descriptionLeft}>
               <li>Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
               <li>An unexamined life is not worth living.</li>
