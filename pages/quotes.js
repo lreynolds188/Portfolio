@@ -12,9 +12,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Quotes</h1>
+        <br /><br />
         <div>
-          <br />
-          <br />
           <div className={styles.picture}>
             <Image src="/socrates.jpg" alt="Socrates" width={180} height={180} />
           </div>
@@ -35,9 +34,8 @@ export default function Home() {
               <li>Let him that would move the world first move himself.</li>
               <li>Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
             </ul>
-            <br />
-          </div>
-          <br />
+            
+          </div><br /><br />
           <div className={styles.picture}>
             <Image src="/plato.jpg" alt="Plato" width={180} height={180} />
           </div>
@@ -56,8 +54,7 @@ export default function Home() {
               <li>You can discover more about a person in an hour of play than in a year of conversation.</li>
               <li>One of the penalties for refusing to participate in politics is that you end up being governed by your inferiors.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/aristotle.jpg" alt="Aristotle" width={180} height={180} />
           </div>
@@ -75,8 +72,7 @@ export default function Home() {
               <li>The law is reason, free from passion.</li>
               <li>Poverty is the parent of revolution and crime.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/caesar.jpg" alt="Caesar" width={180} height={180} />
           </div>
@@ -88,8 +84,7 @@ export default function Home() {
               <li>I came, I saw, I conquered.</li>
               <li>Experience is the teacher of all things.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/aquinas.jpg" alt="Aquinas" width={180} height={180} />
           </div>
@@ -106,8 +101,7 @@ export default function Home() {
               <li>Better to illuminate than merely to shine, to deliver to others contemplated truths than merely to contemplate.</li>
               <li>Friendship is the source of the greatest pleasures, and without friends even the most agreeable pursuits become tedious.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/shakespeare.jpg" alt="Shakespeare" width={180} height={180} />
           </div>
@@ -123,8 +117,7 @@ export default function Home() {
               <li>Tis better to have loved and lost, than never to have loved at all.</li>
               <li>All that glitters is not gold.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/locke.jpg" alt="Locke" width={180} height={180} />
           </div>
@@ -137,8 +130,7 @@ export default function Home() {
               <li>Reading furnishes the mind only with materials of knowledge; it is thinking that makes what we read ours.</li>
               <li>The actions of people are the best way to interprete their thoughts.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/newton.jpg" alt="Newton" width={180} height={180} />
           </div>
@@ -151,8 +143,7 @@ export default function Home() {
               <li>A man may imagine things that are false, but he can only understand things that are true, for if the things are false, the apprehension of them is not understanding.</li>
               <li>If I am anything, which I highly doubt, I have made myself so by hard work.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/hume.jpg" alt="Hume" width={180} height={180} />
           </div>
@@ -169,8 +160,7 @@ export default function Home() {
               <li>He is happy whom circumstances suit his temper; but he is more excellent who suits his temper to any circumstance.</li>
               <li>Heaven and hell suppose two distinct species of men, the good and the bad. But the greatest part of mankind float betwixt vice and virtue.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/kant.jpg" alt="Kant" width={180} height={180} />
           </div>
@@ -188,8 +178,7 @@ export default function Home() {
               <li>Live your life as though your every act were to become a universal law.</li>
               <li>Happiness is not an ideal of reason, but of imagination.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/twain.jpg" alt="Twain" width={180} height={180} />
           </div>
@@ -200,8 +189,7 @@ export default function Home() {
               <li>Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.</li>
               <li>If you don't read the newspaper, you're uninformed. If you read the newspaper, you're mis-informed.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/nietzsche.jpg" alt="Nietzsche" width={180} height={180} />
           </div>
@@ -220,8 +208,7 @@ export default function Home() {
               <li>That which does not kill us makes us stronger.</li>
               <li>In individuals, insanity is rare; but in groups, parties, nations, and epochs it is the rule</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/edison.jpg" alt="Edison" width={180} height={180} />
           </div>
@@ -231,8 +218,7 @@ export default function Home() {
               <li>I have not failed. I've just found 10,000 ways that won't work.</li>
               <li>Our greatest weakness lies in giving up. The most certain way to succeed is to always try just one more time.</li>
             </ul>
-            <br />
-          </div><br/><br/>
+          </div><br/><br/><br />
           <div className={styles.picture}>
             <Image src="/bell.jpg" alt="Bell" width={180} height={180} />
           </div>
@@ -243,8 +229,7 @@ export default function Home() {
               <li>The only difference between success and failure is the ability to take action.</li>
               <li>Night is a more quiet time to work. It aids thought.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/wilde.jpg" alt="Wilde" width={180} height={180} />
           </div>
@@ -258,8 +243,7 @@ export default function Home() {
               <li>Patriotism is the virtue of the vicious.</li>
               <li>A good friend will always stab you in the front.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/freud.jpg" alt="Freud" width={180} height={180} />
           </div>
@@ -274,8 +258,7 @@ export default function Home() {
               <li>From error to error one discovers the entire truth.</li>
               <li>We are never so defenceless against suffering as when we love.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/tesla.jpg" alt="Tesla" width={180} height={180} />
           </div>
@@ -287,8 +270,7 @@ export default function Home() {
               <li>Today's scientists have substituted mathematics for experiments, and they wander off through equation after equation, and eventually build a structure which has no relation to reality.</li>
               <li>The spread of civilisation may be likened to a fire; first, a feeble spark, next a flickering flame, then a mighty blaze, ever increasing in speed and power.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/shaw.jpg" alt="Shaw" width={180} height={180} />
           </div>
@@ -299,8 +281,7 @@ export default function Home() {
               <li>If you're going to tell people the truth, make them laugh, otherwise they'll kill you.</li>
               <li>There are no secrets except the secrets that keep themselves.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/gandhi.jpg" alt="Gandhi" width={180} height={180} />
           </div>
@@ -313,8 +294,7 @@ export default function Home() {
               <li>Strength does not come from physical capacity. It comes from an indomitable will.</li>
               <li>Happiness is when what you think, what you say, and what you do are in harmony.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/churchill.jpg" alt="Churchill" width={180} height={180} />
           </div>
@@ -326,8 +306,7 @@ export default function Home() {
               <li>The best argument against democracy is a 5 minute conversation with the average voter.</li>
               <li>The truth is incontrovertible. Panic may resent it, ignorance may deride it, malice may distort it, but there it is.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/einstein.jpg" alt="Einstein" width={180} height={180} />
           </div>
@@ -348,8 +327,7 @@ export default function Home() {
               <li>If the facts don't fit the theory, change the facts.</li>
               <li>The prestige of government has undoubtedly been lowered considerably by the prohibition law. For nothing is more destructive of respect for the government and the law of the land than passing laws which cannot be enforced. It is an open secret that the dangerous increase of crime in this country is closely connected with this.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/roosevelt.jpg" alt="Roosevelt" width={180} height={180} />
           </div>
@@ -364,8 +342,7 @@ export default function Home() {
               <li>Remember, remember always, that all of us, and you and I especially, are descended from immigrants and revolutionists.</li>
               <li>We are a nation of many nationalities, many races, many religions-bound together by a single unity, the unity of freedom and equality. Whoever seeks to set one nationality against another, seeks to degrade all nationalities.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/orwell.jpg" alt="Orwell" width={180} height={180} />
           </div>
@@ -379,8 +356,7 @@ export default function Home() {
               <li>Until they become conscious they will never rebel, and until after they have rebelled they cannot become conscious.</li>
               <li>I have seen British imperialism at work in Burma, and I have seen something of the effects of poverty and unemployment in Britian... One has got to be actively a socialist, not merely sympathetic to socialism, or one plays into the hands of our always active enemies.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/seuss.jpg" alt="Seuss" width={180} height={180} />
           </div>
@@ -391,8 +367,7 @@ export default function Home() {
               <li>You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.</li>
               <li>The more that you read, the more things you will know. The more that you learn, the more places you’ll go.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/malcolm.jpg" alt="Malcom" width={180} height={180} />
           </div>
@@ -401,8 +376,7 @@ export default function Home() {
             <ul className={styles.descriptionLeft}>
               <li>If you're not careful the papers will have you hating the people who are getting oppressed and loving the people who are doing the oppressing.</li>
             </ul>
-            <br />
-          </div><br/><br/>
+          </div><br/><br/><br />
           <div className={styles.picture}>
             <Image src="/mlk.jpg" alt="MLK" width={180} height={180} />
           </div>
@@ -416,8 +390,7 @@ export default function Home() {
               <li>Our lives begin to end the day we become silent about things that matter.</li>
               <li>In the end, we will remember not the words of our enemies, but the silence of our friends.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/stewart.jpg" alt="Stewart" width={180} height={180} />
           </div>
@@ -428,8 +401,7 @@ export default function Home() {
               <li>The line must be drawn here, this far, no farther.</li>
               <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/hawking.jpg" alt="Hawking" width={180} height={180} />
           </div>
@@ -440,8 +412,7 @@ export default function Home() {
               <li>Quiet people have the loudest minds.</li>
               <li>The thing about smart people is that they seem like crazy people to dumb people.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/marley.jpg" alt="Marley" width={180} height={180} />
           </div>
@@ -455,8 +426,7 @@ export default function Home() {
               <li>The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively.</li>
               <li>Don't worry about a thing, 'cause every little thing's gonna be all right.</li>
             </ul>
-            <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/williams.jpg" alt="Williams" width={180} height={180} />
           </div>
@@ -467,8 +437,7 @@ export default function Home() {
               <li>No matter what anybody tells you, words and ideas can change the world.</li>
               <li>You're only given one spark of madness, you mustn't lose it.</li>
             </ul>
-            <br />
-          </div>
+          </div><br />
           <div className={styles.picture}>
             <Image src="/gates.jpg" alt="Gates" width={180} height={180} />
           </div>
@@ -484,8 +453,7 @@ export default function Home() {
               <li>I believe that if you show people the problems and you show them the solutions they will be moved to act.</li>
               <li>I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.</li>
             </ul>
-            <br />
-          </div><br/>
+          </div><br/><br />
           <div className={styles.picture}>
             <Image src="/jobs.jpg" alt="Jobs" width={180} height={180} />
           </div>
@@ -495,8 +463,7 @@ export default function Home() {
               <li>Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.</li>
               <li>Stay hungry, stay foolish.</li>
             </ul>
-            <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/reeves.jpg" alt="Reeves" width={180} height={180} />
           </div>
@@ -505,8 +472,7 @@ export default function Home() {
             <ul className={styles.descriptionLeft}>
               <li>If you have been brutally broken but still have the courage to be gentle to other living beings, then you're a badass with the heart of an angel.</li>
             </ul>
-            <br />
-          </div><br/><br/>
+          </div><br/><br/><br/>
           <div className={styles.picture}>
             <Image src="/musk.jpg" alt="Musk" width={180} height={180} />
           </div>
@@ -516,8 +482,7 @@ export default function Home() {
               <li>Enjoy the journey</li>
               <li>I'd rather be optimistic and wrong than pessimistic and right</li>
             </ul>
-            <br />
-          </div><br/><br/>
+          </div><br/><br/><br/><br />
           <div className={styles.picture}>
             <Image src="/assorted.jpg" alt="Assorted" width={180} height={180} />
           </div>
