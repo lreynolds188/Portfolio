@@ -54,17 +54,17 @@
   display:inline;
 }
 
+.picture {
+  display:inline-block;
+  vertical-align:top;
+}
+
 .content {
   display: inline-block; 
   padding-left: 25px;
   max-width:80%;
 }
 
-.picture {
-  display:inline-block;
-  vertical-align:top;
-  max-width: 20%;
-}
 
 .unselectable {
   user-select: none;
@@ -132,7 +132,7 @@
   height: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 769px) {
   .grid {
     width: 100%;
     flex-direction: column;
@@ -151,6 +151,6 @@
   
   .noTopMargin {
     text-align: center;
-    word-wrap: break;
+    width: 100%;
   }
 }
