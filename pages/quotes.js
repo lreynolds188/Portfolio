@@ -76,7 +76,7 @@ export default function Home() {
               <li>Poverty is the parent of revolution and crime.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/caesar.jpg" alt="Caesar" width={180} height={180} />
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
               <li>Experience is the teacher of all things.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/aquinas.jpg" alt="Aquinas" width={180} height={180} />
           </div>
@@ -108,7 +108,7 @@ export default function Home() {
               <li>Friendship is the source of the greatest pleasures, and without friends even the most agreeable pursuits become tedious.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/shakespeare.jpg" alt="Shakespeare" width={180} height={180} />
           </div>
@@ -125,7 +125,7 @@ export default function Home() {
               <li>All that glitters is not gold.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/locke.jpg" alt="Locke" width={180} height={180} />
           </div>
@@ -139,7 +139,7 @@ export default function Home() {
               <li>The actions of people are the best way to interprete their thoughts.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/newton.jpg" alt="Newton" width={180} height={180} />
           </div>
@@ -233,7 +233,7 @@ export default function Home() {
               <li>Our greatest weakness lies in giving up. The most certain way to succeed is to always try just one more time.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/bell.jpg" alt="Bell" width={180} height={180} />
           </div>
@@ -276,7 +276,7 @@ export default function Home() {
               <li>We are never so defenceless against suffering as when we love.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/tesla.jpg" alt="Tesla" width={180} height={180} />
           </div>
@@ -301,7 +301,7 @@ export default function Home() {
               <li>There are no secrets except the secrets that keep themselves.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/gandhi.jpg" alt="Gandhi" width={180} height={180} />
           </div>
@@ -315,7 +315,7 @@ export default function Home() {
               <li>Happiness is when what you think, what you say, and what you do are in harmony.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/churchill.jpg" alt="Churchill" width={180} height={180} />
           </div>
@@ -328,7 +328,7 @@ export default function Home() {
               <li>The truth is incontrovertible. Panic may resent it, ignorance may deride it, malice may distort it, but there it is.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/einstein.jpg" alt="Einstein" width={180} height={180} />
           </div>
@@ -393,7 +393,7 @@ export default function Home() {
               <li>The more that you read, the more things you will know. The more that you learn, the more places you’ll go.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/malcolm.jpg" alt="Malcom" width={180} height={180} />
           </div>
@@ -418,7 +418,7 @@ export default function Home() {
               <li>In the end, we will remember not the words of our enemies, but the silence of our friends.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/stewart.jpg" alt="Stewart" width={180} height={180} />
           </div>
@@ -430,7 +430,7 @@ export default function Home() {
               <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/hawking.jpg" alt="Hawking" width={180} height={180} />
           </div>
@@ -486,7 +486,7 @@ export default function Home() {
               <li>I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/jobs.jpg" alt="Jobs" width={180} height={180} />
           </div>
@@ -518,7 +518,7 @@ export default function Home() {
               <li>I'd rather be optimistic and wrong than pessimistic and right</li>
             </ul>
             <br />
-          </div>
+          </div><br/>
           <div className={styles.picture}>
             <Image src="/assorted.jpg" alt="Assorted" width={180} height={180} />
           </div>
