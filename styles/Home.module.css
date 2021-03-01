@@ -47,6 +47,7 @@
 
 .noTopMargin {
   margin-top: 0px; 
+  display: inline;
 }
 
 .description {
