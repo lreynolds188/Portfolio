@@ -53,17 +53,13 @@ a {
   text-decoration: none;
 }
 
-Image {
-  display: inline; 
-}
-
 a:hover {
   text-decoration: underline;
 }
 
 img {
   max-width: 100%;
-  display: block;
+  display: inline
 }
 
 @media print {
