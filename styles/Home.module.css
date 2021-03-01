@@ -49,6 +49,11 @@
   display:inline;
 }
 
+.picture {
+  display:inline-block;
+  vertical-align:top;
+}
+
 .unselectable {
   user-select: none;
   -webkit-user-select: none;
