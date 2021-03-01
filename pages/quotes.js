@@ -15,6 +15,7 @@ export default function Home() {
 				<Image
 				  src="/socrates.jpg"
 				  alt="Socrates"
+	                          style="display:inline;"
 				  width={180}
 				  height={180}
 				/>
