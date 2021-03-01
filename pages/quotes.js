@@ -15,10 +15,10 @@ export default function Home() {
 				<Image
 				  src="/socrates.jpg"
 				  alt="Socrates"
-	                          style="display:inline;"
 				  width={180}
 				  height={180}
 				/>
+	 			<div>
 				<h3>Socrates (Philosopher, 470 - 399 BC)</h3>
             				<ul className={styles.descriptionLeft}>
 						<li>Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
@@ -35,6 +35,7 @@ export default function Home() {
 						<li>Let him that would move the world first move himself.</li>
 						<li>Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
 					</ul><br/>
+				</div>
 				<Image
 				  src="/plato.jpg"
 				  alt="Plato"
