@@ -15,10 +15,11 @@ export default function Home() {
 				<Image
 				  src="/socrates.jpg"
 				  alt="Socrates"
+	                          style="display:inline-block;vertical-align:top;
 				  width={180}
 				  height={180}
 				/>
-	 			<div style="display:inline-block;vertical-align:top;>
+	 			<div style="display:inline-block;>
 				<h3>Socrates (Philosopher, 470 - 399 BC)</h3>
             				<ul className={styles.descriptionLeft}>
 						<li>Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
