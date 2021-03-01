@@ -652,26 +652,6 @@ export default function Home() {
 				</div>
 				<div className={styles.picture}>
 	  			<Image
-				  src="/proverbs.jpg"
-				  alt="Proverbs"
-				  width={180}
-				  height={180}
-				/>
-	  			</div>
-				<div className={styles.content}>
-				<h3 className={styles.noTopMargin}>Proverbs</h3>
-					<ul>
-						<li>Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.</li>
-						<li>The pen is mightier than the sword.</li>
-						<li>When in Rome, do as the Romans.</li>
-						<li>No man is an island.</li>
-						<li>People who live in glass houses should not throw stones.</li>
-						<li>Don't bite the hand that feeds you.</li>
-						<li>The child who is not embraced by the village will burn it down to feel its warmth</li>
-					</ul><br/>
-				</div>
-				<div className={styles.picture}>
-	  			<Image
 				  src="/assorted.jpg"
 				  alt="Assorted"
 				  width={180}
@@ -717,6 +697,13 @@ export default function Home() {
 						<li>When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist. - Dom Helder Camara</li>
 						<li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
 						<li>Truth is like poetry. And most people hate poetry.</li>
+						<li>Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.</li>
+						<li>The pen is mightier than the sword.</li>
+						<li>When in Rome, do as the Romans.</li>
+						<li>No man is an island.</li>
+						<li>People who live in glass houses should not throw stones.</li>
+						<li>Don't bite the hand that feeds you.</li>
+						<li>The child who is not embraced by the village will burn it down to feel its warmth</li>
 					</ul>
 				</div>
                 </div>
