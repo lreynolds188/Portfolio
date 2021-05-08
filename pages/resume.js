@@ -12,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <div>
-            <h1 className={styles.name}>Luke Reynolds &nbsp;</h1><a className={styles.contact} href="https://goo.gl/maps/uz7s2XdAUTmpstBA8" target="_blank">| QUEENSLAND, AU</a><br/>
+            <h1 className={styles.name}>Luke Reynolds&nbsp;</h1><a className={styles.contact} href="https://goo.gl/maps/uz7s2XdAUTmpstBA8" target="_blank">QUEENSLAND, AU</a><br/>
             <p className={styles.contact}>LUKE [AT] <a href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a></p>
           </div>
 
@@ -34,7 +34,7 @@ export default function Home() {
           <p className={styles.categoryDetails}>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
                              
           <h2 className={styles.categoryHeaders}>Experience</h2><hr />
-          <a className={styles.primaryTitles} href="http://www.98alive.com/">Ridgeline Manufacturing | Queensland, AU</a>
+          <p className={styles.primaryTitles}>Ridgeline Manufacturing | Queensland, AU</p>
           <p className={styles.categoryDetails}>Project/Operations Manager, May 2020 - Present</p>
           <p className={styles.categoryDescription}>While in this position I was granted the required tools to achieve a task with a large amount of freedom to self manage which allowed to me to excel. I was responsible for seeing that operations run as normal and to seek out any opportunities for improvement. In addition to these duties I was also required to design and implement an automation system for one of the company's chemical reactors.</p>
           <br />
