@@ -38,11 +38,6 @@ export default function Home() {
             <p>Discover past, present, and future projects on GitHub.</p>
           </a>
     
-          <a href="https://docs.thereynolds.com.au" className={styles.card}>
-            <h3>Tutorials &rarr;</h3>
-            <p>Read some tutorials i've written.</p>
-          </a>
-    
           <a href="/quotes" className={styles.card}>
             <h3>Quotes &rarr;</h3>
             <p>View some quotes i've collected over the years.</p>
