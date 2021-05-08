@@ -204,7 +204,6 @@ export default function Home() {
               <li>When we are tired, we are attacked by ideas we conquered long ago.</li>
               <li>The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently.</li>
               <li>I am a forest, and a night of dark trees: but those who are not afraid of my darkness, will find banks full of roses under my cypresses.</li>
-              <li>The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently.</li>
               <li>That which does not kill us makes us stronger.</li>
               <li>In individuals, insanity is rare; but in groups, parties, nations, and epochs it is the rule</li>
             </ul>
@@ -275,7 +274,7 @@ export default function Home() {
             <Image src="/shaw.jpg" alt="Shaw" width={180} height={180} />
           </div>
           <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Bernard Shaw&nbsp;</h3><p className={styles.info}>(Playwright/Activist, 1856 - 1850)</p>
+            <h3 className={styles.noTopMargin}>Bernard Shaw&nbsp;</h3><p className={styles.info}>(Playwright/Activist, 1856 - 1950)</p>
             <ul className={styles.descriptionLeft}>
               <li>If you can't get rid of the skeleton in your closet, you'd best teach it to dance.</li>
               <li>If you're going to tell people the truth, make them laugh, otherwise they'll kill you.</li>
@@ -397,9 +396,9 @@ export default function Home() {
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Patrick Stewart&nbsp;</h3><p className={styles.info}>(Actor, 1940 - Present)</p>
             <ul className={styles.descriptionLeft}>
-              <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life.</li>
-              <li>The line must be drawn here, this far, no farther.</li>
-              <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life.</li>
+              <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life. - Star Trek: The Next Generation</li>
+              <li>The line must be drawn here, this far, no farther. - Star Trek: The Next Generation</li>
+              <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life. - Star Trek: The Next Generation</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
@@ -529,7 +528,6 @@ export default function Home() {
               <li>When in Rome, do as the Romans.</li>
               <li>No man is an island.</li>
               <li>People who live in glass houses should not throw stones.</li>
-              <li>Don't bite the hand that feeds you.</li>
               <li>The child who is not embraced by the village will burn it down to feel its warmth</li>
             </ul>
           </div>
