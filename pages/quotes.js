@@ -529,6 +529,7 @@ export default function Home() {
               <li>No man is an island.</li>
               <li>People who live in glass houses should not throw stones.</li>
               <li>The child who is not embraced by the village will burn it down to feel its warmth</li>
+              <li>If you strike me down I will become more powerful than you can possibly imagine - Obi Wan Kenobi</li>
             </ul>
           </div>
         </div>
