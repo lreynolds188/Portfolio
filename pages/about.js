@@ -19,7 +19,7 @@ export default function Home() {
             working to implement infrastructure and build the customer base.
           </p><br /><br />
           <p className={styles.description}>
-            In 2021 I was employed as a Project and Operations manager responsible for supporting the production environment 
+            In 2021 I was employed as a project and operations manager responsible for supporting the production environment 
             and implementing an IoT automation system for the company's primary reactor. 
             In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud
             based portal for QUT. In 2018 and 2019 I was responsible for developing business applications and supporting
@@ -27,9 +27,10 @@ export default function Home() {
             at Tafe Queensland and from 2012 to 2015 was employed as a Computer Technician.
           </p><br /><br />
           <p className={styles.description}>
-            Upon completion of my degree I plan to have a solid foundation in a range of differnet development
-            languages and techniques, with a keen interest in cyber security, microsystems, and IoT automation devices.
-            My hope is to work toward advancing the functionality, affordability, and sustainability of futuristic technological applications.
+            Upon completion of my degree I plan to have a solid foundation in a range of different development
+            languages and techniques with a keen focus on cyber security, blockchain technology, and IoT automation devices. In addition to a
+            basic foundation of mathematics, physics, business, psychology, and philosophy.
+            My goal is to work toward advancing the functionality, affordability, and sustainability of futuristic technological applications.
           </p>
         </div>
       </main>
