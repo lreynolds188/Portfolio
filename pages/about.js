@@ -24,8 +24,8 @@ export default function Home() {
             and implementing an IoT automation system for the company's primary reactor. 
             In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud
             based portal for QUT. In 2018 and 2019 I was responsible for developing business applications and supporting
-            the production environment of a large food processing plant. In 2016 I completed a Diploma of Software Development
-            at Tafe Queensland and from 2012 to 2015 was employed as a Computer Technician.
+            the production environment of a large food processing plant. In 2016 I completed a diploma of software development
+            at Tafe Queensland and from 2012 to 2015 was employed as a computer technician.
           </p><br /><br />
           <p className={styles.description}>
             Upon completion of my degree I plan to have a solid foundation in a range of different development
