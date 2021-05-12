@@ -18,7 +18,7 @@ export default function Home() {
 
           <h2 className={styles.categoryHeaders}>Summary</h2>
           <hr />
-          <p className={styles.categoryDescriptionMain}>
+          <p className={styles.description}>
             I am a Computer Scientist and owner of <a href="https://automatedtechnicalsolutions.com">Automated Tech Solutions</a>
             a technical consulting firm based in Queensland, Australia.
             I currently still have one subject remaining to complete my degree and am the sole member of my business
