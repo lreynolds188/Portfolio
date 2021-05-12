@@ -14,10 +14,8 @@ export default function Home() {
         <div>
         <br />
          <p className={styles.description}>
-            I am a Computer Scientist and the owner of <a href="https://automatedtechnicalsolutions.com">Automated Tech Solutions</a>&nbsp;
-            a technical consulting firm based in Queensland, Australia.
-            I currently still have one subject remaining to complete my degree and am the sole member of my business
-            working to implement infrastructure and build the customer base.
+            I am a Computer Scientist and the owner of <a href="https://automatedtechnicalsolutions.com">Automated Tech Solutions</a> a technical consulting firm based in Queensland, Australia.
+            I currently still have one subject remaining to complete my degree and am the sole member of my business working to implement infrastructure and build the customer base.
           </p><br /><br />
           <p className={styles.description}>
             In 2021 I was employed as a project and operations manager responsible for supporting the production environment 
