@@ -21,16 +21,14 @@ export default function Home() {
           <p className={styles.contact}>
             I am a Computer Scientist and the owner of <a href="https://automatedtechnicalsolutions.com">Automated Tech Solutions</a> a technical consulting firm based in Queensland, Australia.
             I currently have one subject remaining to receive my degree and am the sole member of my business working to implement infrastructure and build the customer base.
-          </p><br /><br />
-          <p className={styles.contact}>
+    
             In 2021 I was employed as a project and operations manager responsible for supporting the production environment 
             and implementing an IoT automation system for the company's primary reactor. 
             In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud
             based portal for QUT. In 2018 and 2019 I was responsible for developing business applications and supporting
             the production environment of a large food processing plant. In 2016 I completed a diploma of software development
             at Tafe Queensland and from 2012 to 2015 was employed as a computer technician.
-          </p><br /><br />
-          <p className={styles.contact}>
+    
             Upon completion of my degree I plan to have a solid foundation in a range of different development
             languages and techniques with a keen focus on cyber security, blockchain technology, and IoT automation devices. In addition to a
             basic foundation of mathematics, physics, business, psychology, and philosophy.
