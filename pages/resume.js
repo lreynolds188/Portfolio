@@ -58,11 +58,7 @@ export default function Home() {
           <a className={styles.primaryTitles} href="https://www.kilcoyglobalfoods.com/" target="_blank">Kilcoy Global Foods | Queensland, AU</a>
           <p className={styles.categoryDetails}>Developer/Technician, Nov 2018 – May 2019</p>
           <p className={styles.categoryDescription}>During my time in this position I was responsible for the development of business applications and support of a production environment. Projects were completed in a full stack agile development environment in which version control and project management tools were utilized.</p>
-          <br />
-          <a className={styles.primaryTitles} href="http://www.actlogistics.com.au/" target="_blank">ACT Logistics / ACT Computers | Queensland, AU</a>
-          <p className={styles.categoryDetails}>Technician, Aug 2014 – Apr 2015</p>
-          <p className={styles.categoryDescription}>In this position I worked in a computer store and distribution warehouse managing the redistribution of ex-government hardware. My position included such jobs as system reloads, stripping hardware, technical support, computer & phone repairs, and on-site support.</p>
-        
+
           <h2 className={styles.categoryHeaders}>Skills</h2><hr />
           <p className={styles.primaryTitles}>Languages & Frameworks</p>
           <p className={styles.categoryDescription}>C | C++ | C# | Python | Java | JavaScript | VisualBasic | .NET | SQL | HTML | CSS | PHP </p>
