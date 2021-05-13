@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: thereynolds.com.au
-Token: 8a7c5281bdf2392d6877a9ba6c5656c7bd38f513f7d0bba5908e03291271e7ae
