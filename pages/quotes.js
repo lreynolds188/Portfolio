@@ -504,6 +504,7 @@ export default function Home() {
               <li>You wouldn't worry so much about what others think of you if you realised how seldom they do. - Eleanor Roosevelt</li>
               <li>Beware the fury of a patient man. - John Dryden</li>
               <li>Chess is won, one step at a time</li>
+              <li>If you strike me down I shall become more powerful than you can possibly imagine - Obi Wan Kenobi</li>
               <li>Every path is the right path. Everything could have been anything else and it would have just as much meaning.</li>
               <li>In chess, it's called Zugzwang... when the only viable move... is not to move. </li>
               <li>The worst part about having a mental illness is people expect you to behave as if you don’t. - The Joker</li>
@@ -529,7 +530,6 @@ export default function Home() {
               <li>No man is an island.</li>
               <li>People who live in glass houses should not throw stones.</li>
               <li>The child who is not embraced by the village will burn it down to feel its warmth</li>
-              <li>If you strike me down I shall become more powerful than you can possibly imagine - Obi Wan Kenobi</li>
             </ul>
           </div>
         </div>
