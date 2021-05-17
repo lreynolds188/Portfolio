@@ -402,21 +402,21 @@ export default function Home() {
             </ul>
           </div><br/><br />
           <div className={styles.picture}>
-            <Image src="/stewart.jpg" alt="Stewart" width={180} height={180} />
+            <Image src="/picard.jpg" alt="Jean-Luc Picard" width={180} height={180} />
           </div>
           <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Patrick Stewart&nbsp;</h3><p className={styles.info}>(Actor, 1940 - Present)</p>
+            <h3 className={styles.noTopMargin}>Jean-Luc Picard&nbsp;</h3><p className={styles.info}>(Captain / Fictional Character, 1987+)</p>
             <ul className={styles.descriptionLeft}>
-              <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life. - Star Trek: The Next Generation</li>
+              <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life. - </li>
               <li>The line must be drawn here, this far, no farther. - Star Trek: The Next Generation</li>
               <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life. - Star Trek: The Next Generation</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
-            <Image src="/stewart.jpg" alt="Stewart" width={180} height={180} />
+            <Image src="/joker.jpeg" alt="The Joker" width={180} height={180} />
           </div>
           <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>The Joker&nbsp;</h3><p className={styles.info}>(Anarchist/Fictional Character, 1940+)</p>
+            <h3 className={styles.noTopMargin}>The Joker&nbsp;</h3><p className={styles.info}>(Anarchist / Fictional Character, 1940+)</p>
             <ul className={styles.descriptionLeft}>
               <li>The worst part about having a mental illness is people expect you to behave as if you don’t.</li>
               <li>Their morals, their code; it's a bad joke. Dropped at the first sign of trouble. They're only as good as the world allows them to be. You'll see- I'll show you. When the chips are down these, uh, civilized people? They'll eat each other. See I'm not a monster, I'm just ahead of the curve.</li>
@@ -528,7 +528,7 @@ export default function Home() {
               <li>Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth. - Sherlock Holmes</li>
               <li>He who learns must suffer, and even in our sleep pain that cannot forget falls drop by drop upon the heart. - Aeschylus</li>
               <li>Do, or do not. There is no try. - Yoda</li>
-              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Matrix</li>
+              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Oracle</li>
               <li>It may be the warriors who get the glory but it's the engineer's who build societies. - Snow Piercer</li>
               <li>Thinking is difficult, that's why most people judge. - Carl Jung</li>
               <li>Don't mistake my kindness for weakness. I am kind to everyone, but when someone is unkind to me, weak is not what you are going to remember about me. - Al Capone</li>
