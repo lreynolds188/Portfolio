@@ -405,7 +405,7 @@ export default function Home() {
             <Image src="/picard.jpg" alt="Jean-Luc Picard" width={180} height={180} />
           </div>
           <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Jean-Luc Picard&nbsp;</h3><p className={styles.info}>(Captain / Fictional Character, 1987+)</p>
+            <h3 className={styles.noTopMargin}>Jean-Luc Picard&nbsp;</h3><p className={styles.info}>(Captain/Fictional Character, 1987+)</p>
             <ul className={styles.descriptionLeft}>
               <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life.</li>
               <li>The line must be drawn here, this far, no farther.</li>
@@ -416,7 +416,7 @@ export default function Home() {
             <Image src="/joker.jpeg" alt="The Joker" width={180} height={180} />
           </div>
           <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>The Joker&nbsp;</h3><p className={styles.info}>(Anarchist / Fictional Character, 1940+)</p>
+            <h3 className={styles.noTopMargin}>The Joker&nbsp;</h3><p className={styles.info}>(Anarchist/Fictional Character, 1940+)</p>
             <ul className={styles.descriptionLeft}>
               <li>The worst part about having a mental illness is people expect you to behave as if you don’t.</li>
               <li>Their morals, their code; it's a bad joke. Dropped at the first sign of trouble. They're only as good as the world allows them to be. You'll see- I'll show you. When the chips are down these, uh, civilized people? They'll eat each other. See I'm not a monster, I'm just ahead of the curve.</li>
