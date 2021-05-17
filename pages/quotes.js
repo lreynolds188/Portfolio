@@ -407,9 +407,9 @@ export default function Home() {
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Jean-Luc Picard&nbsp;</h3><p className={styles.info}>(Captain / Fictional Character, 1987+)</p>
             <ul className={styles.descriptionLeft}>
-              <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life. - </li>
-              <li>The line must be drawn here, this far, no farther. - Star Trek: The Next Generation</li>
-              <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life. - Star Trek: The Next Generation</li>
+              <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life.</li>
+              <li>The line must be drawn here, this far, no farther.</li>
+              <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life.</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
