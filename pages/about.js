@@ -19,7 +19,7 @@ export default function Home() {
             <br /><br />
             At the beginning of my career I worked as a computer technician for a range of different companies between 2012 and 2015.
             In 2016 I received a diploma of software development from Tafe Queensland. In 2018 and '19 I was employed by a large food 
-            processing plant and responsible for developing business applications and supporting the production environment.
+            processing plant and was responsible for developing business applications and supporting the production environment.
             In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud based portal for QUT.
             In my last position as a project and operations manager I was responsible for supporting the production environment 
             and implementing an IoT automation system for the company's primary reactor.
