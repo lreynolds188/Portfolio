@@ -34,7 +34,6 @@ export default function Home() {
               <li>Let him that would move the world first move himself.</li>
               <li>Be slow to fall into friendship; but when thou art in, continue firm and constant.</li>
             </ul>
-            
           </div><br /><br />
           <div className={styles.picture}>
             <Image src="/plato.jpg" alt="Plato" width={180} height={180} />
@@ -180,7 +179,7 @@ export default function Home() {
             </ul>
           </div><br /><br />
           <div className={styles.picture}>
-            <Image src="/kant.jpg" alt="Kant" width={180} height={180} />
+            <Image src="/emerson.jpg" alt="Emerson" width={180} height={180} />
           </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Ralph Waldo Emerson&nbsp;</h3><p className={styles.info}>(Philosopher, 1803 - 1882)</p>
