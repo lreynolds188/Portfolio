@@ -180,6 +180,16 @@ export default function Home() {
             </ul>
           </div><br /><br />
           <div className={styles.picture}>
+            <Image src="/kant.jpg" alt="Kant" width={180} height={180} />
+          </div>
+          <div className={styles.content}>
+            <h3 className={styles.noTopMargin}>Ralph Waldo Emerson&nbsp;</h3><p className={styles.info}>(Philosopher, 1803 - 1882)</p>
+            <ul className={styles.descriptionLeft}>
+              <li>To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.</li>
+              <li>Is it so bad then to be misunderstood? Pythagoras was misunderstood, and Socrates, and Jesus, and Luther, and Copernicus, and Galileo, and Newton, and every pure and wise spirit that ever took flesh. To be great is to be misunderstood</li>
+            </ul>
+          </div><br /><br />
+          <div className={styles.picture}>
             <Image src="/twain.jpg" alt="Twain" width={180} height={180} />
           </div>
           <div className={styles.content}>
@@ -355,6 +365,7 @@ export default function Home() {
               <li>Doublethink means the power of holding two contradictory beliefs in one's mind simultaneously, and accepting both of them.</li>
               <li>Until they become conscious they will never rebel, and until after they have rebelled they cannot become conscious.</li>
               <li>I have seen British imperialism at work in Burma, and I have seen something of the effects of poverty and unemployment in Britian... One has got to be actively a socialist, not merely sympathetic to socialism, or one plays into the hands of our always active enemies.</li>
+              <li>The central problem - how to prevent power from being abused - remains unsolved. Dickens, who had not the vision to see that private property is an obstructive nuisance, had the vision to see that: 'If men would behave decently the world would be decent' is not such a platitude as it sounds.</li>
             </ul>
           </div><br /><br />
           <div className={styles.picture}>
@@ -400,6 +411,28 @@ export default function Home() {
               <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life. - Star Trek: The Next Generation</li>
               <li>The line must be drawn here, this far, no farther. - Star Trek: The Next Generation</li>
               <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life. - Star Trek: The Next Generation</li>
+            </ul>
+          </div><br/><br /><br/>
+          <div className={styles.picture}>
+            <Image src="/stewart.jpg" alt="Stewart" width={180} height={180} />
+          </div>
+          <div className={styles.content}>
+            <h3 className={styles.noTopMargin}>The Joker&nbsp;</h3><p className={styles.info}>(Anarchist/Fictional Character, 1940+)</p>
+            <ul className={styles.descriptionLeft}>
+              <li>The worst part about having a mental illness is people expect you to behave as if you don’t.</li>
+              <li>Their morals, their code; it's a bad joke. Dropped at the first sign of trouble. They're only as good as the world allows them to be. You'll see- I'll show you. When the chips are down these, uh, civilized people? They'll eat each other. See I'm not a monster, I'm just ahead of the curve.</li>
+              <li>For my whole life, I didn't know if I even really existed. But I do, and people are starting to notice.</li>
+              <li>How 'bout another joke, Murray? What do you get... when you cross... a mentally ill loner with a society that abandons him and treats him like trash? I'll tell you what you get! You get what you fuckin' deserve!</li>
+              <li>They need you right now, but when they don’t, they’ll cast you out like a leper!</li>
+              <li>As you know, madness is like gravity…all it takes is a little push.</li>
+              <li>We stopped checking for monsters under our bed, when we realized they were inside us.</li>
+              <li>Nobody panics when things go “according to plan”. Even if the plan is horrifying!</li>
+              <li>Madness is the emergency exit. You can just step outside, and close the door on all those dreadful things that happened. You can lock them away… forever.</li>
+              <li>The pen, is truly mightier than the sword!</li>
+              <li>The strongest hearts have the most scars!</li>
+              <li>Give a man a mask and he will become his true self.</li>
+              <li>You cant sell dreams to someone who has walked through nightmares.</li>
+              <li>Sometimes you have to play the role of a fool to fool the fool who thinks they are fooling you.</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
@@ -492,7 +525,6 @@ export default function Home() {
               <li>It is always darkest just before the dawn. - Thomas Fuller</li>
               <li>I feel stupid, and contagious. - Kurt Cobain</li>
               <li>Patience is a virtue. - Piers Plowman</li>
-              <li>To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. - Ralph Emerson</li>
               <li>The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts. - Bertrand Russell</li>
               <li>Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth. - Sherlock Holmes</li>
               <li>He who learns must suffer, and even in our sleep pain that cannot forget falls drop by drop upon the heart. - Aeschylus</li>
@@ -501,15 +533,12 @@ export default function Home() {
               <li>It may be the warriors who get the glory but it's the engineer's who build societies. - Snow Piercer</li>
               <li>Thinking is difficult, that's why most people judge. - Carl Jung</li>
               <li>Don't mistake my kindness for weakness. I am kind to everyone, but when someone is unkind to me, weak is not what you are going to remember about me. - Al Capone</li>
-              <li>The central problem - how to prevent power from being abused - remains unsolved. Dickens, who had not the vision to see that private property is an obstructive nuisance, had the vision to see that: 'If men would behave decently the world would be decent' is not such a platitude as it sounds. - George Orwell</li>
               <li>You wouldn't worry so much about what others think of you if you realised how seldom they do. - Eleanor Roosevelt</li>
               <li>Beware the fury of a patient man. - John Dryden</li>
               <li>Chess is won, one step at a time</li>
               <li>If you strike me down I shall become more powerful than you can possibly imagine - Obi Wan Kenobi</li>
               <li>Every path is the right path. Everything could have been anything else and it would have just as much meaning.</li>
               <li>In chess, it's called Zugzwang... when the only viable move... is not to move. </li>
-              <li>The worst part about having a mental illness is people expect you to behave as if you don’t. - The Joker</li>
-              <li>Their morals, their code; it's a bad joke. Dropped at the first sign of trouble. They're only as good as the world allows them to be. You'll see- I'll show you. When the chips are down these, uh, civilized people? They'll eat each other. See I'm not a monster, I'm just ahead of the curve.” - The Joker</li>
               <li>The young don't know enough to be prudent, and therefore they attempt the impossible-and achieve it, generation after generation. - Pearl Buck</li>
               <li>Diplomacy is the art of saying "nice doggy" until you can find a rock - Will Rogers</li>
               <li>Just exist for a while and be decent, that's heroism enough - Exurb1a</li>
@@ -518,7 +547,7 @@ export default function Home() {
               <li>The distance between insanity and genius is measured only by success - Ian Fleming</li>
               <li>I imagine one of the reasons people cling to their hates so stubbornly is because they sense that once hate is gone, they will be forced to deal with pain - James Baldwin</li>
               <li>The best teachers are those who show you where to look, but don't tell you what to see - Alexandra K Trenfor</li>
-              <li>If the penalty for a crime is a fine then that law only exists for the lower class </li>
+              <li>If the penalty for a crime is a fine then that law only exists for the lower class.</li>
               <li>Nationalism is our form of incest, is our idolatry, is our insanity. 'Patriotism' is its cult... Just as love for one individual which excludes the love for others is not love, love for one's country which is not part of one's love for humanity is not love but idolatrous worship. - Eric Fromm</li>
               <li>To be wise is to suffer. - Sophocles</li>
               <li>When I was poor and complained about inequality they said I was bitter; now that I'm rich and I complain about inequality they say I'm a hypocrite. I'm beginning to think they just don't want to talk about inequality. - Russel Brand</li>
@@ -526,7 +555,6 @@ export default function Home() {
               <li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
               <li>Truth is like poetry. And most people hate poetry.</li>
               <li>Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.</li>
-              <li>The pen is mightier than the sword.</li>
               <li>When in Rome, do as the Romans.</li>
               <li>No man is an island.</li>
               <li>People who live in glass houses should not throw stones.</li>
