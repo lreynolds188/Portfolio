@@ -431,7 +431,6 @@ export default function Home() {
               <li>The strongest hearts have the most scars!</li>
               <li>Give a man a mask and he will become his true self.</li>
               <li>You cant sell dreams to someone who has walked through nightmares.</li>
-              <li>Sometimes you have to play the role of a fool to fool the fool who thinks they are fooling you.</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
