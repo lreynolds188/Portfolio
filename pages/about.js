@@ -22,7 +22,7 @@ export default function Home() {
             processing plant and was responsible for developing business applications and supporting the production environment.
             In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud based portal for QUT.
             In my last position as a project and operations manager I was responsible for supporting the production environment 
-            and implementing an IoT automation system for the company's primary reactor.
+            and implementing an IoT automation system for the company's primary concentrator.
             <br /><br />
             Upon completion of my degree I plan to have a solid foundation in a range of different development
             languages and techniques with a keen focus on cyber security, blockchain technology, and IoT automation devices. In addition to a
