@@ -19,7 +19,7 @@ export default function Home() {
           <h2 className={styles.categoryHeaders}>Summary</h2>
           <hr />
           <p className={styles.contact}>
-            I am a Computer Scientist and the owner of <a href="https://automatedtechnicalsolutions.com">Automated Tech Solutions</a> a technical consulting firm based in Queensland, Australia.
+            I am a Computer Scientist and the owner of <a href="https://atechsol.com.au">ATechSol</a> a technical consulting firm based in Queensland, Australia.
             I currently have one subject remaining to receive my degree and am the sole member of my business working to implement infrastructure and build the customer base.
             <br/><br/>
             At the beginning of my career I worked as a computer technician for a range of different companies between 2012 and 2015.
@@ -44,8 +44,8 @@ export default function Home() {
           <p className={styles.categoryDetails}>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
                              
           <h2 className={styles.categoryHeaders}>Experience</h2><hr />
-          <p className={styles.primaryTitles}>Automated Tech Solutions | Queensland, AU</p>
-          <p className={styles.categoryDetails}>Sole Proprietor, May 2021 - Present</p>
+          <a className={styles.primaryTitles} href="https://atechsol.com.au" target="_blank">ATechSol | Queensland, AU</a>
+          <p className={styles.categoryDetails}>Technical Consultant, May 2021 - Present</p>
           <p className={styles.categoryDescription}>I'm the owner of Automated Tech Solutions and am currently working to implement infrastructure, comply with requirements, and build a customer base.</p>
           <br />    
           <p className={styles.primaryTitles}>Ridgeline Manufacturing | Queensland, AU</p>
