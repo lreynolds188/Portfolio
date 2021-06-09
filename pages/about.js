@@ -14,7 +14,7 @@ export default function Home() {
         <div>
         <br />
          <p className={styles.description}>
-            I am a Computer Scientist and the owner of <a href="https://atechsol.com.au">ATechSol</a> a technical consulting firm based in Queensland, Australia.
+            I am a Computer Scientist and the owner of <a href="https://atechsol.com.au">ATechSol</a> a technical consulting firm and online wiki based in Queensland, Australia.
             I currently have one subject remaining for completion of my degree and am the sole member of my business working to implement infrastructure and build the customer base.
             <br /><br />
             At the beginning of my career I worked as a computer technician for a range of different companies between 2012 and 2015.
