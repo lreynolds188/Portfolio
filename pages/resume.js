@@ -65,12 +65,12 @@ export default function Home() {
           <p className={styles.primaryTitles}>Platforms & Technologies</p>
           <p className={styles.categoryDescription}>Linux | Windows | Android | GitHub | DevOps | Active Directory | Virtualization | Server Administration | Database Management | Networking | Remote Access | Backup Systems | Security Systems | Service Management Systems</p>
           
-          <h2 className={styles.categoryHeaders}>Hobbies</h2><hr />
-            <ul>
-              <li className={styles.categoryDescription}>Member of the Greens</li>
-              <li className={styles.categoryDescription}>Music (Singing/Guitar)</li>
-              <li className={styles.categoryDescription}>Extreme Sports (Skateboarding/Motorcycling)</li>
-            </ul>
+          <h2 className={styles.categoryHeaders}>Hobbies</h2><hr /><br/>
+          <ul>
+            <li className={styles.categoryDescription}>Music (Singing & Guitar)</li>
+            <li className={styles.categoryDescription}>Politics (Member of the Greens)</li>
+            <li className={styles.categoryDescription}>Extreme Sports (Skateboarding & Motorcycling)</li>
+          </ul>
         </div>
       </main>
     </div>
