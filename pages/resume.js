@@ -16,8 +16,7 @@ export default function Home() {
             <p className={styles.contact}>LUKE [AT] <a className={styles.contact} href="https://thereynolds.com.au" target="_blank">THEREYNOLDS.COM.AU</a></p>
           </div>
 
-          <h2 className={styles.categoryHeaders}>Summary</h2>
-          <hr />
+          <h2 className={styles.categoryHeaders}>Summary</h2><hr />
           <p className={styles.contact}>
             I am a Computer Scientist and the owner of <a href="https://atechsol.com.au">ATechSol</a> a technical consulting firm and online wiki based in Queensland, Australia.
             I currently have one subject remaining for completion of my degree and am the sole member of my business working to implement infrastructure and build the customer base.
@@ -36,14 +35,14 @@ export default function Home() {
             My goal is to work toward advancing the functionality, affordability, and sustainability of futuristic technological applications.
           </p>
     
-          <h2 className={styles.categoryHeaders}>Education</h2><hr />
+          <h2 className={styles.categoryHeaders}>Education</h2><hr /><br/>
           <a className={styles.primaryTitles} href="http://qut.edu.au" target="_blank">Queensland University of Technology | Queensland, AU</a>
           <p className={styles.categoryDetails}>Bachelor of Computer Science<br/>Gardens Point Campus<br/>2017 - Present</p>
           <br />
           <a className={styles.primaryTitles} href="http://tafebrisbane.edu.au" target="_blank">Tafe Queensland | Queensland, AU</a>
           <p className={styles.categoryDetails}>Diploma of Software Development<br/>Loganlea Campus<br/>2016</p>
                              
-          <h2 className={styles.categoryHeaders}>Experience</h2><hr />
+          <h2 className={styles.categoryHeaders}>Experience</h2><hr /><br/>
           <a className={styles.primaryTitles} href="https://atechsol.com.au" target="_blank">ATechSol | Queensland, AU</a>
           <p className={styles.categoryDetails}>Technical Consultant, May 2021 - Present</p>
           <p className={styles.categoryDescription}>I am the owner and lead consultant of ATechSol a technical consulting firm and online wiki based in Brisbane, Queensland. I am currently working to implement infrastructure, comply with requirements, and build the customer base. The business offers a wide range of services from general support to IoT automated system development.</p>
@@ -65,6 +64,13 @@ export default function Home() {
           <br />
           <p className={styles.primaryTitles}>Platforms & Technologies</p>
           <p className={styles.categoryDescription}>Linux | Windows | Android | GitHub | DevOps | Active Directory | Virtualization | Server Administration | Database Management | Networking | Remote Access | Backup Systems | Security Systems | Service Management Systems</p>
+          
+          <h2 className={styles.categoryHeaders}>Hobbies</h2><hr />
+            <ul>
+              <li className={styles.categoryDescription}>Member of the Greens</li>
+              <li className={styles.categoryDescription}>Music (Singing/Guitar)</li>
+              <li className={styles.categoryDescription}>Extreme Sports (Skateboarding/Motorcycling)</li>
+            </ul>
         </div>
       </main>
     </div>
