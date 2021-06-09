@@ -46,7 +46,7 @@ export default function Home() {
           <h2 className={styles.categoryHeaders}>Experience</h2><hr />
           <a className={styles.primaryTitles} href="https://atechsol.com.au" target="_blank">ATechSol | Queensland, AU</a>
           <p className={styles.categoryDetails}>Technical Consultant, May 2021 - Present</p>
-          <p className={styles.categoryDescription}>I'm the owner of Automated Tech Solutions and am currently working to implement infrastructure, comply with requirements, and build a customer base.</p>
+          <p className={styles.categoryDescription}>I am the owner and lead consultant of ATechSol and technical consulting firm and online wiki based in Brisbane, Queensland. I am currently working to implement infrastructure, comply with requirements, and build the customer base. The business offers a wide range of services from general support to advanced IoT automation development.</p>
           <br />    
           <p className={styles.primaryTitles}>Ridgeline Manufacturing | Queensland, AU</p>
           <p className={styles.categoryDetails}>Project/Operations Manager, May 2020 - May 2021</p>
