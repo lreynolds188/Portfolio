@@ -220,13 +220,6 @@ export default function Home() {
           <div className={styles.picture}>
             <Image src="/edison.jpg" alt="Edison" width={180} height={180} />
           </div>
-          <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Thomas Edison&nbsp;</h3><p className={styles.info}>(Inventor, 1847 - 1931)</p>
-            <ul className={styles.descriptionLeft}>
-              <li>I have not failed. I've just found 10,000 ways that won't work.</li>
-              <li>Our greatest weakness lies in giving up. The most certain way to succeed is to always try just one more time.</li>
-            </ul>
-          </div><br/><br/><br/>
           <div className={styles.picture}>
             <Image src="/bell.jpg" alt="Bell" width={180} height={180} />
           </div>
