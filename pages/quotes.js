@@ -551,6 +551,8 @@ export default function Home() {
               <li>People who live in glass houses should not throw stones.</li>
               <li>The child who is not embraced by the village will burn it down to feel its warmth</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
+              <li>Everyone once in a while, declare peace with your enemies. It confuses the hell out of em - Quark (Star Trek: Deep Space 9)</li>
+              <li>First they came for the socialists, and I did not speak out, because I was not a socialist. Then they came for the trade unionists, and I did not speak out, because I was not a trade unionist. Then they came for the Jews, and I did not speak out because I was not a Jew. Then they came for me, and there was no one left to speak for me. - Martin Niemöller </li>
             </ul>
           </div>
         </div>
