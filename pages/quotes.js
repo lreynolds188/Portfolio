@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Socrates&nbsp;</h3><p className={styles.info}>(Philosopher, 470 - 399 BC)</p>
-            <ul>
+            <ul className={styles.descriptionLeft}>
               <li>Strong minds discuss ideas, average minds discuss events, and weak minds discuss people.</li>
               <li>An unexamined life is not worth living.</li>
               <li>True knowledge exists in knowing that you know nothing.</li>
@@ -509,7 +509,7 @@ export default function Home() {
           </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Assorted</h3>
-            <ul>
+            <ul className={styles.descriptionLeft}>
               <li>It is always darkest just before the dawn. - Thomas Fuller</li>
               <li>I feel stupid, and contagious. - Kurt Cobain</li>
               <li>Patience is a virtue. - Piers Plowman</li>
