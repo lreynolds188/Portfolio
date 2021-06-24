@@ -218,9 +218,6 @@ export default function Home() {
             </ul>
           </div><br/><br/>
           <div className={styles.picture}>
-            <Image src="/edison.jpg" alt="Edison" width={180} height={180} />
-          </div>
-          <div className={styles.picture}>
             <Image src="/bell.jpg" alt="Bell" width={180} height={180} />
           </div>
           <div className={styles.content}>
