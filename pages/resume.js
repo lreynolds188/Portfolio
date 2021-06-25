@@ -57,7 +57,7 @@ export default function Home() {
 
           <h2 className={styles.categoryHeaders}>Skills</h2><hr />
           <p className={styles.primaryTitles}>Languages & Frameworks</p>
-          <p className={styles.categoryDescription}>C | C++ | C# | Python | Java | JavaScript | VisualBasic | .NET | SQL | HTML | CSS | PHP </p>
+          <p className={styles.categoryDescription}>C | C++ | C# | Python | Java | JavaScript | React | VisualBasic | .NET | SQL | HTML | CSS | PHP </p>
           <br />
           <p className={styles.primaryTitles}>Tools & Practices</p>
           <p className={styles.categoryDescription}>Version Control | Team Management Systems | Computational Mathematics | Requirements Gathering | Systems Analysis | Software Design | Development | Debugging | Documentation | Testing | Deployment</p>
