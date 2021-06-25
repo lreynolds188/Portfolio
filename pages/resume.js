@@ -64,7 +64,12 @@ export default function Home() {
           <br />
           <p className={styles.primaryTitles}>Platforms & Technologies</p>
           <p className={styles.categoryDescription}>Linux | Windows | Android | GitHub | DevOps | Active Directory | Virtualization | Server Administration | Database Management | Networking | Remote Access | Backup Systems | Security Systems | Service Management Systems</p>
-          
+          <h2 className={styles.categoryHeaders}>Licences</h2><hr /><br/>
+          <ul>
+            <li className={styles.categoryDescription}>LF Forklift Licence</li>
+            <li className={styles.categoryDescription}>High Risk Work Licence</li>
+            <li className={styles.categoryDescription}>Responsible Service of Alcohol Certified</li>
+          </ul>
           <h2 className={styles.categoryHeaders}>Hobbies</h2><hr /><br/>
           <ul>
             <li className={styles.categoryDescription}>Music (Singing & Guitar)</li>
