@@ -68,6 +68,7 @@ export default function Home() {
           <ul>
             <li className={styles.categoryDescription}>LF Forklift Licence</li>
             <li className={styles.categoryDescription}>High Risk Work Licence</li>
+            <li className={styles.categoryDescription}>C & RE Drivers Licence</li>
             <li className={styles.categoryDescription}>Responsible Service of Alcohol Certified</li>
           </ul>
           <h2 className={styles.categoryHeaders}>Hobbies</h2><hr /><br/>
