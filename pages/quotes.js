@@ -551,6 +551,7 @@ export default function Home() {
               <li>Everyone once in a while, declare peace with your enemies. It confuses the hell out of em - Quark, Star Trek: Deep Space 9</li>
               <li>First they came for the socialists, and I did not speak out, because I was not a socialist. Then they came for the trade unionists, and I did not speak out, because I was not a trade unionist. Then they came for the Jews, and I did not speak out because I was not a Jew. Then they came for me, and there was no one left to speak for me. - Martin Niemöller </li>
               <li>When exposing a crime is treated as committing a crime, you are being ruled by criminals. - Edward Snowden</li>
+              <li>I believe in coincidences. Coincidences happen every day. But I don't trust coincidences. - Garak, Star Trek: Deep Space 9</li>
             </ul>
           </div>
         </div>
