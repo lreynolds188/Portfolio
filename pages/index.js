@@ -8,10 +8,10 @@ export default function Home() {
       <Head>
         <title>Luke Reynolds</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta charset="UTF-8">
-        <meta name="description" content="Portfolio for Luke Reynolds, computer scientist and owner of ATechSol, an online wiki and technical consulting firm based in Brisbane, Queensland.">
-        <meta name="keywords" content="Luke, Reynolds, Portfolio, TheReynolds">
-        <meta name="author" content="Luke Reynolds">
+        <meta charset="UTF-8" />
+        <meta name="description" content="Portfolio for Luke Reynolds, computer scientist and owner of ATechSol, an online wiki and technical consulting firm based in Brisbane, Queensland." />
+        <meta name="keywords" content="Luke, Reynolds, Portfolio, TheReynolds" />
+        <meta name="author" content="Luke Reynolds" />
       </Head>
 
       <main className={styles.main}>
