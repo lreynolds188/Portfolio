@@ -484,10 +484,10 @@ export default function Home() {
             </ul>
           </div><br /><br /><br/>
           <div className={styles.picture}>
-            <Image src="/reeves.jpg" alt="Star Trek" width={180} height={180} />
+            <Image src="/startrek.jpg" alt="Star Trek" width={180} height={180} />
           </div>
           <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Spock&nbsp;</h3><p className={styles.info}>(Science Officer/Fictional Charactor, 1966+)</p>
+            <h3 className={styles.noTopMargin}>Star Trek&nbsp;</h3><p className={styles.info}>(Science Fiction Show, 1966+)</p>
             <ul className={styles.descriptionLeft}>
               <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life. - Picard</li>
               <li>The line must be drawn here, this far, no farther. - Picard</li>
