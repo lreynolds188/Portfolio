@@ -536,9 +536,9 @@ export default function Home() {
               <li>In chess, it's called Zugzwang... when the only viable move... is not to move. </li>
               <li>The young don't know enough to be prudent, and therefore they attempt the impossible-and achieve it, generation after generation. - Pearl Buck</li>
               <li>Diplomacy is the art of saying "nice doggy" until you can find a rock - Will Rogers</li>
-              <li>Just exist for a while and be decent, that's heroism enough - Exurb1a</li>
               <li>We must believe in free will, we have no choice. - Isaac Bashevis Singer</li>
-              <li>When people are not punished for breaking the rules, the ones following the rules are the ones being punished - orderofmagnitude</li>
+              <li>Just exist for a while and be decent, that's heroism enough - u/Exurb1a</li>
+              <li>When people are not punished for breaking the rules, the ones following the rules are the ones being punished - u/orderofmagnitude</li>
               <li>The distance between insanity and genius is measured only by success - Ian Fleming</li>
               <li>I imagine one of the reasons people cling to their hates so stubbornly is because they sense that once hate is gone, they will be forced to deal with pain - James Baldwin</li>
               <li>The best teachers are those who show you where to look, but don't tell you what to see - Alexandra K Trenfor</li>
@@ -549,18 +549,23 @@ export default function Home() {
               <li>When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist. - Dom Helder Camara</li>
               <li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
               <li>Truth is like poetry. And most people hate poetry.</li>
-              <li>Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.</li>
-              <li>When in Rome, do as the Romans.</li>
-              <li>No man is an island.</li>
-              <li>People who live in glass houses should not throw stones.</li>
-              <li>The child who is not embraced by the village will burn it down to feel its warmth</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
               <li>First they came for the socialists, and I did not speak out, because I was not a socialist. Then they came for the trade unionists, and I did not speak out, because I was not a trade unionist. Then they came for the Jews, and I did not speak out because I was not a Jew. Then they came for me, and there was no one left to speak for me. - Martin Niemöller </li>
               <li>When exposing a crime is treated as committing a crime, you are being ruled by criminals. - Edward Snowden</li>
             </ul>
           </div>
-        </div>
-      </main>
+          </div><br /><br /><br/>
+          <div className={styles.content}>
+            <h3 className={styles.noTopMargin}>Proverbs</h3>
+            <ul className={styles.descriptionLeft}>
+              <li>Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.</li>
+              <li>When in Rome, do as the Romans.</li>
+              <li>No man is an island.</li>
+              <li>People who live in glass houses should not throw stones.</li>
+              <li>The child who is not embraced by the village will burn it down to feel its warmth</li>
+            </ul>
+          </div>
+        </main>
     </div>
   );
 }
