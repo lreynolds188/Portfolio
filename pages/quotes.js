@@ -392,17 +392,6 @@ export default function Home() {
             </ul>
           </div><br/><br />
           <div className={styles.picture}>
-            <Image src="/picard.jpg" alt="Jean-Luc Picard" width={180} height={180} />
-          </div>
-          <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Jean-Luc Picard&nbsp;</h3><p className={styles.info}>(Captain/Fictional Character, 1987+)</p>
-            <ul className={styles.descriptionLeft}>
-              <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life.</li>
-              <li>The line must be drawn here, this far, no farther.</li>
-              <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life.</li>
-            </ul>
-          </div><br/><br /><br/>
-          <div className={styles.picture}>
             <Image src="/joker.jpeg" alt="The Joker" width={180} height={180} />
           </div>
           <div className={styles.content}>
@@ -495,6 +484,24 @@ export default function Home() {
             </ul>
           </div><br /><br /><br/>
           <div className={styles.picture}>
+            <Image src="/reeves.jpg" alt="Star Trek" width={180} height={180} />
+          </div>
+          <div className={styles.content}>
+            <h3 className={styles.noTopMargin}>Spock&nbsp;</h3><p className={styles.info}>(Science Officer/Fictional Charactor, 1966+)</p>
+            <ul className={styles.descriptionLeft}>
+              <li>If you pull at the loose threads of your self, you will unwind the tapestry of your life. - Picard</li>
+              <li>The line must be drawn here, this far, no farther. - Picard</li>
+              <li>It is possible to commit no mistakes and still lose. That is not a weakness. That is life. - Picard</li>
+              <li>The needs of the many outweigh the needs of the few or the one. - Spock</li>
+              <li>Live long and prosper - Spock</li>
+              <li>After a time, you may find that having is not so pleasing a thing after all as wanting. It is not logical, but it is often true. - Spock</li>
+              <li>I believe in coincidences. Coincidences happen every day. But I don't trust coincidences. - Garak</li>
+              <li>Everyone once in a while, declare peace with your enemies. It confuses the hell out of em - Quark</li>
+              <li>One man can summon the future - T'Pol</li>
+              <li>In accepting the inevitable, one finds peace - Tuvok</li>
+            </ul>
+          </div><br /><br /><br/>
+          <div className={styles.picture}>
             <Image src="/musk.jpg" alt="Musk" width={180} height={180} />
           </div>
           <div className={styles.content}>
@@ -517,6 +524,7 @@ export default function Home() {
               <li>Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth. - Sherlock Holmes</li>
               <li>He who learns must suffer, and even in our sleep pain that cannot forget falls drop by drop upon the heart. - Aeschylus</li>
               <li>Do, or do not. There is no try. - Yoda</li>
+              <li>If you strike me down I shall become more powerful than you can possibly imagine - Obi Wan Kenobi</li>
               <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Oracle</li>
               <li>It may be the warriors who get the glory but it's the engineer's who build societies. - Snow Piercer</li>
               <li>Thinking is difficult, that's why most people judge. - Carl Jung</li>
@@ -524,7 +532,6 @@ export default function Home() {
               <li>You wouldn't worry so much about what others think of you if you realised how seldom they do. - Eleanor Roosevelt</li>
               <li>Beware the fury of a patient man. - John Dryden</li>
               <li>Chess is won, one step at a time</li>
-              <li>If you strike me down I shall become more powerful than you can possibly imagine - Obi Wan Kenobi</li>
               <li>Every path is the right path. Everything could have been anything else and it would have just as much meaning.</li>
               <li>In chess, it's called Zugzwang... when the only viable move... is not to move. </li>
               <li>The young don't know enough to be prudent, and therefore they attempt the impossible-and achieve it, generation after generation. - Pearl Buck</li>
@@ -548,10 +555,8 @@ export default function Home() {
               <li>People who live in glass houses should not throw stones.</li>
               <li>The child who is not embraced by the village will burn it down to feel its warmth</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
-              <li>Everyone once in a while, declare peace with your enemies. It confuses the hell out of em - Quark, Star Trek: Deep Space 9</li>
               <li>First they came for the socialists, and I did not speak out, because I was not a socialist. Then they came for the trade unionists, and I did not speak out, because I was not a trade unionist. Then they came for the Jews, and I did not speak out because I was not a Jew. Then they came for me, and there was no one left to speak for me. - Martin Niemöller </li>
               <li>When exposing a crime is treated as committing a crime, you are being ruled by criminals. - Edward Snowden</li>
-              <li>I believe in coincidences. Coincidences happen every day. But I don't trust coincidences. - Garak, Star Trek: Deep Space 9</li>
             </ul>
           </div>
         </div>
