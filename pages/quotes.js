@@ -555,6 +555,9 @@ export default function Home() {
             </ul>
           </div>
           </div><br /><br /><br/>
+          <div className={styles.picture}>
+            <Image src="/proverbs.jpg" alt="Proverbs" width={180} height={180} />
+          </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Proverbs</h3>
             <ul className={styles.descriptionLeft}>
