@@ -498,6 +498,7 @@ export default function Home() {
               <li>I believe in coincidences. Coincidences happen every day. But I don't trust coincidences. - Garak</li>
               <li>Everyone once in a while, declare peace with your enemies. It confuses the hell out of em - Quark</li>
               <li>One man can summon the future - T'Pol</li>
+              <li>Challenge your preconceptions, or they will challenge you. - Trip</li>
               <li>In accepting the inevitable, one finds peace - Tuvok</li>
             </ul>
           </div><br /><br /><br/>
