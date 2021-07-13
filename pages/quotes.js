@@ -566,7 +566,6 @@ export default function Home() {
               <li>When in Rome, do as the Romans.</li>
               <li>No man is an island.</li>
               <li>People who live in glass houses should not throw stones.</li>
-              <li>The child who is not embraced by the village will burn it down to feel its warmth</li>
             </ul>
           </div>
         </main>
