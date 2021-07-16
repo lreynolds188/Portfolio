@@ -41,11 +41,6 @@ export default function Home() {
             <h3>GitHub &rarr;</h3>
             <p>Discover past, present, and future projects on GitHub.</p>
           </a>
-    
-          <a href="/quotes" className={styles.card}>
-            <h3>Quotes &rarr;</h3>
-            <p>View some quotes i've collected over the years.</p>
-          </a>
         </div>
       </main>
     </div>
