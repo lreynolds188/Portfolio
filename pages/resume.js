@@ -74,7 +74,6 @@ export default function Home() {
           <h2 className={styles.categoryHeaders}>Hobbies</h2><hr /><br/>
           <ul>
             <li className={styles.categoryDescription}>Music (Singing & Guitar)</li>
-            <li className={styles.categoryDescription}>Politics (Member of the Greens)</li>
             <li className={styles.categoryDescription}>Extreme Sports (Skateboarding & Motorcycling)</li>
           </ul>
         </div>
