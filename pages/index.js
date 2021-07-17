@@ -43,7 +43,7 @@ export default function Home() {
           </a>
 
           <a href="/quotes" className={styles.card}>
-            <h3>GitHub &rarr;</h3>
+            <h3>Quotes &rarr;</h3>
             <p>Read some quotes i've collected over the years.</p>
           </a>
         </div>
