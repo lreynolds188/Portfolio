@@ -507,19 +507,7 @@ export default function Home() {
               <li>Less is more. - Ludwig Mies van der Rohe</li>
             </ul>
           </div>
-          </div><br /><br /><br/>
-          <div className={styles.picture}>
-            <Image src="/proverbs.jpg" alt="Proverbs" width={180} height={180} />
-          </div>
-          <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Proverbs</h3>
-            <ul className={styles.descriptionLeft}>
-              <li>Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.</li>
-              <li>People who live in glass houses should not throw stones.</li>
-              <li>When in Rome, do as the Romans.</li>
-              <li>No man is an island.</li>
-            </ul>
-          </div>
+        </div>
         </main>
     </div>
   );
