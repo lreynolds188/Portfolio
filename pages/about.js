@@ -27,8 +27,6 @@ export default function Home() {
             Upon completion of my degree I plan to have a solid foundation in a range of different development
             languages and techniques with a keen focus on cyber security, blockchain technology, and IoT automation devices. In addition to a
             rudimentary understanding of mathematics, physics, business, economics, psychology, philosophy, and politics.
-            <br/><br/>
-            My goal is to work toward improving the information security and privacy for all in todays high paced tech world.
           </p>
         </div>
       </main>

@@ -81,7 +81,7 @@ export default function Home() {
               <li>Men willingly believe what they wish.</li>
               <li>Experience is the teacher of all things.</li>
             </ul>
-          </div><br/><br />
+          </div><br/><br /><br/>
           <div className={styles.picture}>
             <Image src="/aquinas.jpg" alt="Aquinas" width={180} height={180} />
           </div>
@@ -359,7 +359,7 @@ export default function Home() {
               <li>Nothing in the world is more dangerous than sincere ignorance and conscientious stupidity.</li>
               <li>Injustice anywhere is a threat to justice everywhere.</li>
             </ul>
-          </div><br/><br />
+          </div><br/><br /><br/>
           <div className={styles.picture}>
             <Image src="/joker.jpeg" alt="The Joker" width={180} height={180} />
           </div>
@@ -485,7 +485,6 @@ export default function Home() {
               <li>Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth. - Sherlock Holmes</li>
               <li>He who learns must suffer, and even in our sleep pain that cannot forget falls drop by drop upon the heart. - Aeschylus</li>
               <li>Do, or do not. There is no try. - Yoda</li>
-              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Matrix</li>
               <li>It may be the warriors who get the glory but it's the engineer's who build societies. - Snow Piercer</li>
               <li>Thinking is difficult, that's why most people judge. - Carl Jung</li>
               <li>You wouldn't worry so much about what others think of you if you realised how seldom they do. - Eleanor Roosevelt</li>
@@ -505,6 +504,7 @@ export default function Home() {
               <li>When I was poor and complained about inequality they said I was bitter; now that I'm rich and I complain about inequality they say I'm a hypocrite. I'm beginning to think they just don't want to talk about inequality. - Russel Brand</li>
               <li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
+              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Matrix</li>
             </ul>
           </div>
         </div>
