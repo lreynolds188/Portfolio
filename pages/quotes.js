@@ -347,6 +347,8 @@ export default function Home() {
             <h3 className={styles.noTopMargin}>Nelson Mandela&nbsp;</h3><p className={styles.info}>(President/Revolutionary, 1918 - 2013)</p>
             <ul className={styles.descriptionLeft}>
               <li>Real leaders must be ready to sacrifice all for the freedom of their people.</li>
+              <li>While poverty persists, there is no true freedom</li>
+              <li>It always seems impossible until it's done.</li>
               <li>A fundamental concern for others in our individual and community lives would go a long way in making the world the better place we so passionately dreamt of.</li>
               <li>Resentment is like drinking poison and then hoping it will kill your enemies.</li>
               <li>I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.</li>
@@ -360,8 +362,6 @@ export default function Home() {
               <li>There can be no greater gift than that of giving one’s time and energy to help others without expecting anything in return.</li>
               <li>When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw.</li>
               <li>We must use time wisely and forever realize that the time is always ripe to do right.</li>
-              <li>While poverty persists, there is no true freedom</li>
-              <li>It always seems impossible until it's done.</li>
               <li>A winner is a dreamer who never gives up.</li>
               <li>I never lose. I either win or learn.</li>
             </ul>
