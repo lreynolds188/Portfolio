@@ -341,7 +341,33 @@ export default function Home() {
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
-            <Image src="/malcolm.jpg" alt="Malcom" width={180} height={180} />
+            <Image src="/mandela.jpg" alt="Mandela" width={180} height={180} />
+          </div>
+          <div className={styles.content}>
+            <h3 className={styles.noTopMargin}>Nelson Mandela&nbsp;</h3><p className={styles.info}>(President/Revolutionary, 1918 - 2013)</p>
+            <ul className={styles.descriptionLeft}>
+              <li>Real leaders must be ready to sacrifice all for the freedom of their people.</li>
+              <li>A fundamental concern for others in our individual and community lives would go a long way in making the world the better place we so passionately dreamt of.</li>
+              <li>Resentment is like drinking poison and then hoping it will kill your enemies.</li>
+              <li>I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.</li>
+              <li>Education is the most powerful weapon which you can use to change the world.</li>
+              <li>Everyone can rise above their circumstances and achieve success if they are dedicated to and passionate about what they do.</li>
+              <li>I like friends who have independent minds because they tend to make you see problems from all angles.</li>
+              <li>Do not judge me by my successes, judge me by how many times I fell down and got back up again.</li>
+              <li>For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.</li>
+              <li>A critical, independent and investigative press is the lifeblood of any democracy. The press must be free from state interference. It must have the economic strength to stand up to the blandishments of government officials. It must have sufficient independence from vested interests to be bold and inquiring without fear or favour. It must enjoy the protection of the constitution, so that it can protect our rights as citizens.</li>
+              <li>No one is born hating another person because of the color of his skin, or his background, or his religion. People must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than its opposite.</li>
+              <li>There can be no greater gift than that of giving one’s time and energy to help others without expecting anything in return.</li>
+              <li>When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw.</li>
+              <li>We must use time wisely and forever realize that the time is always ripe to do right.</li>
+              <li>While poverty persists, there is no true freedom</li>
+              <li>It always seems impossible until it's done.</li>
+              <li>A winner is a dreamer who never gives up.</li>
+              <li>I never lose. I either win or learn.</li>
+            </ul>
+          </div><br /><br /><br/>
+          <div className={styles.picture}>
+            <Image src="/malcolm.jpg" alt="Malcolm" width={180} height={180} />
           </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Malcolm X&nbsp;</h3><p className={styles.info}>(Minister/Activist, 1925 - 1965)</p>
@@ -504,7 +530,7 @@ export default function Home() {
               <li>When I was poor and complained about inequality they said I was bitter; now that I'm rich and I complain about inequality they say I'm a hypocrite. I'm beginning to think they just don't want to talk about inequality. - Russel Brand</li>
               <li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
-              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Matrix</li>
+              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Oracle</li>
             </ul>
           </div>
         </div>
