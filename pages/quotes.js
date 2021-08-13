@@ -206,7 +206,11 @@ export default function Home() {
               <li>I undertook something that not everyone may undertake: I descended into the depths, I bored into the foundations.</li>
               <li>Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.</li>
               <li>Sometimes people don't want to hear the truth because they don't want their illusions destroyed.</li>
+              <li>He who has a why to live for can bear almost any how.</li>
               <li>The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.</li>
+              <li>When we are tired, we are attacked by ideas we conquered long ago.</li>
+              <li>The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently.</li>
+              <li>That which does not kill us makes us stronger.</li>
               <li>I am a forest, and a night of dark trees: but those who are not afraid of my darkness, will find banks full of roses under my cypresses.</li>
               <li>In individuals, insanity is rare; but in groups, parties, nations, and epochs it is the rule</li>
             </ul>
@@ -230,6 +234,8 @@ export default function Home() {
             <ul className={styles.descriptionLeft}>
               <li>Imitation is the sincerest form of flattery that mediocrity can pay to greatness.</li>
               <li>Sarcasm is the lowest form of wit, but the highest form of intelligence.</li>
+              <li>What is a cynic? A man who knows the price of everything and the value of nothing.</li>
+              <li>Patriotism is the virtue of the vicious.</li>
               <li>Most people are other people. Their thoughts are someone else's opinions, their lives a mimicry, their passions a quotation.</li>
               <li>A good friend will always stab you in the front.</li>
             </ul>
@@ -259,6 +265,17 @@ export default function Home() {
               <li>Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.</li>
               <li>Today's scientists have substituted mathematics for experiments, and they wander off through equation after equation, and eventually build a structure which has no relation to reality.</li>
               <li>The spread of civilisation may be likened to a fire; first, a feeble spark, next a flickering flame, then a mighty blaze, ever increasing in speed and power.</li>
+            </ul>
+          </div><br/><br /><br/>
+          <div className={styles.picture}>
+            <Image src="/shaw.jpg" alt="Shaw" width={180} height={180} />
+          </div>
+          <div className={styles.content}>
+            <h3 className={styles.noTopMargin}>Bernard Shaw&nbsp;</h3><p className={styles.info}>(Playwright/Activist, 1856 - 1950)</p>
+            <ul className={styles.descriptionLeft}>
+              <li>If you can't get rid of the skeleton in your closet, you'd best teach it to dance.</li>
+              <li>If you're going to tell people the truth, make them laugh, otherwise they'll kill you.</li>
+              <li>There are no secrets except the secrets that keep themselves.</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
@@ -297,6 +314,7 @@ export default function Home() {
               <li>Reality is merely an illusion, albeit a very persistent one.</li>
               <li>Insanity: doing the same thing over and over again and expecting different results.</li>
               <li>There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.</li>
+              <li>The prestige of government has undoubtedly been lowered considerably by the prohibition law. For nothing is more destructive of respect for the government and the law of the land than passing laws which cannot be enforced. It is an open secret that the dangerous increase of crime in this country is closely connected with this.</li>
               <li>No problem can be solved from the same level of consciousness that created it.</li>
               <li>Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.</li>
               <li>Life is like riding a bicycle. To keep your balance you must keep moving.</li>
@@ -315,6 +333,9 @@ export default function Home() {
               <li>The only thing we have to fear is fear itself.</li>
               <li>Calm seas never made a good sailor.</li>
               <li>Courage is not the absence of fear, but rather the assessment that something else is more important than fear.</li>
+              <li>The liberty of a democracy is not safe if the people tolerated the growth of private power to a point where it becomes stronger than the democratic state itself. That in its essence is fascism: ownership of government by an individual, by a group, or any controlling private power.</li>
+              <li>True individual freedom cannot exist without economic security and independence. People who are hungry and out of a job are the stuff of which dictatorships are made.</li>
+              <li>Remember, remember always, that all of us, and you and I especially, are descended from immigrants and revolutionists.</li>
               <li>We are a nation of many nationalities, many races, many religions-bound together by a single unity, the unity of freedom and equality. Whoever seeks to set one nationality against another, seeks to degrade all nationalities.</li>
             </ul>
           </div><br /><br />
@@ -325,8 +346,12 @@ export default function Home() {
             <h3 className={styles.noTopMargin}>Eric Arthur Blair aka George Orwell&nbsp;</h3><p className={styles.info}>(Author/Journalist, 1903 - 1950)</p>
             <ul className={styles.descriptionLeft}>
               <li>The further a society drifts from the truth the more it will hate those who speak it.</li>
+              <li>In a time of universal deceit telling the truth is a revolutionary act.</li>
               <li>War is peace. Freedom is slavery. Ignorance is strength.</li>
               <li>Doublethink means the power of holding two contradictory beliefs in one's mind simultaneously, and accepting both of them.</li>
+              <li>Until they become conscious they will never rebel, and until after they have rebelled they cannot become conscious.</li>
+              <li>I have seen British imperialism at work in Burma, and I have seen something of the effects of poverty and unemployment in Britian... One has got to be actively a socialist, not merely sympathetic to socialism, or one plays into the hands of our always active enemies.</li>
+              <li>The central problem - how to prevent power from being abused - remains unsolved. Dickens, who had not the vision to see that private property is an obstructive nuisance, had the vision to see that: 'If men would behave decently the world would be decent' is not such a platitude as it sounds.</li>
             </ul>
           </div><br /><br />
           <div className={styles.picture}>
@@ -383,8 +408,11 @@ export default function Home() {
             <h3 className={styles.noTopMargin}>Martin Luther King&nbsp;</h3><p className={styles.info}>(Activist/Philosopher, 1929 - 1968)</p>
             <ul className={styles.descriptionLeft}>
               <li>Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.</li>
+              <li>Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.</li>
               <li>Nothing in the world is more dangerous than sincere ignorance and conscientious stupidity.</li>
               <li>Injustice anywhere is a threat to justice everywhere.</li>
+              <li>Our lives begin to end the day we become silent about things that matter.</li>
+              <li>In the end, we will remember not the words of our enemies, but the silence of our friends.</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
@@ -393,11 +421,20 @@ export default function Home() {
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>The Joker&nbsp;</h3><p className={styles.info}>(Anarchist/Fictional Character, 1940+)</p>
             <ul className={styles.descriptionLeft}>
-              <li>The worst part about having a mental illness is people expect you to behave as if you don’t.</li>
-              <li>We stopped checking for monsters under our bed, when we realized they were inside us.</li>
               <li>You cant sell dreams to someone who has walked through nightmares.</li>
-              <li>The pen, is truly mightier than the sword!</li>
+              <li>The worst part about having a mental illness is people expect you to behave as if you don’t.</li>
+              <li>Their morals, their code; it's a bad joke. Dropped at the first sign of trouble. They're only as good as the world allows them to be. You'll see- I'll show you. When the chips are down these, uh, civilized people? They'll eat each other. See I'm not a monster, I'm just ahead of the curve.</li>
+              <li>For my whole life, I didn't know if I even really existed. But I do, and people are starting to notice.</li>
+              <li>How 'bout another joke, Murray? What do you get... when you cross... a mentally ill loner with a society that abandons him and treats him like trash? I'll tell you what you get! You get what you fuckin' deserve!</li>
+              <li>Nobody panics when things go “according to plan”. Even if the plan is horrifying!</li>
+              <li>Madness is the emergency exit. You can just step outside, and close the door on all those dreadful things that happened. You can lock them away… forever.</li>
+              <li>They need you right now, but when they don’t, they’ll cast you out like a leper!</li>
+              <li>As you know, madness is like gravity…all it takes is a little push.</li>
               <li>The strongest hearts have the most scars!</li>
+              <li>Give a man a mask and he will become his true self.</li>
+              <li>We stopped checking for monsters under our bed, when we realized they were inside us.</li>
+              <li>Madness is the emergency exit. You can just step outside, and close the door on all those dreadful things that happened. You can lock them away… forever.</li>
+              <li>The pen, is truly mightier than the sword!</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
@@ -484,6 +521,7 @@ export default function Home() {
               <li>Live long and prosper - Spock</li>
               <li>After a time, you may find that having is not so pleasing a thing after all as wanting. It is not logical, but it is often true. - Spock</li>
               <li>I believe in coincidences. Coincidences happen every day. But I don't trust coincidences. - Garak</li>
+              <li>Everyone once in a while, declare peace with your enemies. It confuses the hell out of em - Quark</li>
               <li>One man can summon the future - T'Pol</li>
               <li>Challenge your preconceptions, or they will challenge you. - Trip</li>
               <li>In accepting the inevitable, one finds peace - Tuvok</li>
@@ -510,28 +548,35 @@ export default function Home() {
               <li>Patience is a virtue. - Piers Plowman</li>
               <li>The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts. - Bertrand Russell</li>
               <li>Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth. - Sherlock Holmes</li>
+              <li>Truth is like poetry. And most people hate poetry. - Michael Lewis</li>
               <li>He who learns must suffer, and even in our sleep pain that cannot forget falls drop by drop upon the heart. - Aeschylus</li>
               <li>Do, or do not. There is no try. - Yoda</li>
+              <li>Beware the fury of a patient man. - John Dryden</li>
               <li>It may be the warriors who get the glory but it's the engineer's who build societies. - Snow Piercer</li>
               <li>Thinking is difficult, that's why most people judge. - Carl Jung</li>
               <li>You wouldn't worry so much about what others think of you if you realised how seldom they do. - Eleanor Roosevelt</li>
-              <li>Chess is won, one step at a time</li>
-              <li>Every path is the right path. Everything could have been anything else and it would have just as much meaning.</li>
-              <li>In chess, it's called Zugzwang... when the only viable move... is not to move. </li>
+              <li>If you strike me down I shall become more powerful than you can possibly imagine - Obi Wan Kenobi</li>
+              <li>Chess is won, one step at a time - Nemo</li>
+              <li>In chess, it's called Zugzwang... when the only viable move... is not to move. - Nemo</li>
+              <li>Every path is the right path. Everything could have been anything else and it would have just as much meaning. - Mr Nobody</li>
               <li>The young don't know enough to be prudent, and therefore they attempt the impossible-and achieve it, generation after generation. - Pearl Buck</li>
               <li>Diplomacy is the art of saying "nice doggy" until you can find a rock - Will Rogers</li>
+              <li>Don't mistake my kindness for weakness. I am kind to everyone, but when someone is unkind to me, weak is not what you are going to remember about me. - Al Capone</li>
               <li>We must believe in free will, we have no choice. - Isaac Bashevis Singer</li>
               <li>Just exist for a while and be decent, that's heroism enough - u/Exurb1a</li>
               <li>When people are not punished for breaking the rules, the ones following the rules are the ones being punished - u/orderofmagnitude</li>
               <li>The distance between insanity and genius is measured only by success - Ian Fleming</li>
               <li>I imagine one of the reasons people cling to their hates so stubbornly is because they sense that once hate is gone, they will be forced to deal with pain - James Baldwin</li>
               <li>The best teachers are those who show you where to look, but don't tell you what to see - Alexandra K Trenfor</li>
-              <li>If the penalty for a crime is a fine then that law only exists for the lower class.</li>
+              <li>If the penalty for a crime is a fine then that law only exists for the lower class. - Unknown</li>
               <li>To be wise is to suffer. - Sophocles</li>
+              <li>Nationalism is our form of incest, is our idolatry, is our insanity. 'Patriotism' is its cult... Just as love for one individual which excludes the love for others is not love, love for one's country which is not part of one's love for humanity is not love but idolatrous worship. - Eric Fromm</li>
               <li>When I was poor and complained about inequality they said I was bitter; now that I'm rich and I complain about inequality they say I'm a hypocrite. I'm beginning to think they just don't want to talk about inequality. - Russel Brand</li>
+              <li>When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist. - Dom Helder Camara</li>
               <li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
-              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Oracle</li>
+              <li>When exposing a crime is treated as committing a crime, you are being ruled by criminals. - Edward Snowden</li>
+            <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Oracle</li>
             </ul>
           </div>
         </div>
