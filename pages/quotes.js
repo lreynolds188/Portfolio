@@ -289,6 +289,7 @@ export default function Home() {
               <li>The weak can never forgive. Forgiveness is the attribute of the strong.</li>
               <li>Strength does not come from physical capacity. It comes from an indomitable will.</li>
               <li>Happiness is when what you think, what you say, and what you do are in harmony.</li>
+              <li>They may torture my body, break my bones, even kill me. Then they will have my dead body, but not my obedience.</li>
               <li>First they ignore you, then they laugh at you, then they fight you, then you win.</li>
             </ul>
           </div><br/><br />
