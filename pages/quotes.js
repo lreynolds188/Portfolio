@@ -536,6 +536,7 @@ export default function Home() {
             <ul className={styles.descriptionLeft}>
               <li>Enjoy the journey</li>
               <li>I'd rather be optimistic and wrong than pessimistic and right</li>
+              <li>With artificial intelligence we are summoning the demon.
             </ul>
           </div><br /><br /><br/>
           <div className={styles.picture}>
@@ -576,8 +577,9 @@ export default function Home() {
               <li>When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist. - Dom Helder Camara</li>
               <li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
+              <li>The child who is not embraced by the village will burn it down to feel its warmth - African Proverb</li>
               <li>When exposing a crime is treated as committing a crime, you are being ruled by criminals. - Edward Snowden</li>
-            <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Oracle</li>
+              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Oracle</li>
             </ul>
           </div>
         </div>
