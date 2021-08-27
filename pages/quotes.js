@@ -545,7 +545,7 @@ export default function Home() {
             <ul className={styles.descriptionLeft}>
               <li>Enjoy the journey</li>
               <li>I'd rather be optimistic and wrong than pessimistic and right</li>
-              <li>With artificial intelligence we are summoning the demon.
+              <li>With artificial intelligence we are summoning the demon.</li>
             </ul>
           </div><br /><br /><br/>
           <div className={styles.picture}>
