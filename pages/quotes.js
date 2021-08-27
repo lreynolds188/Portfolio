@@ -100,7 +100,7 @@ export default function Home() {
             </ul>
           </div><br/><br />
           <div className={styles.picture}>
-            <Image src="/shakespeare.jpg" alt="Shakespeare" width={180} height={180} />
+            <Image src="/davinci.jpg" alt="Leonardo Da Vinci" width={180} height={180} />
           </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Leonardo Da Vinci&nbsp;</h3><p className={styles.info}>(Painter/Engineer, 1452 - 1519)</p>
