@@ -1,4 +1,3 @@
- 
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Main.module.css";
@@ -105,7 +104,13 @@ export default function Home() {
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Leonardo Da Vinci&nbsp;</h3><p className={styles.info}>(Painter/Engineer, 1452 - 1519)</p>
             <ul className={styles.descriptionLeft}>
+              <li>Learning never exhausts the mind.</li>
               <li>There are three classes of people: those who see, those who see when they are shown, those who do not see.</li>
+              <li>Poor is the pupil who does not surpass his master</li>
+              <li>Where there is shouting, there is no true knowledge.</li>
+              <li>The noblest pleasure is the joy of understanding.</li>
+              <li>I love those who can smile in trouble, who can gather strength from distress, and grow brave by reflection. 'Tis the business of little minds to shrink, but they whose heart is firm, and whose conscience approves their conduct, will pursue their principles unto death.</li>
+              <li>Men of lofty genius sometimes accomplish the most when they work least, for their minds are occupied with their ideas and the perfection of their conceptions, to which they afterwards give form.</li>
             </ul>
           </div><br/><br />
           <div className={styles.picture}>
@@ -403,15 +408,6 @@ export default function Home() {
             </ul>
           </div><br /><br /><br/>
           <div className={styles.picture}>
-            <Image src="/malcolm.jpg" alt="Malcolm" width={180} height={180} />
-          </div>
-          <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Malcolm X&nbsp;</h3><p className={styles.info}>(Minister/Activist, 1925 - 1965)</p>
-            <ul className={styles.descriptionLeft}>
-              <li>If you're not careful the papers will have you hating the people who are getting oppressed and loving the people who are doing the oppressing.</li>
-            </ul>
-          </div><br /><br /><br/>
-          <div className={styles.picture}>
             <Image src="/mlk.jpg" alt="MLK" width={180} height={180} />
           </div>
           <div className={styles.content}>
@@ -510,15 +506,6 @@ export default function Home() {
             </ul>
           </div><br /><br /><br/>
           <div className={styles.picture}>
-            <Image src="/reeves.jpg" alt="Reeves" width={180} height={180} />
-          </div>
-          <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Keanu Reeves&nbsp;</h3><p className={styles.info}>(Actor, 1964 - Present)</p>
-            <ul className={styles.descriptionLeft}>
-              <li>If you have been brutally broken but still have the courage to be gentle to other living beings, then you're a badass with the heart of an angel.</li>
-            </ul>
-          </div><br /><br /><br/>
-          <div className={styles.picture}>
             <Image src="/startrek.jpg" alt="Star Trek" width={180} height={180} />
           </div>
           <div className={styles.content}>
@@ -566,29 +553,34 @@ export default function Home() {
               <li>It may be the warriors who get the glory but it's the engineer's who build societies. - Snow Piercer</li>
               <li>Thinking is difficult, that's why most people judge. - Carl Jung</li>
               <li>You wouldn't worry so much about what others think of you if you realised how seldom they do. - Eleanor Roosevelt</li>
-              <li>If you strike me down I shall become more powerful than you can possibly imagine - Obi Wan Kenobi</li>
-              <li>Chess is won, one step at a time - Nemo</li>
-              <li>In chess, it's called Zugzwang... when the only viable move... is not to move. - Nemo</li>
+              <li>If you strike me down I shall become more powerful than you can possibly imagine. - Obi Wan Kenobi</li>
+              <li>Chess is won, one step at a time. - Mr Nobody</li>
+              <li>In chess, it's called Zugzwang... when the only viable move... is not to move. - Mr Nobody</li>
               <li>Every path is the right path. Everything could have been anything else and it would have just as much meaning. - Mr Nobody</li>
               <li>The young don't know enough to be prudent, and therefore they attempt the impossible-and achieve it, generation after generation. - Pearl Buck</li>
-              <li>Diplomacy is the art of saying "nice doggy" until you can find a rock - Will Rogers</li>
+              <li>Diplomacy is the art of saying "nice doggy" until you can find a rock. - Will Rogers</li>
               <li>Don't mistake my kindness for weakness. I am kind to everyone, but when someone is unkind to me, weak is not what you are going to remember about me. - Al Capone</li>
               <li>We must believe in free will, we have no choice. - Isaac Bashevis Singer</li>
-              <li>Just exist for a while and be decent, that's heroism enough - u/Exurb1a</li>
-              <li>When people are not punished for breaking the rules, the ones following the rules are the ones being punished - u/orderofmagnitude</li>
-              <li>The distance between insanity and genius is measured only by success - Ian Fleming</li>
-              <li>I imagine one of the reasons people cling to their hates so stubbornly is because they sense that once hate is gone, they will be forced to deal with pain - James Baldwin</li>
-              <li>The best teachers are those who show you where to look, but don't tell you what to see - Alexandra K Trenfor</li>
+              <li>Just exist for a while and be decent, that's heroism enough. - u/Exurb1a</li>
+              <li>When people are not punished for breaking the rules, the ones following the rules are the ones being punished. - u/orderofmagnitude</li>
+              <li>The distance between insanity and genius is measured only by success. - Ian Fleming</li>
+              <li>I imagine one of the reasons people cling to their hates so stubbornly is because they sense that once hate is gone, they will be forced to deal with pain. - James Baldwin</li>
+              <li>The best teachers are those who show you where to look, but don't tell you what to see. - Alexandra K Trenfor</li>
               <li>If the penalty for a crime is a fine then that law only exists for the lower class. - Unknown</li>
               <li>To be wise is to suffer. - Sophocles</li>
+              <li>In a just cause the weak will beat the strong. - Sophocles</li>
+              <li>No one is truly free, they are a slave to wealth, fortune, the law, or other people restraining them from acting according to their will. - Euripides</li>
               <li>Nationalism is our form of incest, is our idolatry, is our insanity. 'Patriotism' is its cult... Just as love for one individual which excludes the love for others is not love, love for one's country which is not part of one's love for humanity is not love but idolatrous worship. - Eric Fromm</li>
               <li>When I was poor and complained about inequality they said I was bitter; now that I'm rich and I complain about inequality they say I'm a hypocrite. I'm beginning to think they just don't want to talk about inequality. - Russel Brand</li>
               <li>When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist. - Dom Helder Camara</li>
-              <li>You can tell the greatness of a man by what makes him angry - Abraham Lincoln</li>
+              <li>You can tell the greatness of a man by what makes him angry. - Abraham Lincoln</li>
+              <li>If you have been brutally broken but still have the courage to be gentle to other living beings, then you're a badass with the heart of an angel. - Keanu Reeves</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
-              <li>The child who is not embraced by the village will burn it down to feel its warmth - African Proverb</li>
+              <li>If you're not careful the papers will have you hating the people who are getting oppressed and loving the people who are doing the oppressing. - Malcolm X</li>
+              <li>The child who is not embraced by the village will burn it down to feel its warmth. - African Proverb</li>
               <li>When exposing a crime is treated as committing a crime, you are being ruled by criminals. - Edward Snowden</li>
-              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Oracle</li>
+              <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Matrix</li>
+              <li>Salvation comes in the blink of an eye. - Final Space</li>
             </ul>
           </div>
         </div>
