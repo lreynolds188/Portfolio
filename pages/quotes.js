@@ -103,6 +103,15 @@ export default function Home() {
             <Image src="/shakespeare.jpg" alt="Shakespeare" width={180} height={180} />
           </div>
           <div className={styles.content}>
+            <h3 className={styles.noTopMargin}>Leonardo Da Vinci&nbsp;</h3><p className={styles.info}>(Painter/Engineer, 1452 - 1519)</p>
+            <ul className={styles.descriptionLeft}>
+              <li>There are three classes of people: those who see, those who see when they are shown, those who do not see.</li>
+            </ul>
+          </div><br/><br />
+          <div className={styles.picture}>
+            <Image src="/shakespeare.jpg" alt="Shakespeare" width={180} height={180} />
+          </div>
+          <div className={styles.content}>
             <h3 className={styles.noTopMargin}>William Shakespeare&nbsp;</h3><p className={styles.info}>(Playwright/Actor, 1564 - 1616)</p>
             <ul className={styles.descriptionLeft}>
               <li>To thine own self, be true</li>
