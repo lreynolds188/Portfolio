@@ -496,16 +496,6 @@ export default function Home() {
             </ul>
           </div><br/><br />
           <div className={styles.picture}>
-            <Image src="/jobs.jpg" alt="Jobs" width={180} height={180} />
-          </div>
-          <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Steve Jobs&nbsp;</h3><p className={styles.info}>(Entrepreneur, 1955 - 2011)</p>
-            <ul className={styles.descriptionLeft}>
-              <li>Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.</li>
-              <li>Stay hungry, stay foolish.</li>
-            </ul>
-          </div><br /><br /><br/>
-          <div className={styles.picture}>
             <Image src="/startrek.jpg" alt="Star Trek" width={180} height={180} />
           </div>
           <div className={styles.content}>
@@ -522,17 +512,6 @@ export default function Home() {
               <li>One man can summon the future - T'Pol</li>
               <li>Challenge your preconceptions, or they will challenge you. - Trip</li>
               <li>In accepting the inevitable, one finds peace - Tuvok</li>
-            </ul>
-          </div><br /><br /><br/>
-          <div className={styles.picture}>
-            <Image src="/musk.jpg" alt="Musk" width={180} height={180} />
-          </div>
-          <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Elon Musk&nbsp;</h3><p className={styles.info}>(Entrepreneur, 1971 - Present)</p>
-            <ul className={styles.descriptionLeft}>
-              <li>Enjoy the journey</li>
-              <li>I'd rather be optimistic and wrong than pessimistic and right</li>
-              <li>With artificial intelligence we are summoning the demon.</li>
             </ul>
           </div><br /><br /><br/>
           <div className={styles.picture}>
