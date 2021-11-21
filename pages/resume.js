@@ -18,8 +18,7 @@ export default function Home() {
 
           <h2 className={styles.categoryHeaders}>Summary</h2><hr />
           <p className={styles.contact}>
-            Computer Scientist and Owner of <a href="https://atechsol.com.au">ATechSol</a>, technical consulting firm and online wiki based in Queensland, Australia.
-            I currently have one subject remaining until completion of my degree and am the sole member of my business working to implement infrastructure and build the customer base.
+            Computer Scientist and Owner of <a href="https://atechsol.com.au">ATechSol</a>, an open source and privacy based online wiki.
             <br/><br/>
             At the beginning of my career I worked as a computer technician for a range of different companies between 2012 and 2015.
             In 2016 I received a diploma of software development from Tafe Queensland. In 2018 and '19 I was employed by a large food 
@@ -28,9 +27,9 @@ export default function Home() {
             In my last position as a project and operations manager I was responsible for supporting the production environment 
             and implementing an IoT automation system for the company's primary concentrator.
             <br/><br/>
-            Upon completion of my degree I plan to have a solid foundation in a range of different development
-            languages and techniques with a keen focus on cyber security, blockchain technology, and IoT automation devices. In addition to a
-            rudimentary understanding of mathematics, physics, business, psychology, philosophy, and politics.
+            I have a solid foundation in a range of different development languages and techniques with a keen focus on cyber security, 
+            blockchain technology, and IoT automation devices. In addition to a rudimentary understanding of mathematics, physics, business, 
+            psychology, philosophy, and politics.
           </p>
     
           <h2 className={styles.categoryHeaders}>Education</h2><hr /><br/>
@@ -42,8 +41,8 @@ export default function Home() {
                              
           <h2 className={styles.categoryHeaders}>Experience</h2><hr /><br/>
           <a className={styles.primaryTitles} href="https://atechsol.com.au" target="_blank">ATechSol | Queensland, AU</a>
-          <p className={styles.categoryDetails}>Technical Consultant, May 2021 - Present</p>
-          <p className={styles.categoryDescription}>I am the owner and lead consultant of ATechSol a technical consulting firm and online wiki based in Brisbane, Queensland. I am currently working to implement infrastructure, comply with requirements, and build the customer base. The business offers a wide range of services from general support to IoT automated system development.</p>
+          <p className={styles.categoryDetails}>Owner, May 2021 - Present</p>
+          <p className={styles.categoryDescription}>I am the owner of ATechSol an open source software and privacy based online wiki.</p>
           <br />    
           <p className={styles.primaryTitles}>Ridgeline Manufacturing | Queensland, AU</p>
           <p className={styles.categoryDetails}>Project/Operations Manager, May 2020 - May 2021</p>
