@@ -18,7 +18,7 @@ export default function Home() {
 
           <h2 className={styles.categoryHeaders}>Summary</h2><hr />
           <p className={styles.contact}>
-            Computer Scientist and Owner of <a href="https://atechsol.com.au">ATechSol</a>, an open source and privacy based online wiki.
+            Computer Scientist and Owner of <a href="https://atechsol.com.au">ATechSol</a>, an open source and privacy focused wiki.
             <br/><br/>
             At the beginning of my career I worked as a computer technician for a range of different companies between 2012 and 2015.
             In 2016 I received a diploma of software development from Tafe Queensland. In 2018 and '19 I was employed by a large food 
@@ -42,7 +42,7 @@ export default function Home() {
           <h2 className={styles.categoryHeaders}>Experience</h2><hr /><br/>
           <a className={styles.primaryTitles} href="https://atechsol.com.au" target="_blank">ATechSol | Queensland, AU</a>
           <p className={styles.categoryDetails}>Owner, May 2021 - Present</p>
-          <p className={styles.categoryDescription}>I am the owner of ATechSol an open source software and privacy based online wiki.</p>
+          <p className={styles.categoryDescription}>I am the owner of ATechSol an open source software and privacy focused wiki.</p>
           <br />    
           <p className={styles.primaryTitles}>Ridgeline Manufacturing | Queensland, AU</p>
           <p className={styles.categoryDetails}>Project/Operations Manager, May 2020 - May 2021</p>

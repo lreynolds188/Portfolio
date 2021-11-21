@@ -14,7 +14,7 @@ export default function Home() {
         <div>
         <br />
          <p className={styles.description}>
-            Computer Scientist and Owner of <a href="https://atechsol.com.au">ATechSol</a>, an open source software and privacy based wiki.
+            Computer Scientist and Owner of <a href="https://atechsol.com.au">ATechSol</a>, an open source software and privacy focused wiki.
             <br /><br />
             At the beginning of my career I worked as a computer technician for a range of different companies between 2012 and 2015.
             In 2016 I received a diploma of software development from Tafe Queensland. In 2018 and '19 I was employed by a large food 
