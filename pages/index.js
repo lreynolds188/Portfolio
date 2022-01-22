@@ -44,7 +44,7 @@ export default function Home() {
 
           <a href="https://atechsol.thereynolds.com.au" className={styles.card}>
             <h3>ATechSol &rarr;</h3>
-            <p>Open source and privacy based wiki.</p>
+            <p>An open source and privacy based wiki.</p>
           </a>
 
           <a href="/quotes" className={styles.card}>
