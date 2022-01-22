@@ -18,16 +18,17 @@ export default function Home() {
 
           <h2 className={styles.categoryHeaders}>Summary</h2><hr />
           <p className={styles.contact}>
-            Computer Scientist and Owner of <a href="https://atechsol.com.au">ATechSol</a>, an open source and privacy focused wiki. 
-            I have a solid foundation in a range of different development languages and techniques with a keen interest in cyber security,
-            blockchain technology, and IoT automation devices.
-            <br/><br/>
-            At the beginning of my career I worked as a computer technician for a range of different companies between 2012 and 2015.
+            At the start of my career I worked as a computer technician for a range of different companies between 2012 and 2015.
             In 2016 I received a diploma of software development from Tafe Queensland. In 2018 and '19 I was employed by a large food 
             processing plant and was responsible for developing business applications and supporting the production environment.
             In 2020 I was the project manager for a university based start-up with the goal of implementing a cloud based portal for QUT.
-            In my last position as a project and operations manager I was responsible for supporting the production environment 
-            and implementing an IoT automation system for the company's primary concentrator.
+            In my last position as a project and operations manager I was responsible for implementing an IoT automation system for the 
+            company's primary concentrator and supporting the production environment.  In 2021 I received a Bachelor's Degree in 
+            Computer Science from the Queensland University of Technology.
+            <br /><br />
+            I have a solid foundation in a range of different development languages and techniques with a keen focus on cyber security, 
+            blockchain technology, and IoT automation devices. In addition to a rudimentary understanding of mathematics, physics, business, 
+            economics, psychology, philosophy, and politics. My goal is to work on the automation of everyday jobs and tasks.
           </p>
     
           <h2 className={styles.categoryHeaders}>Education</h2><hr /><br/>
