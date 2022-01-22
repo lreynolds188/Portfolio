@@ -26,7 +26,7 @@ export default function Home() {
             company's primary concentrator and supporting the production environment.  In 2021 I received a Bachelor's Degree in 
             Computer Science from the Queensland University of Technology.
             <br /><br />
-            I have a solid foundation in a range of different development languages and techniques with a keen focus on cyber security, 
+            I have a solid foundation in a range of different development languages and techniques with a keen focus on privacy & security, 
             blockchain technology, and IoT automation devices. In addition to a rudimentary understanding of mathematics, physics, business, 
             economics, psychology, philosophy, and politics. My goal is to work on the automation of everyday jobs and tasks.
           </p>
