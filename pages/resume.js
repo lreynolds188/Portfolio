@@ -26,9 +26,8 @@ export default function Home() {
             company's primary concentrator and supporting the production environment.  In 2021 I received a Bachelor's Degree in 
             Computer Science from the Queensland University of Technology.
             <br /><br />
-            I have a solid foundation in a range of different development languages and techniques with a keen focus on privacy & security, 
-            blockchain technology, and IoT automation devices. In addition to a rudimentary understanding of mathematics, physics, business, 
-            economics, psychology, philosophy, and politics. My goal is to work on the automation of everyday jobs and tasks.
+            I have a solid foundation in a range of different development languages and techniques with a keen interest in privacy & security, 
+            blockchain technology, and IoT automation devices. My goal is to work on the automation of everyday jobs and tasks.
           </p>
     
           <h2 className={styles.categoryHeaders}>Education</h2><hr /><br/>
@@ -41,7 +40,7 @@ export default function Home() {
           <h2 className={styles.categoryHeaders}>Experience</h2><hr /><br/>
           <p className={styles.primaryTitles}>Ridgeline Manufacturing | Queensland, AU</p>
           <p className={styles.categoryDetails}>Project/Operations Manager, May 2020 - May 2021</p>
-          <p className={styles.categoryDescription}>While in this position I was granted the required tools to achieve a set task along with the freedom to self-manage the resolution process. I was responsible for seeing that operations run as normal and to seek out any opportunities for improvement. In addition to these duties I was also in charge of designing and implementing an automation system for the company's primary concentrator.</p>
+          <p className={styles.categoryDescription}>While in this position I was granted the required tools to achieve a set task along with the freedom to self-manage the resolution process. I was responsible for designing and implementing an automation system for the company's primary concentrator and seeing that operations run as normal.</p>
           <br />
           <a className={styles.primaryTitles} href="https://www.kilcoyglobalfoods.com/" target="_blank">Kilcoy Global Foods | Queensland, AU</a>
           <p className={styles.categoryDetails}>Developer/Technician, Nov 2018 – May 2019</p>
