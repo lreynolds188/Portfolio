@@ -27,7 +27,7 @@ export default function Home() {
             Computer Science from the Queensland University of Technology.
             <br /><br />
             I have a solid foundation in a range of different development languages and techniques with a keen interest in privacy & security, 
-            blockchain technology, and IoT automation devices. My goal is to work on the automation of everyday jobs and tasks.
+            blockchain technology, and IoT automation devices. My goal is to work in automation and online privacy.
           </p>
     
           <h2 className={styles.categoryHeaders}>Education</h2><hr /><br/>
