@@ -39,7 +39,7 @@ export default function Home() {
           <br />
           <h2 className={styles.categoryHeaders}>Experience</h2><hr /><br/>
           <p className={styles.primaryTitles}>Ridgeline Manufacturing | Queensland, AU</p>
-          <p className={styles.categoryDetails}>Project/Operations Manager, May 2020 - May 2021</p>
+          <p className={styles.categoryDetails}>Developer/Technician, May 2020 - May 2021</p>
           <p className={styles.categoryDescription}>While in this position I was granted the required tools to achieve a set task along with the freedom to self-manage the resolution process. I was responsible for designing and implementing an automation system for the company's primary concentrator and seeing that operations run as normal.</p>
           <br />
           <a className={styles.primaryTitles} href="https://www.kilcoyglobalfoods.com/" target="_blank">Kilcoy Global Foods | Queensland, AU</a>
