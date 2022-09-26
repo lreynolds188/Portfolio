@@ -197,7 +197,7 @@ export default function Home() {
             <h3 className={styles.noTopMargin}>Ralph Waldo Emerson&nbsp;</h3><p className={styles.info}>(Philosopher, 1803 - 1882)</p>
             <ul className={styles.descriptionLeft}>
               <li>To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.</li>
-              <li>Is it so bad then to be misunderstood? Pythagoras was misunderstood, and Socrates, and Jesus, and Luther, and Copernicus, and Galileo, and Newton, and every pure and wise spirit that ever took flesh. To be great is to be misunderstood</li>
+              <li>Is it so bad then to be misunderstood? Pythagoras was misunderstood, and Socrates, and Jesus, and Luther, and Copernicus, and Galileo, and Newton, and every pure and wise spirit that ever took flesh. To be great is to be misunderstood.</li>
             </ul>
           </div><br /><br />
           <div className={styles.picture}>
@@ -209,6 +209,7 @@ export default function Home() {
               <li>Whenever you find yourself on the side of the majority, it is time to pause and reflect.</li>
               <li>Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.</li>
               <li>If you don't read the newspaper, you're uninformed. If you read the newspaper, you're mis-informed.</li>
+              <li>Travel is fatal to prejudice, bigotry, and narrow-mindedness, and many of our people need it sorely on these accounts. Broad, wholesome, charitable views of men and things cannot be acquired by vegetating in one little corner of the earth all one's lifetime.</li>
             </ul>
           </div><br /><br />
           <div className={styles.picture}>
@@ -290,6 +291,7 @@ export default function Home() {
               <li>If you can't get rid of the skeleton in your closet, you'd best teach it to dance.</li>
               <li>If you're going to tell people the truth, make them laugh, otherwise they'll kill you.</li>
               <li>There are no secrets except the secrets that keep themselves.</li>
+              <li>The single biggest problem in communication is the illusion that it has taken place.</li>
             </ul>
           </div><br/><br /><br/>
           <div className={styles.picture}>
@@ -512,6 +514,7 @@ export default function Home() {
               <li>One man can summon the future - T'Pol</li>
               <li>Challenge your preconceptions, or they will challenge you. - Trip</li>
               <li>In accepting the inevitable, one finds peace - Tuvok</li>
+              <li>The greatest battles a warrior will ever fight take place in his mind. - Worf</li>
             </ul>
           </div><br /><br /><br/>
           <div className={styles.picture}>
@@ -561,6 +564,12 @@ export default function Home() {
               <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Matrix</li>
               <li>Salvation comes in the blink of an eye. - Final Space</li>
               <li>First they came for the socialists, and I did not speak out—because I was not a socialist. Then they came for the trade unionists, and I did not speak out—because I was not a trade unionist. Then they came for the Jews, and I did not speak out—because I was not a Jew. Then they came for me—and there was no one left to speak for me. — Martin Niemöller</li>
+              <li>We judge ourselves by our intentions, but others by their actions. - Stephen M.R. Covey</li>
+              <li>Being deeply loved by someone gives you strength, while loving someone deeply gives you courage. - Lao Tzu</li>
+              <li>Life can only be understood backwards; but it must be lived forward. - Soren Kierkgaard</li>
+              <li>This too shall pass - Persian adage</li>
+              <li>Float like butterfly sting like a bee - Muhammad Ali</li>
+              <li>Society grows great when old men plant trees whose shade they know they shall never sit in. - Greek Proverb</li>
             </ul>
           </div>
         </div>
