@@ -441,7 +441,6 @@ export default function Home() {
               <li>The strongest hearts have the most scars!</li>
               <li>Give a man a mask and he will become his true self.</li>
               <li>We stopped checking for monsters under our bed, when we realized they were inside us.</li>
-              <li>Madness is the emergency exit. You can just step outside, and close the door on all those dreadful things that happened. You can lock them away… forever.</li>
               <li>The pen, is truly mightier than the sword!</li>
             </ul>
           </div><br/><br /><br/>
