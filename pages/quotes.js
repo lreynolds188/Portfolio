@@ -572,7 +572,7 @@ export default function Home() {
               <li>Every lie we tell incurs a debt to the truth, sooner or later that debt is paid. - Chernobyl</li>
               <li>When injustice becomes law, resistance becomes duty - Thomas Jefferson</li>
               <li>I would rather have people hate me for who I am, than love me for who I am not - Kurt Cobain</li>
-              <li>It's Called the American Dream Because You Have to be Asleep to Believe It - George Carli</li>
+              <li>It's Called the American Dream Because You Have to be Asleep to Believe It - George Carlin</li>
               <li>Never argue with an idiot. They will only bring you down to their level and beat you with experience. - George Carlin</li>
               <li>Those who live in glass houses should not throw stones - Proverb</li>
               <li>If it costs you your peace, it's too expensive. - Unknown</li>
