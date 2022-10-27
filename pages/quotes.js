@@ -528,7 +528,7 @@ export default function Home() {
               <li>In chess, it's called Zugzwang... when the only viable move... is not to move. - Mr Nobody</li>
               <li>Chess is won, one step at a time. - Mr Nobody</li>
               <li>I would rather have people hate me for who I am, than love me for who I am not - Kurt Cobain</li>
-              <li>I feel stupid, and contagious. - Kurt Cobain</li
+              <li>I feel stupid, and contagious. - Kurt Cobain</li>
               <li>Never argue with an idiot. They will only bring you down to their level and beat you with experience. - George Carlin</li>
               <li>It's Called the American Dream Because You Have to be Asleep to Believe It - George Carlin</li>
               <li>In a just cause the weak will beat the strong. - Sophocles</li>
