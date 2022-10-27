@@ -524,35 +524,35 @@ export default function Home() {
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Assorted</h3>
             <ul className={styles.descriptionLeft}>
+              <li>Every path is the right path. Everything could have been anything else and it would have just as much meaning. - Mr Nobody</li>
+              <li>In chess, it's called Zugzwang... when the only viable move... is not to move. - Mr Nobody</li>
+              <li>Chess is won, one step at a time. - Mr Nobody</li>
+              <li>I would rather have people hate me for who I am, than love me for who I am not - Kurt Cobain</li>
+              <li>I feel stupid, and contagious. - Kurt Cobain</li
+              <li>Never argue with an idiot. They will only bring you down to their level and beat you with experience. - George Carlin</li>
+              <li>It's Called the American Dream Because You Have to be Asleep to Believe It - George Carlin</li>
+              <li>In a just cause the weak will beat the strong. - Sophocles</li>
+              <li>To be wise is to suffer. - Sophocles</li>
+              <li>No one is truly free, they are a slave to wealth, fortune, the law, or other people restraining them from acting according to their will. - Euripides</li>
+              <li>He who learns must suffer, and even in our sleep pain that cannot forget falls drop by drop upon the heart. - Aeschylus</li>
               <li>It is always darkest just before the dawn. - Thomas Fuller</li>
-              <li>I feel stupid, and contagious. - Kurt Cobain</li>
               <li>Patience is a virtue. - Piers Plowman</li>
               <li>The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts. - Bertrand Russell</li>
               <li>Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth. - Sherlock Holmes</li>
               <li>Truth is like poetry. And most people hate poetry. - Michael Lewis</li>
-              <li>He who learns must suffer, and even in our sleep pain that cannot forget falls drop by drop upon the heart. - Aeschylus</li>
               <li>Do, or do not. There is no try. - Yoda</li>
               <li>Beware the fury of a patient man. - John Dryden</li>
               <li>It may be the warriors who get the glory but it's the engineer's who build societies. - Snow Piercer</li>
               <li>Thinking is difficult, that's why most people judge. - Carl Jung</li>
               <li>You wouldn't worry so much about what others think of you if you realised how seldom they do. - Eleanor Roosevelt</li>
               <li>If you strike me down I shall become more powerful than you can possibly imagine. - Obi Wan Kenobi</li>
-              <li>Chess is won, one step at a time. - Mr Nobody</li>
-              <li>In chess, it's called Zugzwang... when the only viable move... is not to move. - Mr Nobody</li>
-              <li>Every path is the right path. Everything could have been anything else and it would have just as much meaning. - Mr Nobody</li>
               <li>The young don't know enough to be prudent, and therefore they attempt the impossible-and achieve it, generation after generation. - Pearl Buck</li>
               <li>Diplomacy is the art of saying "nice doggy" until you can find a rock. - Will Rogers</li>
               <li>Don't mistake my kindness for weakness. I am kind to everyone, but when someone is unkind to me, weak is not what you are going to remember about me. - Al Capone</li>
               <li>We must believe in free will, we have no choice. - Isaac Bashevis Singer</li>
-              <li>Just exist for a while and be decent, that's heroism enough. - u/Exurb1a</li>
-              <li>When people are not punished for breaking the rules, the ones following the rules are the ones being punished. - u/orderofmagnitude</li>
               <li>The distance between insanity and genius is measured only by success. - Ian Fleming</li>
               <li>I imagine one of the reasons people cling to their hates so stubbornly is because they sense that once hate is gone, they will be forced to deal with pain. - James Baldwin</li>
               <li>The best teachers are those who show you where to look, but don't tell you what to see. - Alexandra K Trenfor</li>
-              <li>If the penalty for a crime is a fine then that law only exists for the lower class. - Unknown</li>
-              <li>To be wise is to suffer. - Sophocles</li>
-              <li>In a just cause the weak will beat the strong. - Sophocles</li>
-              <li>No one is truly free, they are a slave to wealth, fortune, the law, or other people restraining them from acting according to their will. - Euripides</li>
               <li>Nationalism is our form of incest, is our idolatry, is our insanity. 'Patriotism' is its cult... Just as love for one individual which excludes the love for others is not love, love for one's country which is not part of one's love for humanity is not love but idolatrous worship. - Eric Fromm</li>
               <li>When I was poor and complained about inequality they said I was bitter; now that I'm rich and I complain about inequality they say I'm a hypocrite. I'm beginning to think they just don't want to talk about inequality. - Russel Brand</li>
               <li>When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist. - Dom Helder Camara</li>
@@ -560,7 +560,6 @@ export default function Home() {
               <li>If you have been brutally broken but still have the courage to be gentle to other living beings, then you're a badass with the heart of an angel. - Keanu Reeves</li>
               <li>Less is more. - Ludwig Mies van der Rohe</li>
               <li>If you're not careful the papers will have you hating the people who are getting oppressed and loving the people who are doing the oppressing. - Malcolm X</li>
-              <li>The child who is not embraced by the village will burn it down to feel its warmth. - African Proverb</li>
               <li>When exposing a crime is treated as committing a crime, you are being ruled by criminals. - Edward Snowden</li>
               <li>You're not here to make the choice; you've already made it. You're here to understand why you make that choice. - The Matrix</li>
               <li>Salvation comes in the blink of an eye. - Final Space</li>
@@ -568,18 +567,19 @@ export default function Home() {
               <li>We judge ourselves by our intentions, but others by their actions. - Stephen M.R. Covey</li>
               <li>Being deeply loved by someone gives you strength, while loving someone deeply gives you courage. - Lao Tzu</li>
               <li>Life can only be understood backwards; but it must be lived forward. - Soren Kierkgaard</li>
-              <li>This too shall pass - Persian adage</li>
               <li>Float like butterfly sting like a bee - Muhammad Ali</li>
-              <li>Society grows great when old men plant trees whose shade they know they shall never sit in. - Greek Proverb</li>
               <li>Every lie we tell incurs a debt to the truth, sooner or later that debt is paid. - Chernobyl</li>
               <li>When injustice becomes law, resistance becomes duty - Thomas Jefferson</li>
-              <li>I would rather have people hate me for who I am, than love me for who I am not - Kurt Cobain</li>
-              <li>It's Called the American Dream Because You Have to be Asleep to Believe It - George Carlin</li>
-              <li>Never argue with an idiot. They will only bring you down to their level and beat you with experience. - George Carlin</li>
+              <li>Society grows great when old men plant trees whose shade they know they shall never sit in. - Greek Proverb</li>
+              <li>The child who is not embraced by the village will burn it down to feel its warmth. - African Proverb</li>
               <li>Those who live in glass houses should not throw stones - Proverb</li>
-              <li>If it costs you your peace, it's too expensive. - Unknown</li>
+              <li>This too shall pass - Persian Adage</li>
+              <li>When people are not punished for breaking the rules, the ones following the rules are the ones being punished. - u/orderofmagnitude</li>
+              <li>Just exist for a while and be decent, that's heroism enough. - u/Exurb1a</li>
               <li>Tell my mistakes to me, not to others. My mistakes are to be corrected by me, not others. - Anonymous</li>
+              <li>If the penalty for a crime is a fine then that law only exists for the lower class. - Anonymous</li>
               <li>Infinite growth is not possible on a finite planet. - Anonymous</li>
+              <li>If it costs you your peace, it's too expensive. - Anonymous</li>
             </ul>
           </div>
         </div>
