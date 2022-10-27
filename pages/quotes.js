@@ -310,7 +310,7 @@ export default function Home() {
             </ul>
           </div><br/><br />
           <div className={styles.picture}>
-            <Image src="/churchill.jpg" alt="Churchill" width={180} height={180} />
+            <Image src="/\ill.jpg" alt="Churchill" width={180} height={180} />
           </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Sir Winston Churchill&nbsp;</h3><p className={styles.info}>(Prime Minister/Politician, 1874 - 1965)</p>
@@ -319,6 +319,7 @@ export default function Home() {
               <li>A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty.</li>
               <li>The best argument against democracy is a 5 minute conversation with the average voter.</li>
               <li>The truth is incontrovertible. Panic may resent it, ignorance may deride it, malice may distort it, but there it is.</li>
+              <li>Success is not final; failure is not fatal: It is the courage to continue that counts.</li>
             </ul>
           </div><br/><br />
           <div className={styles.picture}>
@@ -478,6 +479,7 @@ export default function Home() {
               <li>I used to think the worst thing in life was ending up alone. It's not. The worst thing in life is ending up with people that make you feel alone.</li>
               <li>No matter what anybody tells you, words and ideas can change the world.</li>
               <li>You're only given one spark of madness, you mustn't lose it.</li>
+              <li>You don't know about real loss, 'cause it only occurs when you've loved something more than you love yourself. And I doubt you've ever dared to love anybody that much</li>
             </ul>
           </div><br /><br />
           <div className={styles.picture}>
@@ -576,6 +578,8 @@ export default function Home() {
               <li>Never argue with an idiot. They will only bring you down to their level and beat you with experience. - George Carlin</li>
               <li>Those who live in glass houses should not throw stones - Proverb</li>
               <li>If it costs you your peace, it's too expensive. - Unknown</li>
+              <li>Tell my mistakes to me, not to others. My mistakes are to be corrected by me, not others. - Anonymous</li>
+              <li>Infinite growth is not possible on a finite planet. - Anonymous</li>
             </ul>
           </div>
         </div>
