@@ -370,6 +370,7 @@ export default function Home() {
               <li>Until they become conscious they will never rebel, and until after they have rebelled they cannot become conscious.</li>
               <li>I have seen British imperialism at work in Burma, and I have seen something of the effects of poverty and unemployment in Britian... One has got to be actively a socialist, not merely sympathetic to socialism, or one plays into the hands of our always active enemies.</li>
               <li>The central problem - how to prevent power from being abused - remains unsolved. Dickens, who had not the vision to see that private property is an obstructive nuisance, had the vision to see that: 'If men would behave decently the world would be decent' is not such a platitude as it sounds.</li>
+              <li>Who controls the past controls the future. Who controls the present controls the past.</li>
             </ul>
           </div><br /><br />
           <div className={styles.picture}>
