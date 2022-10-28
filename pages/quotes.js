@@ -228,6 +228,7 @@ export default function Home() {
               <li>That which does not kill us makes us stronger.</li>
               <li>I am a forest, and a night of dark trees: but those who are not afraid of my darkness, will find banks full of roses under my cypresses.</li>
               <li>In individuals, insanity is rare; but in groups, parties, nations, and epochs it is the rule</li>
+              <li>You have your way. I have my way. As for the right way, the correct way, and the only way, it does not exist.</li>
             </ul>
           </div><br/><br/>
           <div className={styles.picture}>
