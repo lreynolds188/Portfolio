@@ -573,6 +573,7 @@ export default function Home() {
               <li>Every lie we tell incurs a debt to the truth, sooner or later that debt is paid. - Chernobyl</li>
               <li>When injustice becomes law, resistance becomes duty - Thomas Jefferson</li>
               <li>Those who make peaceful revolution impossible will make violent revolution inevitable - John F Kennedy</li>
+              <li>People should not be afraid of their governments. Governments should be afraid of their people. - V for Vendetta</li>
               <li>Society grows great when old men plant trees whose shade they know they shall never sit in. - Greek Proverb</li>
               <li>The child who is not embraced by the village will burn it down to feel its warmth. - African Proverb</li>
               <li>Those who live in glass houses should not throw stones - Proverb</li>
