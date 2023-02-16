@@ -483,22 +483,6 @@ export default function Home() {
               <li>You're only given one spark of madness, you mustn't lose it.</li>
               <li>You don't know about real loss, 'cause it only occurs when you've loved something more than you love yourself. And I doubt you've ever dared to love anybody that much</li>
             </ul>
-          </div><br /><br />
-          <div className={styles.picture}>
-            <Image src="/gates.jpg" alt="Gates" width={180} height={180} />
-          </div>
-          <div className={styles.content}>
-            <h3 className={styles.noTopMargin}>Bill Gates&nbsp;</h3><p className={styles.info}>(Entrepreneur/Software Developer, 1955 - Present) </p>
-            <ul className={styles.descriptionLeft}>
-              <li>Success is a lousy teacher. It seduces smart people into thinking they can't lose.</li>
-              <li>Your most unhappy customers are your greatest source of learning.</li>
-              <li>It's fine to celebrate success but it is more important to heed the lessons of failure.</li>
-              <li>As we look ahead into the next century, leaders will be those who empower others.</li>
-              <li>If you can't make it good, at least make it look good.</li>
-              <li>Technology is just a tool, the teacher is the most important.</li>
-              <li>I believe that if you show people the problems and you show them the solutions they will be moved to act.</li>
-              <li>I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.</li>
-            </ul>
           </div><br/><br />
           <div className={styles.picture}>
             <Image src="/startrek.jpg" alt="Star Trek" width={180} height={180} />
