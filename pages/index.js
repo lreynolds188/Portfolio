@@ -42,11 +42,6 @@ export default function Home() {
             <p>Follow the development of my projects on GitHub.</p>
           </a>
 
-          <a href="/quotes" className={styles.card}>
-            <h3>Quotes &rarr;</h3>
-            <p>Think with some quotes i've collected over the years.</p>
-          </a>
-
           <a href="https://blog.thereynolds.com.au" className={styles.card}>
             <h3>Blog &rarr;</h3>
             <p>Read from a collection of articles on a range of topics.</p>
@@ -55,6 +50,11 @@ export default function Home() {
           <a href="https://atechsol.thereynolds.com.au" className={styles.card}>
             <h3>ATechSol &rarr;</h3>
             <p>Discover an open source and privacy based wiki.</p>
+          </a>
+
+          <a href="/quotes" className={styles.card}>
+            <h3>Quotes &rarr;</h3>
+            <p>Think with some quotes i've collected over the years.</p>
           </a>
 
         </div>
