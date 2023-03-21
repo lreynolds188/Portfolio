@@ -311,7 +311,7 @@ export default function Home() {
             </ul>
           </div><br/><br />
           <div className={styles.picture}>
-            <Image src="/\ill.jpg" alt="Churchill" width={180} height={180} />
+            <Image src="/churchill.jpg" alt="Churchill" width={180} height={180} />
           </div>
           <div className={styles.content}>
             <h3 className={styles.noTopMargin}>Sir Winston Churchill&nbsp;</h3><p className={styles.info}>(Prime Minister/Politician, 1874 - 1965)</p>
