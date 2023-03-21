@@ -42,15 +42,21 @@ export default function Home() {
             <p>Discover past, present, and future projects on GitHub.</p>
           </a>
 
+          <a href="/quotes" className={styles.card}>
+            <h3>Quotes &rarr;</h3>
+            <p>Read some quotes i've collected over the years.</p>
+          </a>
+
+          <a href="https://blog.thereynolds.com.au" className={styles.card}>
+            <h3>Blog &rarr;</h3>
+            <p>A collection of articles on interesting topics designed to inform in a simple, honest, and educational manner.</p>
+          </a>
+
           <a href="https://atechsol.thereynolds.com.au" className={styles.card}>
             <h3>ATechSol &rarr;</h3>
             <p>An open source and privacy based wiki.</p>
           </a>
 
-          <a href="/quotes" className={styles.card}>
-            <h3>Quotes &rarr;</h3>
-            <p>Read some quotes i've collected over the years.</p>
-          </a>
         </div>
       </main>
     </div>
