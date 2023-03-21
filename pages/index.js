@@ -39,7 +39,7 @@ export default function Home() {
     
           <a href="https://github.com/lreynolds188" className={styles.card}>
             <h3>GitHub &rarr;</h3>
-            <p>Contribute to past, present, and future projects on GitHub.</p>
+            <p>Follow the development of my projects on GitHub.</p>
           </a>
 
           <a href="/quotes" className={styles.card}>
