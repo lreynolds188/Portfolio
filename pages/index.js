@@ -44,7 +44,7 @@ export default function Home() {
 
           <a href="/quotes" className={styles.card}>
             <h3>Quotes &rarr;</h3>
-            <p>Learn some quotes i've collected over the years.</p>
+            <p>Think with some quotes i've collected over the years.</p>
           </a>
 
           <a href="https://blog.thereynolds.com.au" className={styles.card}>
