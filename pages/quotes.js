@@ -570,7 +570,7 @@ export default function Home() {
               <li>Infinite growth is not possible on a finite planet. - Anonymous</li>
               <li>If it costs you your peace, it's too expensive. - Anonymous</li>
               <li>Let not any one pacify his conscience by the delusion that he can do no harm if he takes no part, and forms no opinion. Bad men need nothing more to compass their ends, than that good men should look on and do nothing. He is not a good man who, without a protest, allows wrong to be committed in his name, and with the means which he helps to supply, because he will not trouble himself to use his mind on the subject. - John Stuart Mill</li>
-              <li>If it's stupid and it works it ain't stupid - Mercedes Lackey</li>
+              <li>If it is stupid but it works it isn't stupid - Mercedes Lackey</li>
             </ul>
           </div>
         </div>
