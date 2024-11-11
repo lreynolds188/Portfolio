@@ -572,6 +572,7 @@ export default function Home() {
               <li>Let not any one pacify his conscience by the delusion that he can do no harm if he takes no part, and forms no opinion. Bad men need nothing more to compass their ends, than that good men should look on and do nothing. He is not a good man who, without a protest, allows wrong to be committed in his name, and with the means which he helps to supply, because he will not trouble himself to use his mind on the subject. - John Stuart Mill</li>
               <li>If it is stupid but it works it isn't stupid - Mercedes Lackey</li>
               <li>The essential act of modern warfare is the destruction of the produce of human labor. A hierarchical society is only possible on the basis of poverty and ignorance. In principle, the war effort is always planned to keep society on the brink of starvation. The war is waged by the ruling group against its own subjects. And its object is not victory over Eurasia or Eastasia, but to keep the very structure of society intact. - Sir John Hurt</li>
+              <li>When a clown moves into a palace, he does not become a king. The palace turns into a circus. - Turkish Proverb</li>
             </ul>
           </div>
         </div>
