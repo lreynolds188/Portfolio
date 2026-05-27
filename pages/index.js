@@ -42,11 +42,6 @@ export default function Home() {
             <p>Follow the development of my projects on GitHub.</p>
           </a>
 
-          <a href="https://blog.thereynolds.com.au" className={styles.card}>
-            <h3>Blog &rarr;</h3>
-            <p>Read from a collection of articles on a range of topics.</p>
-          </a>
-
           <a href="https://atechsol.thereynolds.com.au" className={styles.card}>
             <h3>ATechSol &rarr;</h3>
             <p>Discover an open source and privacy based wiki.</p>
